@@ -51,7 +51,7 @@ const GCalSrc = {
 	showPrint: 0,
 	showTabs: 0,
 	showTitle: 0,
-	showTz: 1
+	showTz: 1,
 }
 const GCalQuery = $.param(GCalSrc)
 const GCalEmbed = document.createElement('embed')
@@ -78,7 +78,7 @@ $(document).ready(function () {
 			{ searchable: false, targets: -1 },
 		],
 		deferRender: true,
-		displayStart: 450,
+		displayStart: 460,
 		ordering: false,
 		lengthChange: false,
 		pageLength: 10,
@@ -717,23 +717,23 @@ $(document).ready(function () {
 			// netRepMod.id = modReportID
 			// const netRepModData = netReportTable.column(2).data()
 			// $('#' + reportID + '-mod').DataTable({
-			//   ajax: {
-			//     url: '/assets/json/netrep.json',
-			//     dataSrc: `${source}-mod`
-			//   },
-			//   columns: [
-			//     {title: 'Mod', className: 'text-center align-middle', name: 'mod'},
-			//     {title: 'Kaedah', className: 'text-center align-middle', name: 'method'},
-			//     {title: '', className: 'text-center align-middle', name: 'count'},
-			//   ],
-			//   autoWidth: false,
-			//   destroy: true,
-			//   deferRender: true,
-			//   lengthChange: false,
-			//   ordering: false,
-			//   paging: false,
-			//   responsive: true,
-			//   searching: false,
+			// 	ajax: {
+			// 		url: '/assets/json/netrep.json',
+			// 		dataSrc: `${source}-mod`,
+			// 	},
+			// 	columns: [
+			// 		{ title: 'Mod', className: 'text-center align-middle', name: 'mod' },
+			// 		{ title: 'Kaedah', className: 'text-center align-middle', name: 'method' },
+			// 		{ title: '', className: 'text-center align-middle', name: 'count' },
+			// 	],
+			// 	autoWidth: false,
+			// 	destroy: true,
+			// 	deferRender: true,
+			// 	lengthChange: false,
+			// 	ordering: false,
+			// 	paging: false,
+			// 	responsive: true,
+			// 	searching: false,
 			// })
 
 			$('#' + reportID).delegate('tbody tr td:nth-child(1)', 'click', async function () {
@@ -1009,7 +1009,9 @@ $(document).ready(function () {
 										to: [{ email: MailCtc, name: caller }],
 										replyTo: { name: 'Member RoIPMARS', email: 'member@roipmars.org.my' },
 										subject: `eCert_RoIPMARS-${caller}`,
-										htmlContent: `<html><body><p>Hi, thank you for using our services. Here is your requested certificate;</p><table><tr><td>CallSign</td><td>${caller}</td></tr><tr><td>Time</td><td>${dtl.toUTCString()}</td></tr></table><p>You have requested a certificate from our records via ${location} on ${new Date().toString()} using ${navigator.userAgent}.</p><p>Please keep it in a safe place. If you have any questions, do not hesitate to contact us.<br><br>Sincerely,<br>Records Division, RoIPMARS</p></body></html>`,
+										htmlContent: `<html><body><p>Hi, thank you for using our services. Here is your requested certificate;</p><table><tr><td>CallSign</td><td>${caller}</td></tr><tr><td>Time</td><td>${dtl.toUTCString()}</td></tr></table><p>You have requested a certificate from our records via ${location} on ${new Date().toString()} using ${
+											navigator.userAgent
+										}.</p><p>Please keep it in a safe place. If you have any questions, do not hesitate to contact us.<br><br>Sincerely,<br>Records Division, RoIPMARS</p></body></html>`,
 										textContent: `You have requested a certificate from our records`,
 										attachment: [{ content: eCertURI.split(',')[1], name: `${fileName}.pdf` }],
 										tags: ['eQSL'],
