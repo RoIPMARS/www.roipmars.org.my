@@ -944,13 +944,6 @@ $(document).ready(function () {
 							creator: 'RoIPMARS Activity Certificate Generator',
 						})
 
-					if (location.hostname != 'localhost') {
-						await fetch('https://api.roipmars.org.my/hook/certgen', {
-							method: 'PUT',
-							headers: { 'content-type': 'application/json' },
-							body: JSON.stringify({ call: caller, id: date, source: location.pathname.replaceAll('/', '') }),
-						})
-					}
 					let eCertURI = eCert.output('datauristring', { filename: `${fileName}.pdf` })
 					toastInfo.innerHTML = `<div class='toast-body'>eCert Ready!</div>`
 					msgInfo.show()
@@ -974,6 +967,23 @@ $(document).ready(function () {
 						if (MailCtc == null || MailCtc == '') {
 							toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} saved.\ncheck your 'downloads' folder.</div>`
 							msgSuccess.show()
+							if (location.hostname != 'localhost') {
+								await fetch('https://api.roipmars.org.my/hook/certgen', {
+									method: 'PUT',
+									headers: { 'content-type': 'application/json' },
+									body: JSON.stringify({
+										call: memCall,
+										id: memID,
+										source: location.pathname.replaceAll('/', ''),
+										method: 'downloads',
+										attachment: {
+											content: eCertURI.split(',')[1],
+											mime: eCertURI.split(';')[0].split(':')[1],
+											fileName: eCertURI.split(';')[1].split('=')[1],
+										},
+									}),
+								})
+							}
 							eCert.save(`${fileName}.pdf`)
 						} else {
 							toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> checking eMail availability...</div>`
@@ -1022,6 +1032,23 @@ $(document).ready(function () {
 										if (data.messageId) {
 											toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} sent to ${MailCtc}.\ncheck eMail message from noreply@roipmars.org.my</div>`
 											msgSuccess.show()
+											if (location.hostname != 'localhost') {
+												await fetch('https://api.roipmars.org.my/hook/certgen', {
+													method: 'PUT',
+													headers: { 'content-type': 'application/json' },
+													body: JSON.stringify({
+														call: memCall,
+														id: memID,
+														source: location.pathname.replaceAll('/', ''),
+														method: 'email',
+														attachment: {
+															content: eCertURI.split(',')[1],
+															mime: eCertURI.split(';')[0].split(':')[1],
+															fileName: eCertURI.split(';')[1].split('=')[1],
+														},
+													}),
+												})
+											}
 											if (callMail != MailCtc) {
 												await fetch('https://api.roipmars.org.my/hook/callctc', {
 													method: 'POST',
@@ -1091,6 +1118,23 @@ $(document).ready(function () {
 							if (res.ok) {
 								toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} sent to ${WaCtc}.\ncheck WhatsApp message from 601153440440.</div>`
 								msgSuccess.show()
+								if (location.hostname != 'localhost') {
+									await fetch('https://api.roipmars.org.my/hook/certgen', {
+										method: 'PUT',
+										headers: { 'content-type': 'application/json' },
+										body: JSON.stringify({
+											call: memCall,
+											id: memID,
+											source: location.pathname.replaceAll('/', ''),
+											method: 'whatsapp',
+											attachment: {
+												content: eCertURI.split(',')[1],
+												mime: eCertURI.split(';')[0].split(':')[1],
+												fileName: eCertURI.split(';')[1].split('=')[1],
+											},
+										}),
+									})
+								}
 								if (callCtc != WaCtc) {
 									await fetch('https://api.roipmars.org.my/hook/callctc', {
 										method: 'POST',
