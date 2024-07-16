@@ -59,7 +59,7 @@ $(document).ready(function () {
 				// let getS3Cert = await fetch(`https://api.roipmars.org.my/hooktest/certgen?source=${location.pathname.replace('/', '')}&fileName=RoIPMARS_${memCall}`)
 				// console.log(getS3Cert)
 				// if (getS3Cert.status == 404) {
-					await genCert(memID, memCall, memName, memValidDate)
+				await genCert(memID, memCall, memName, memValidDate)
 				// } else {
 				// 	downloadFile(getS3Cert.blob(), `RoIPMARS_${memCall}.pdf`, 'application/pdf')
 				// }
@@ -199,21 +199,21 @@ $(document).ready(function () {
 					toastSuccess.innerHTML = `<div class='toast-body'>Member-Certificate ${fileName} saved.\ncheck your 'downloads' folder.</div>`
 					msgSuccess.show()
 					if (location.hostname != 'localhost') {
-					await fetch('https://api.roipmars.org.my/hook/certgen', {
-						method: 'PUT',
-						headers: { 'content-type': 'application/json' },
-						body: JSON.stringify({
-							call: memCall,
-							id: memID,
-							source: location.pathname.replaceAll('/', ''),
-							method: 'downloads',
-							attachment: {
-								content: eCertURI.split(',')[1],
-								mime: eCertURI.split(';')[0].split(':')[1],
-								fileName: eCertURI.split(';')[1].split('=')[1],
-							},
-						}),
-					})
+						await fetch('https://api.roipmars.org.my/hook/certgen', {
+							method: 'PUT',
+							headers: { 'content-type': 'application/json' },
+							body: JSON.stringify({
+								call: memCall,
+								id: memID,
+								source: location.pathname.replaceAll('/', ''),
+								method: 'downloads',
+								attachment: {
+									content: eCertURI.split(',')[1],
+									mime: eCertURI.split(';')[0].split(':')[1],
+									fileName: eCertURI.split(';')[1].split('=')[1],
+								},
+							}),
+						})
 					}
 					memCert.save(`${fileName}.pdf`)
 				} else {
@@ -332,8 +332,6 @@ $(document).ready(function () {
 					body: JSON.stringify({
 						phone: WaCtc,
 						isGroup: false,
-						isCommunity: false,
-						isNewsletter: false,
 						filename: `${fileName}.pdf`,
 						base64: eCertURI,
 						caption: `Hai ${call},\nTerima kasih telah menggunakan perkhidmatan kami. Inilah sijil yang anda minta;\n- CallSign: ${call}\n- Nama: ${name}\n- ID: ${id}\n- Sah sehingga: ${validDate}\n\nAnda telah meminta sijil dari rekod kami melalui ${location} pada ${new Intl.DateTimeFormat(
@@ -394,8 +392,6 @@ $(document).ready(function () {
 								body: JSON.stringify({
 									phone: WaCtc,
 									isGroup: false,
-									isCommunity: false,
-									isNewsletter: false,
 									message: `Hai ${call},\n\nAnda dijemput menyertai Komuniti WhatsApp RoIPMARS melalui pautan ini: ${communityInviteLink}`,
 								}),
 							})
@@ -409,8 +405,6 @@ $(document).ready(function () {
 							body: JSON.stringify({
 								phone: WaCtc,
 								isGroup: false,
-								isCommunity: false,
-								isNewsletter: false,
 								value: true,
 							}),
 						})

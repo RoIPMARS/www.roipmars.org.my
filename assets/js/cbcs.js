@@ -321,8 +321,6 @@ $(document).ready(function () {
 					body: JSON.stringify({
 						phone: WaCtc,
 						isGroup: false,
-						isCommunity: false,
-						isNewsletter: false,
 						filename: `${fileName}.pdf`,
 						base64: eCertURI,
 						caption: `Hai ${call},\nTerima kasih telah menggunakan perkhidmatan kami. Inilah sijil yang anda minta;\n- CallSign: ${call}\n- Nama: ${name}\n- ID: ${id}\n- Daftar: ${regDateF}\n\nAnda telah meminta sijil dari rekod kami melalui ${location} pada ${new Intl.DateTimeFormat(
@@ -387,8 +385,6 @@ $(document).ready(function () {
 								body: JSON.stringify({
 									phone: WaCtc,
 									isGroup: false,
-									isCommunity: false,
-									isNewsletter: false,
 									message: `Hai ${call},\n\nAnda dijemput menyertai Komuniti WhatsApp RoIPMARS melalui pautan ini: ${communityInviteLink}`,
 								}),
 							})
@@ -402,8 +398,6 @@ $(document).ready(function () {
 							body: JSON.stringify({
 								phone: WaCtc,
 								isGroup: false,
-								isCommunity: false,
-								isNewsletter: false,
 								value: true,
 							}),
 						})
