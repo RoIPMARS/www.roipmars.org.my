@@ -67,8 +67,6 @@ $(document).ready(function () {
 		const cbcsRegDate = cbcsdata[4]
 		let confirmtxt = `You are requesting Certificate for ${cbcsCall} registered on ${cbcsRegDate}. Are you sure?`
 		if (confirm(confirmtxt) == true) {
-			toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> request confirmed. generating Certificate...</div>`
-			msgSuccess.show()
 			try {
 				await genCert(cbcsID, cbcsCall, cbcsName, cbcsRegDate)
 			} catch (error) {
@@ -86,6 +84,8 @@ $(document).ready(function () {
 			}
 		}
 		async function genCert(id, call, name, regDate) {
+			toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> request confirmed. generating Certificate...</div>`
+			msgSuccess.show()
 			let regDateF = new Intl.DateTimeFormat('en-MY', { day: '2-digit', month: 'short', year: 'numeric' }).format(new Date(regDate))
 			const { jsPDF } = window.jspdf
 			var cbcsCert = new jsPDF({

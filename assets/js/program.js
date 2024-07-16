@@ -750,8 +750,6 @@ $(document).ready(function () {
 				const msgDanger = bootstrap.Toast.getOrCreateInstance(toastDanger, { delay: 10000 })
 				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${selected.call}. Are you sure?`
 				if (confirm(confirmtxt) == true) {
-					toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> request confirmed. generating eCert...</div>`
-					msgSuccess.show()
 					try {
 						await generateCert(takwimdate, takwimact, takwimncs, selected.call, selected.mode, selected.utc)
 					} catch (error) {
@@ -769,6 +767,8 @@ $(document).ready(function () {
 					}
 				}
 				async function generateCert(date, activity, ncs, caller, modes, utctime) {
+					toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> request confirmed. generating eCert...</div>`
+					msgSuccess.show()
 					const { jsPDF } = window.jspdf
 					switch (modes) {
 						case 'RF':

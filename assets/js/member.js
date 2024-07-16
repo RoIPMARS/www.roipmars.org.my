@@ -55,10 +55,14 @@ $(document).ready(function () {
 		const memValidDate = memberdata.Expiry
 		let confirmtxt = `You are requesting Certificate for ${memID}. Are you sure?`
 		if (confirm(confirmtxt) == true) {
-			toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> request confirmed. generating Certificate...</div>`
-			msgSuccess.show()
 			try {
-				await genCert(memID, memCall, memName, memValidDate)
+				// let getS3Cert = await fetch(`https://api.roipmars.org.my/hooktest/certgen?source=${location.pathname.replace('/', '')}&fileName=RoIPMARS_${memCall}`)
+				// console.log(getS3Cert)
+				// if (getS3Cert.status == 404) {
+					await genCert(memID, memCall, memName, memValidDate)
+				// } else {
+				// 	downloadFile(getS3Cert.blob(), `RoIPMARS_${memCall}.pdf`, 'application/pdf')
+				// }
 			} catch (error) {
 				await fetch('https://api.roipmars.org.my/hook/certerr', {
 					method: 'POST',
@@ -74,6 +78,8 @@ $(document).ready(function () {
 			}
 		}
 		async function genCert(id, call, name, validDate) {
+			toastSuccess.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> request confirmed. generating Certificate...</div>`
+			msgSuccess.show()
 			const { jsPDF } = window.jspdf
 			switch (id[0]) {
 				case 'A':
@@ -193,21 +199,21 @@ $(document).ready(function () {
 					toastSuccess.innerHTML = `<div class='toast-body'>Member-Certificate ${fileName} saved.\ncheck your 'downloads' folder.</div>`
 					msgSuccess.show()
 					if (location.hostname != 'localhost') {
-						await fetch('https://api.roipmars.org.my/hook/certgen', {
-							method: 'PUT',
-							headers: { 'content-type': 'application/json' },
-							body: JSON.stringify({
-								call: memCall,
-								id: memID,
-								source: location.pathname.replaceAll('/', ''),
-								method: 'downloads',
-								attachment: {
-									content: eCertURI.split(',')[1],
-									mime: eCertURI.split(';')[0].split(':')[1],
-									fileName: eCertURI.split(';')[1].split('=')[1],
-								},
-							}),
-						})
+					await fetch('https://api.roipmars.org.my/hook/certgen', {
+						method: 'PUT',
+						headers: { 'content-type': 'application/json' },
+						body: JSON.stringify({
+							call: memCall,
+							id: memID,
+							source: location.pathname.replaceAll('/', ''),
+							method: 'downloads',
+							attachment: {
+								content: eCertURI.split(',')[1],
+								mime: eCertURI.split(';')[0].split(':')[1],
+								fileName: eCertURI.split(';')[1].split('=')[1],
+							},
+						}),
+					})
 					}
 					memCert.save(`${fileName}.pdf`)
 				} else {
