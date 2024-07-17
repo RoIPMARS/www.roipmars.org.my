@@ -2788,13 +2788,13 @@
 			"Hari": "Selasa<br>16/07/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "YC4AUM | YD4DTA",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1607242100'>28</button>"
 		},
 		{
 			"Hari": "Rabu<br>17/07/2024<br>21:00 MYT",
 			"Acara": "[SPECIAL] Day of Ashura",
 			"NCS": "9M6RDY | V85AFF",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Khamis<br>18/07/2024<br>21:00 MYT",
@@ -2828,8 +2828,8 @@
 		},
 		{
 			"Hari": "Sabtu<br>27/07/2024<br>21:00 MYT",
-			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "9W2YBT | 9W2AYP",
+			"Acara": "[KHAS] Pertemuan Komuniti HamJerantut di Kampung Batu Laut, Tanjong Sepat, Selangor",
+			"NCS": "9W2EUK | 9W2NDI",
 			"Laporan": "&shy;"
 		},
 		{
