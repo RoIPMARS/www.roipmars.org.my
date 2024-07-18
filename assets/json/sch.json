@@ -2800,7 +2800,7 @@
 			"Hari": "Khamis<br>18/07/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Sambutan Hari Keputeraan KDYMM Sultan Haji Hassanal Bolkiah Mu’izzaddin Waddaulah",
 			"NCS": "V85AFF | V85PZ",
-			"Laporan": "&shy;"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1807242100'>53</button>"
 		},
 		{
 			"Hari": "Sabtu<br>20/07/2024<br>21:00 MYT",
