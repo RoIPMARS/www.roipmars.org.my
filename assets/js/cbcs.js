@@ -192,8 +192,8 @@ $(document).ready(function () {
 							method: 'PUT',
 							headers: { 'content-type': 'application/json' },
 							body: JSON.stringify({
-								call: memCall,
-								id: memID,
+								call: call,
+								id: id,
 								source: location.pathname.replaceAll('/', ''),
 								method: 'downloads',
 								attachment: {
@@ -257,8 +257,8 @@ $(document).ready(function () {
 											method: 'PUT',
 											headers: { 'content-type': 'application/json' },
 											body: JSON.stringify({
-												call: memCall,
-												id: memID,
+												call: call,
+												id: id,
 												source: location.pathname.replaceAll('/', ''),
 												method: 'email',
 												attachment: {
@@ -341,8 +341,8 @@ $(document).ready(function () {
 								method: 'PUT',
 								headers: { 'content-type': 'application/json' },
 								body: JSON.stringify({
-									call: memCall,
-									id: memID,
+									call: call,
+									id: id,
 									source: location.pathname.replaceAll('/', ''),
 									method: 'whatsapp',
 									attachment: {
