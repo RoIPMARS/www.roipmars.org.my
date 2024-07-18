@@ -2776,7 +2776,7 @@
 			"Hari": "Ahad<br>14/07/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Hujung Minggu",
 			"NCS": "YC8HBQ | YF5WCO",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1407242100'>28</button>"
 		},
 		{
 			"Hari": "Isnin<br>15/07/2024<br>21:00 MYT",
@@ -2794,12 +2794,12 @@
 			"Hari": "Rabu<br>17/07/2024<br>21:00 MYT",
 			"Acara": "[SPECIAL] Day of Ashura",
 			"NCS": "9M6RDY | V85AFF",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1707242100'>19</button>"
 		},
 		{
 			"Hari": "Khamis<br>18/07/2024<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Malam Jumat",
-			"NCS": "YD4DTA | YC8HBQ",
+			"Acara": "[KHAS] Sambutan Hari Keputeraan KDYMM Sultan Haji Hassanal Bolkiah Mu’izzaddin Waddaulah",
+			"NCS": "V85AFF | V85PZ",
 			"Laporan": "&shy;"
 		},
 		{
@@ -2847,7 +2847,7 @@
 		{
 			"Hari": "Selasa<br>30/07/2024<br>21:00 MYT",
 			"Acara": "[KHUSUS] Hari Ikrar Gerakan Pramuka",
-			"NCS": "YC4AUM | YC8HBQ",
+			"NCS": "YD4DTA | YF5NZL",
 			"Laporan": "&shy;"
 		},
 		{
@@ -2859,7 +2859,7 @@
 		{
 			"Hari": "Khamis<br>01/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Malam Jumat",
-			"NCS": "YD4DTA | YC4AUM",
+			"NCS": "YC4AUM | YC8HBQ",
 			"Laporan": "&shy;"
 		},
 		{
@@ -4754,7 +4754,7 @@
 		},
 		{
 			"Hari": "Selasa<br>15/07/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Keterampilan Generasi Muda Sedunia",
+			"Acara": "[KHAS] Hari Keputeraan KDYMM Sultan Haji Hassanal Bolkiah Mu’izzaddin Waddaulah",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
