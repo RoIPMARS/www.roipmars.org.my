@@ -595,6 +595,8 @@ $(document).ready(function () {
 
 	const netRep = document.getElementById('netrep')
 	const netReport = document.getElementById('netRep')
+	const netRepCall = document.getElementById('netRepCall')
+	const netRepMod = document.getElementById('netRepMod')
 	netRep.addEventListener('show.bs.modal', (event) => {
 		const button = event.relatedTarget
 		const source = button.getAttribute('data-bs-source')
@@ -612,7 +614,7 @@ $(document).ready(function () {
 			modalTitle.innerText = reportTitle
 			const reportID = `net-${source}`
 			netReport.id = reportID
-			var netReportTable = $('#' + reportID).DataTable({
+			var netReportTable = $(`#${reportID}`).DataTable({
 				ajax: {
 					url: '/assets/json/netrep.json',
 					dataSrc: `${source}`,
@@ -709,34 +711,142 @@ $(document).ready(function () {
 					select: { rows: { 1: '' } },
 					zeroRecords: 'Laporan Tidak Ditemui',
 				},
+				initComplete: function (settings, json) {
+					const callReportID = `net-${source}-call`
+					netRepCall.id = callReportID
+					const netRepCallData = new DataTable(`#${reportID}`).column(0).data()
+					const callerClass = []
+					const callerClassData = []
+					const callC = {}
+					for (let c = 0; c < netRepCallData.length; ++c) {
+						switch (netRepCallData[c]) {
+							case netRepCallData[c].match(/^9M|9W/)?.input:
+								var callClass = 'Domestik'
+								break
+							default:
+								var callClass = 'Antarabangsa'
+								break
+						}
+						callerClassData.push(callClass)
+					}
+					callerClassData.forEach((y) => {
+						callC[y] = (callC[y] || 0) + 1
+					})
+					callerClass.push(callC)
+					const callData = [
+						{ caller: 'Domestik', callcount: callerClass[0].Domestik },
+						{ caller: 'Antarabangsa', callcount: callerClass[0].Antarabangsa },
+					]
+					$(`#${callReportID}`).DataTable({
+						data: callData,
+						columns: [
+							{ title: 'Pemanggil', data: 'caller' },
+							{ title: 'Jumlah', data: 'callcount' },
+						],
+						columnDefs: [
+							{ className: 'text-center align-middle', targets: '_all' },
+							{ orderable: false, targets: '_all' },
+						],
+						order: [[1, 'desc']],
+						autoWidth: false,
+						deferRender: true,
+						destroy: true,
+						info: false,
+						lengthChange: false,
+						ordering: true,
+						paging: false,
+						responsive: true,
+						searching: false,
+					})
+
+					const modReportID = `net-${source}-mod`
+					netRepMod.id = modReportID
+					const netRepModData = new DataTable(`#${reportID}`).column(1).data()
+					const netRepModUnqData = new DataTable(`#${reportID}`).column(1).data().unique()
+					const modCountData = Object.values(netRepModData).slice(0, netRepModData.length)
+					const modData = []
+					const modCount = {}
+					modCountData.forEach((x) => {
+						modCount[x] = (modCount[x] || 0) + 1
+					})
+					for (let d = 0; d < netRepModUnqData.length; ++d) {
+						switch (netRepModUnqData[d]) {
+							case 'DC':
+								var mode = 'Discord'
+								var motC = modCount.DC
+								break
+							case 'EL':
+								var mode = 'EchoLink'
+								var motC = modCount.EL
+								break
+							case 'FRN':
+								var mode = 'Free Radio Network'
+								var motC = modCount.FRN
+								break
+							case 'MBL':
+								var mode = 'Mumble'
+								var motC = modCount.MBL
+								break
+							case 'PNT':
+								var mode = 'Peanut'
+								var motC = modCount.PNT
+								break
+							case 'RF':
+								var mode = 'Radio Frequency'
+								var motC = modCount.RF
+								break
+							case 'TG':
+								var mode = 'Telegram'
+								var motC = modCount.TG
+								break
+							case 'TS':
+								var mode = 'TeamSpeak'
+								var motC = modCount.TS
+								break
+							case 'TT':
+								var mode = 'Team Talk'
+								var motC = modCount.TT
+								break
+							case 'WA':
+								var mode = 'WhatsApp'
+								var motC = modCount.WA
+								break
+							case 'ZL':
+								var mode = 'Zello'
+								var motC = modCount.ZL
+								break
+							default:
+								var mode = 'unknown'
+								var motC = 0
+						}
+						modData.push({ mot: netRepModUnqData[d], method: mode, motcount: motC })
+					}
+					$(`#${modReportID}`).DataTable({
+						data: modData,
+						columns: [
+							{ title: 'MoT', data: 'mot' },
+							{ title: 'Kaedah', data: 'method' },
+							{ title: 'Jumlah', data: 'motcount' },
+						],
+						columnDefs: [
+							{ className: 'text-center align-middle', targets: '_all' },
+							{ orderable: false, targets: '_all' },
+						],
+						order: [[2, 'desc']],
+						autoWidth: false,
+						deferRender: true,
+						destroy: true,
+						info: false,
+						lengthChange: false,
+						ordering: true,
+						paging: false,
+						responsive: true,
+						searching: false,
+					})
+				},
 			})
 
-			// netReportTable.ajax.reload(null, false)
-			// const netRepMod = document.getElementById('netRepMod')
-			// const modReportID = `net-${source}-mod`
-			// netRepMod.id = modReportID
-			// const netRepModData = netReportTable.column(2).data()
-			// $('#' + reportID + '-mod').DataTable({
-			// 	ajax: {
-			// 		url: '/assets/json/netrep.json',
-			// 		dataSrc: `${source}-mod`,
-			// 	},
-			// 	columns: [
-			// 		{ title: 'Mod', className: 'text-center align-middle', name: 'mod' },
-			// 		{ title: 'Kaedah', className: 'text-center align-middle', name: 'method' },
-			// 		{ title: '', className: 'text-center align-middle', name: 'count' },
-			// 	],
-			// 	autoWidth: false,
-			// 	destroy: true,
-			// 	deferRender: true,
-			// 	lengthChange: false,
-			// 	ordering: false,
-			// 	paging: false,
-			// 	responsive: true,
-			// 	searching: false,
-			// })
-
-			$('#' + reportID).delegate('tbody tr td:nth-child(1)', 'click', async function () {
+			$(`#${reportID}`).delegate('tbody tr td:nth-child(1)', 'click', async function () {
 				let selected = {
 					call: netReportTable.row(this).data()[0],
 					mode: netReportTable.row(this).data()[1],
@@ -1194,8 +1304,9 @@ $(document).ready(function () {
 	netRep.addEventListener('hidden.bs.modal', (event) => {
 		const modal = event.relatedTarget
 		const modalTitle = netRep.querySelector('.modal-title')
-		modalTitle.textContent = `Laporan Aktiviti`
+		modalTitle.textContent = 'Laporan Aktiviti'
 		netReport.id = 'netRep'
-		// netRepMod.id = 'netRepMod'
+		netRepCall.id = 'netRepCall'
+		netRepMod.id = 'netRepMod'
 	})
 })

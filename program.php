@@ -215,63 +215,11 @@
 												<div id='prog-success' class='toast text-bg-success' role='status' aria-live='polite' aria-atomic='true'></div>
 												<div id='prog-danger' class='toast text-bg-danger' role='alert' aria-live='assertive' aria-atomic='true'></div>
 											</div>
+											<table class='table table-sm table-striped table-bordered text-center align-middle' id='netRepCall'></table>
+											<table class='table table-sm table-striped table-bordered text-center align-middle' id='netRepMod'></table>
 											<table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='netRep'>
 												<caption class='text-lowercase text-center text-wrap p-0'>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Penyertaan</caption>
 											</table>
-											<table class='table table-sm text-center align-middle mt-3'>
-												<thead>
-													<tr>
-														<td colspan='2'>Mod Penghantaran</td>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>DC</td>
-														<td>Discord</td>
-													</tr>
-													<tr>
-														<td>EL</td>
-														<td>EchoLink</td>
-													</tr>
-													<tr>
-														<td>FRN</td>
-														<td>Free Radio Network</td>
-													</tr>
-													<tr>
-														<td>MBL</td>
-														<td>Mumble</td>
-													</tr>
-													<tr>
-														<td>PNT</td>
-														<td>Peanut for HAM</td>
-													</tr>
-													<tr>
-														<td>RF</td>
-														<td>Radio Transceiver</td>
-													</tr>
-													<tr>
-														<td>TG</td>
-														<td>Telegram</td>
-													</tr>
-													<tr>
-														<td>TS</td>
-														<td>TeamSpeak</td>
-													</tr>
-													<tr>
-														<td>TT</td>
-														<td>Team Talk</td>
-													</tr>
-													<tr>
-														<td>WA</td>
-														<td>WhatsApp</td>
-													</tr>
-													<tr>
-														<td>ZL</td>
-														<td>Zello</td>
-													</tr>
-												</tbody>
-											</table>
-											<!-- <table class='table table-sm table-striped text-center align-middle' id='netRepMod'></table> -->
 										</div>
 									</div>
 								</div>
