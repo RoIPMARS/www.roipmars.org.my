@@ -992,7 +992,7 @@ $(document).ready(function () {
 							.setFont('SairaExtraCondensed-Thin')
 							.setFontSize(20)
 							.setTextColor('black')
-							.text('Congrats and thanks for duty as NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
+							.text('Congrats and thanks for duty as NCS', 148.5, 165, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 					}
 
 					eCert.setFont('Orbitron-Black').setFontSize(24).setTextColor('#336699').text(activity.toUpperCase(), 148.5, 45, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 200, renderingMode: 'fillThenStroke' })
@@ -1034,7 +1034,7 @@ $(document).ready(function () {
 						.setFont('KodeMono-Regular')
 						.setFontSize(9)
 						.setTextColor('black')
-						.text(`(C) ${new Date().getFullYear()} RoIPMARS™ Network | developed by mdpizi | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 148.5, 200, {
+						.text(`(C) ${new Date().getFullYear()} RoIPMARS™ Network | developed by ${document.querySelector('meta[name="author"]').content} | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 148.5, 200, {
 							align: 'center',
 							baseline: 'middle',
 							lineHeightFactor: 1,

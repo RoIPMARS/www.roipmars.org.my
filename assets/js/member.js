@@ -146,7 +146,7 @@ $(document).ready(function () {
 				.setFont('KodeMono-Regular')
 				.setFontSize(10)
 				.setTextColor('#f7fcfe')
-				.text(`(C) ${new Date().getFullYear()} RoIPMARS™ Network | developed by mdpizi | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 528, 790, {
+				.text(`(C) ${new Date().getFullYear()} RoIPMARS™ Network | developed by ${document.querySelector('meta[name="author"]').content} | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()}`, 528, 790, {
 					align: 'center',
 					baseline: 'middle',
 					lineHeightFactor: 1,
