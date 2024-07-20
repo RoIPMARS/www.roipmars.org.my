@@ -2805,8 +2805,8 @@
 		{
 			"Hari": "Sabtu<br>20/07/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Bulan Antarabangsa",
-			"NCS": "V85AFF | 9M6RDY",
-			"Laporan": "&shy;"
+			"NCS": "9M6RDY",
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Ahad<br>21/07/2024<br>21:00 MYT",
