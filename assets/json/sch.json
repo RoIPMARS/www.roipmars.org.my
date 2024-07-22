@@ -2818,7 +2818,7 @@
 			"Hari": "Isnin<br>22/07/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kemerdekaan Sarawak",
 			"NCS": "9M2SFL | 9W6RHN",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Jumaat<br>26/07/2024<br>21:00 MYT",
