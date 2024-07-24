@@ -2806,19 +2806,19 @@
 			"Hari": "Sabtu<br>20/07/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Bulan Antarabangsa",
 			"NCS": "9M6RDY",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2007242100'>20</button>"
 		},
 		{
 			"Hari": "Ahad<br>21/07/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "YC8HBQ | YC4AUM",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "YC8HBQ | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2107242100'>28</button>"
 		},
 		{
 			"Hari": "Isnin<br>22/07/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kemerdekaan Sarawak",
 			"NCS": "9M2SFL | 9W6RHN",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2207242100'>16</button>"
 		},
 		{
 			"Hari": "Jumaat<br>26/07/2024<br>21:00 MYT",
