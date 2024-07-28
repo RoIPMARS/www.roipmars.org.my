@@ -2836,7 +2836,7 @@
 			"Hari": "Ahad<br>28/07/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Hujung Minggu",
 			"NCS": "YC8HBQ | YD4DTA",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Isnin<br>29/07/2024<br>21:00 MYT",
