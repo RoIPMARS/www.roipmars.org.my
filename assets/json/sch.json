@@ -2830,19 +2830,19 @@
 			"Hari": "Sabtu<br>27/07/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Pertemuan Komuniti HamJerantut di Kampung Batu Laut, Tanjong Sepat, Selangor",
 			"NCS": "9W2NDI | 9W2YHM",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2707242100'>65</button>"
 		},
 		{
 			"Hari": "Ahad<br>28/07/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "YC8HBQ | YD4DTA",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "YD4DTA | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2807242100'>8</button>"
 		},
 		{
 			"Hari": "Isnin<br>29/07/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Harimau Antarabangsa",
-			"NCS": "9W2ORL | 9W2YBT",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP | V85AFF",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2907242100'>20</button>"
 		},
 		{
 			"Hari": "Selasa<br>30/07/2024<br>21:00 MYT",
@@ -2852,7 +2852,7 @@
 		},
 		{
 			"Hari": "Rabu<br>31/07/2024<br>21:00 MYT",
-			"Acara": "RoIPMARS Learning English Net",
+			"Acara": "[SPECIAL] Heroes' Day",
 			"NCS": "9M6AUA | 9M6JAY",
 			"Laporan": "&shy;"
 		},
@@ -4844,7 +4844,7 @@
 		},
 		{
 			"Hari": "Khamis<br>31/07/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Malam Jumat",
+			"Acara": "[KHAS] Hari Pahlawan",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
