@@ -1093,6 +1093,27 @@
           <h2 class='text-center'>Coretan Kisah Kami</h2>
           <p class='text-center'>Sekiranya anda ada kisah atau kenangan bersama kami, ceritakan ke <a href='mailto:member@roipmars.org.my?subject=Kisah%20bersama%20RoIPMARS'>member@roipmars.org.my</a>.</p>
           <ul class='timeline p-0'>
+            <li id='kisah23'>
+              <div class='date bg-success'>
+                <p class='text-uppercase mb-0 fs-2 text-body-emphasis'>2024</p>
+              </div>
+              <div class='card'>
+                <div class='card-body'>
+                  <div class='event-content'>
+                    <div class='timeline-date bg-primary text-center rounded float-end px-0 pb-4 ms-3 mb-2'>
+                      <p class='text-white my-0 fs-3 lh-1'>27</p>
+                      <p class='my-0 text-white-50 fs-5 lh-1'>Jul</p>
+                    </div>
+                    <div class='timeline-text'>
+                      <div class='fs-4 text-center fw-semibold text-decoration-underline pb-3'>Pertemuan HAMJerantut di Bt. Laut</div>
+                      <img class='img-thumbnail rounded-4 mx-auto d-block my-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/eyeball-hamjerantut-btlaut2.png'>
+                      <img class='img-thumbnail rounded-4 mx-auto d-block my-2' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/eyeball-hamjerantut-btlaut.png'>
+                      <div class='mb-0 text-muted'>RoIPMARS menerima jemputan dari komuniti HAM Jerantut untuk menjayakan aktiviti bersemuka di Batu Laut, Tanjung Sepat, Selangor. Dengan bertemakan 'family camping' di tepi pantai dan kehadiran seramai lebih 50 orang, ianya menjadi satu tanda aras baru bagi komuniti HAM Jerantut.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
             <li id='kisah22'>
               <div class='date bg-success'>
                 <p class='text-uppercase mb-0 fs-2 text-body-emphasis'>2023</p>
