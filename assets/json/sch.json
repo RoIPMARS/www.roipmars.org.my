@@ -2823,20 +2823,20 @@
 		{
 			"Hari": "Jumaat<br>26/07/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Penghargaan Pentadbir Sistem",
-			"NCS": "9W2AYP | 9M2SFL",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2607242100'>19</button>"
 		},
 		{
 			"Hari": "Sabtu<br>27/07/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Pertemuan Komuniti HamJerantut di Kampung Batu Laut, Tanjong Sepat, Selangor",
-			"NCS": "9W2EUK | 9W2NDI",
-			"Laporan": "&shy;"
+			"NCS": "9W2NDI | 9W2YHM",
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Ahad<br>28/07/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Hujung Minggu",
 			"NCS": "YC8HBQ | YD4DTA",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Isnin<br>29/07/2024<br>21:00 MYT",
