@@ -50,14 +50,6 @@ modal.addEventListener('show.bs.modal', (event) => {
 				</td>
 			</tr>
 			<tr>
-				<th>APRS<br>&lpar;roipmars.org.my&rpar;</th>
-				<td>
-					<img src='${statBadge}/57/status?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-aprs status'> <img src='${statBadge}/57/response?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-aprs response time'> <img src='${statBadge}/57/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-aprs uptime'>
-					<br>
-					<img src='${statBadge}/57/ping/168?styleStyle}' loading='lazy' alt='roipmarsorgmy-aprs average ping'> <img src='${statBadge}/57/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-aprs average response time'>
-				</td>
-			</tr>
-			<tr>
 				<th>HAM Stream<br>&lpar;hamlive.mhrtech.my&rpar;</th>
 				<td>
 					<img src='${statBadge}/61/status?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream status'> <img src='${statBadge}/61/response?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream response time'> <img src='${statBadge}/61/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream uptime'>
