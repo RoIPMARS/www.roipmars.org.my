@@ -5,7 +5,7 @@
   </head>
 
   <body>
-    <header class='sticky-top'>
+    <header class='position-top'>
       <nav class='navbar navbar-expand-xl bg-body-tertiary py-1'>
         <div class='container-fluid'>
           <a class='navbar-brand m-0 p-0 ms-lg-3' href='/'><img class='img-fluid d-inline-block' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png' width='150' alt='PERSATUAN PEMINAT RADIO KOMUNIKASI (ROIP)'></a>

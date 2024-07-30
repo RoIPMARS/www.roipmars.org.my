@@ -46,13 +46,13 @@ tskopdarLoginButton.onclick = function () {
 }
 
 function ts3hamlogin() {
-	location.href = 'ts3server://roipmars.org.my?nickname=' + qrz + '%20' + qra + '%20' + qth + '&cid=4&addbookmark=RoIPMARS%20HAM'
+	location.href = 'ts3server://roipmars.org.my?nickname=' + qrz + '%20' + qra + '%20' + qth + '&cid=31&addbookmark=RoIPMARS%20HAM'
 }
 function ts3cblogin() {
-	location.href = 'ts3server://roipmars.org.my?nickname=' + qrz + '%20' + qra + '%20' + qth + '&cid=15&addbookmark=RoIPMARS%20CB'
+	location.href = 'ts3server://roipmars.org.my?nickname=' + qrz + '%20' + qra + '%20' + qth + '&cid=61&addbookmark=RoIPMARS%20CB'
 }
 function ts3kopdarlogin() {
-	location.href = 'ts3server://kopdarmobile.id?nickname=' + qrz + '%20' + qra + '%20' + qth + '&cid=15&addbookmark=KOPDARMOBILE'
+	location.href = 'ts3server://kopdarmobile.id?nickname=' + qrz + '%20' + qra + '%20' + qth + '&cid=390&addbookmark=KOPDARMOBILE'
 }
 /* function mumblelogin() {
 	location.href = 'mumble://' + qrz + '%20' + qra + '%20' + qth + '@roipmars.org.my/root?title=RoIPMARS.org.MY&url=roipmars.org.my'

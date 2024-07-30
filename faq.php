@@ -11,7 +11,7 @@
     <div class='container'>
       <h1 class='h1 text-center'>Soalan Lazim</h1>
       <div class='row'>
-        <div class='col-8'>
+        <div class='col-xl-8'>
           <div class='col-auto mb-3'>
             <h3 class='text-capitalize text-center text-primary-emphasis'>Rangkaian RoIPMARS</h3>
             <div class='accordion' id='rmsfaq'>
@@ -21,7 +21,7 @@
                 </div>
                 <div id='collapserms1' class='accordion-collapse collapse' aria-labelledby='rms1' data-bs-parent='#rmsfaq'>
                   <div class='accordion-body'>
-                    <p class='m-0'>Anda boleh layari laman <a class='text-muted' href='member'>Ahli</a> dan dapatkan borang keahlian disana. Terdapat 2 kaedah pengisian borang iaitu melalui Google Form, dan fail PDF. Anda dikehendaki kembalikan borang tersebut dengan lengkap kepada Setiausaha Agung, Persatuan Peminat Radio Komunikasi &lpar;ROIP&rpar; bersama dengan bukti yuran pendaftaran, salinan pengenalan diri, dan sekeping gambar berukuran pasport.</p>
+                    <p class='m-0'>Anda boleh layari laman <a class='text-muted' href='member'>Ahli</a> dan dapatkan borang keahlian disana. Terdapat 2 kaedah pengisian borang iaitu melalui Google Form, atau fail PDF. Anda dikehendaki kembalikan borang tersebut dengan lengkap kepada Setiausaha Agung, Persatuan Peminat Radio Komunikasi &lpar;ROIP&rpar; bersama dengan bukti yuran pendaftaran, salinan pengenalan diri, dan sekeping gambar berukuran pasport.</p>
                   </div>
                 </div>
               </div>
@@ -92,8 +92,8 @@
                       </tbody>
                     </table>
                     <p class='m-0'>Sekiranya anda tidak berjaya log masuk ke pelayan Rangkaian RoIPMARS &lbrack;<a href='ts3server://roipmars.org.my'>roipmars.org.my</a>&rbrack;, berkemungkinan sumber perisian yang digunakan tidak menyokong fungsi &apos;DNS <span class='fw-light fst-italic'>&lpar;Domain Name System&rpar;</span>&apos;.</p>
-                    <p class='m-0'>Disarankan untuk memasang aplikasi dari <a href='https://sl.roipmars.org.my/zlee24' target='_blank'>Google Play Store</a> / <a href='https://sl.roipmars.org.my/0e3qul' target='_blank'>Apple App Store</a> / <a href='https://sl.roipmars.org.my/qudkou' target='_blank'>Microsoft Store</a>.</p>
-                    <p class='m-0'>Bagi pengguna Android, anda boleh mencuba perisian fungsi terhad dengan memuat turun disini: <a href='https://sl.roipmars.org.my/qinlu6' download>ts-3.0.3.1.apk</a></p>
+                    <p class='m-0'>Disarankan untuk memasang aplikasi dari <a href='https://play.google.com/store/apps/details?id=com.teamspeak.ts3client' target='_blank'>Google Play Store</a> / <a href='https://itunes.apple.com/app/teamspeak-3/id577628510' target='_blank'>Apple App Store</a> / <a href='https://apps.microsoft.com/detail/xpdcj80kgnrvss' target='_blank'>Microsoft Store</a>.</p>
+                    <p class='m-0'>Bagi pengguna Android, anda boleh mencuba perisian fungsi terhad dengan memuat turun disini: <a href='https://dl.roipmars.org.my/files/downloads/android/teamspeak/roipmars-ts-3.0.3.1.apk' download>ts-3.0.3.1.apk</a></p>
                     <p class='m-0'>Pihak Pentadbir Rangkaian RoIPMARS komited menyediakan perkhidmatan terbaik kepada semua pengguna.</p>
                     <div id='tsServer'></div>
                   </div>
@@ -260,193 +260,273 @@
             </div>
           </div>
         </div>
-        <div class='col-4 text-center'>
-          <table class='table table-sm table-bordered table-striped text-center align-middle mb-3 mx-auto w-auto text-wrap' style='white-space: nowrap'>
+        <div class='col-xl-4 text-center'>
+          <table class='table table-bordered table-striped text-center align-middle mb-3'>
             <thead class='align-middle'>
-              <th>Abjad</th>
-              <th>Fonetik</th>
-              <th>International Morse</th>
+              <tr>
+                <th rowspan='2'>Abjad</th>
+                <th colspan='2'>Fonetik</th>
+                <th colspan='2'>Morse</th>
+              </tr>
+              <tr>
+                <th>English</th>
+                <th>Melayu</th>
+                <th>Visual</th>
+                <th>Audio</th>
+              </tr>
             </thead>
-            <tbody>
+            <tbody class='font-monospace'>
               <tr>
                 <td>A</td>
-                <td>Alfa<br>Agas</td>
-                <td>&bull;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/f3/A_morse_code.ogg'></audio></td>
+                <td>Alfa</td>
+                <td>Agas</td>
+                <td>&bull;&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/f3/A_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>B</td>
-                <td>Bravo<br>Bola</td>
-                <td>&ndash;&bull;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/b1/B_morse_code.ogg'></audio></td>
+                <td>Bravo</td>
+                <td>Bola</td>
+                <td>&ndash;&bull;&bull;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/b1/B_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>C</td>
-                <td>Charlie<br>Ciku</td>
-                <td>&ndash;&bull;&ndash;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/2/25/C_morse_code.ogg'></audio></td>
+                <td>Charlie</td>
+                <td>Ciku</td>
+                <td>&ndash;&bull;&ndash;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/2/25/C_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>D</td>
-                <td>Delta<br>Duku</td>
-                <td>&ndash;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/92/D_morse_code.ogg'></audio></td>
+                <td>Delta</td>
+                <td>Duku</td>
+                <td>&ndash;&bull;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/92/D_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>E</td>
-                <td>Echo<br>Elok</td>
-                <td>&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/e7/E_morse_code.ogg'></audio></td>
+                <td>Echo</td>
+                <td>Elok</td>
+                <td>&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/e7/E_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>F</td>
-                <td>Foxtrot<br>Fajar</td>
-                <td>&bull;&bull;&ndash;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/63/F_morse_code.ogg'></audio></td>
+                <td>Foxtrot</td>
+                <td>Fajar</td>
+                <td>&bull;&bull;&ndash;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/63/F_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>G</td>
-                <td>Golf<br>Gagak</td>
-                <td>&ndash;&ndash;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/7/72/G_morse_code.ogg'></audio></td>
+                <td>Golf</td>
+                <td>Gagak</td>
+                <td>&ndash;&ndash;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/7/72/G_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>H</td>
-                <td>Hotel<br>Handal</td>
-                <td>&bull;&bull;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/93/H_morse_code.ogg'></audio></td>
+                <td>Hotel</td>
+                <td>Handal</td>
+                <td>&bull;&bull;&bull;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/93/H_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>I</td>
-                <td>India<br>Intan</td>
-                <td>&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/d/d9/I_morse_code.ogg'></audio></td>
+                <td>India</td>
+                <td>Intan</td>
+                <td>&bull;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/d/d9/I_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>J</td>
-                <td>Juliett<br>Jala</td>
-                <td>&bull;&ndash;&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/9e/J_morse_code.ogg'></audio></td>
+                <td>Juliett</td>
+                <td>Jala</td>
+                <td>&bull;&ndash;&ndash;&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/9e/J_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>K</td>
-                <td>Kilo<br>Kota</td>
-                <td>&ndash;&bull;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/6a/K_morse_code.ogg'></audio></td>
+                <td>Kilo</td>
+                <td>Kota</td>
+                <td>&ndash;&bull;&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/6a/K_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>L</td>
-                <td>Lima<br>Laju</td>
-                <td>&bull;&ndash;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/a/a8/L_morse_code.ogg'></audio></td>
+                <td>Lima</td>
+                <td>Laju</td>
+                <td>&bull;&ndash;&bull;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/a/a8/L_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>M</td>
-                <td>Mike<br>Merah</td>
-                <td>&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/97/M_morse_code.ogg'></audio></td>
+                <td>Mike</td>
+                <td>Merah</td>
+                <td>&ndash;&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/97/M_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>N</td>
-                <td>November<br>Nuri</td>
-                <td>&ndash;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5a/N_morse_code.ogg'></audio></td>
+                <td>November</td>
+                <td>Nuri</td>
+                <td>&ndash;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5a/N_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>O</td>
-                <td>Oscar<br>Ombak</td>
-                <td>&ndash;&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/41/O_morse_code.ogg'></audio></td>
+                <td>Oscar</td>
+                <td>Ombak</td>
+                <td>&ndash;&ndash;&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/41/O_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>P</td>
-                <td>Papa<br>Palang</td>
-                <td>&bull;&ndash;&ndash;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/c/c6/P_morse_code.ogg'></audio></td>
+                <td>Papa</td>
+                <td>Palang</td>
+                <td>&bull;&ndash;&ndash;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/c/c6/P_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>Q</td>
-                <td>Quebec<br>Quen</td>
-                <td>&ndash;&ndash;&bull;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/f0/Q_morse_code.ogg'></audio></td>
+                <td>Quebec</td>
+                <td>Quen</td>
+                <td>&ndash;&ndash;&bull;&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/f0/Q_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>R</td>
-                <td>Romeo<br>Rakit</td>
-                <td>&bull;&ndash;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/ea/R_morse_code.ogg'></audio></td>
+                <td>Romeo</td>
+                <td>Rakit</td>
+                <td>&bull;&ndash;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/ea/R_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>S</td>
-                <td>Sierra<br>Singa</td>
-                <td>&bull;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/d/d8/S_morse_code.ogg'></audio></td>
+                <td>Sierra</td>
+                <td>Singa</td>
+                <td>&bull;&bull;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/d/d8/S_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>T</td>
-                <td>Tango<br>Tari</td>
-                <td>&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/ba/T_morse_code.ogg'></audio></td>
+                <td>Tango</td>
+                <td>Tari</td>
+                <td>&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/ba/T_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>U</td>
-                <td>Uniform<br>Udang</td>
-                <td>&bull;&bull;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/34/U_morse_code.ogg'></audio></td>
+                <td>Uniform</td>
+                <td>Udang</td>
+                <td>&bull;&bull;&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/34/U_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>V</td>
-                <td>Victor<br>Victor</td>
-                <td>&bull;&bull;&bull;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/37/V_morse_code.ogg'></audio></td>
+                <td>Victor</td>
+                <td>Victor</td>
+                <td>&bull;&bull;&bull;&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/37/V_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>W</td>
-                <td>Whiskey<br>Wayang</td>
-                <td>&bull;&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/68/W_morse_code.ogg'></audio></td>
+                <td>Whiskey</td>
+                <td>Wayang</td>
+                <td>&bull;&ndash;&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/6/68/W_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>X</td>
-                <td>X-ray<br>X-ray</td>
-                <td>&ndash;&bull;&bull;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/be/X_morse_code.ogg'></audio></td>
+                <td>X-ray</td>
+                <td>X-ray</td>
+                <td>&ndash;&bull;&bull;&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/b/be/X_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>Y</td>
-                <td>Yankee<br>Yakin</td>
-                <td>&ndash;&bull;&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5d/Y_morse_code.ogg'></audio></td>
+                <td>Yankee</td>
+                <td>Yakin</td>
+                <td>&ndash;&bull;&ndash;&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5d/Y_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>Z</td>
-                <td>Zulu<br>Zaman</td>
-                <td>&ndash;&ndash;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/7/7a/Z_morse_code.ogg'></audio></td>
+                <td>Zulu</td>
+                <td>Zaman</td>
+                <td>&ndash;&ndash;&bull;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/7/7a/Z_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>0</td>
-                <td>Zero<br>Kosong</td>
-                <td>&ndash;&ndash;&ndash;&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5d/0_number_morse_code.ogg'></audio></td>
+                <td>Zero</td>
+                <td>Kosong</td>
+                <td>&ndash;&ndash;&ndash;&ndash;&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5d/0_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>1</td>
-                <td>One<br>Satu</td>
-                <td>&bull;&ndash;&ndash;&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/9b/1_number_morse_code.ogg'></audio></td>
+                <td>One</td>
+                <td>Satu</td>
+                <td>&bull;&ndash;&ndash;&ndash;&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/9/9b/1_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>2</td>
-                <td>Two<br>Dua</td>
-                <td>&bull;&bull;&ndash;&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/ee/2_number_morse_code.ogg'></audio></td>
+                <td>Two</td>
+                <td>Dua</td>
+                <td>&bull;&bull;&ndash;&ndash;&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/e/ee/2_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>3</td>
-                <td>Three<br>Tiga</td>
-                <td>&bull;&bull;&bull;&ndash;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/fd/3_number_morse_code.ogg'></audio></td>
+                <td>Three</td>
+                <td>Tiga</td>
+                <td>&bull;&bull;&bull;&ndash;&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/f/fd/3_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>4</td>
-                <td>Four<br>Empat</td>
-                <td>&bull;&bull;&bull;&bull;&ndash;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5c/4_number_morse_code.ogg'></audio></td>
+                <td>Four</td>
+                <td>Empat</td>
+                <td>&bull;&bull;&bull;&bull;&ndash;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/5c/4_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>5</td>
-                <td>Five<br>Lima</td>
-                <td>&bull;&bull;&bull;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/52/5_number_morse_code.ogg'></audio></td>
+                <td>Five</td>
+                <td>Lima</td>
+                <td>&bull;&bull;&bull;&bull;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/5/52/5_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>6</td>
-                <td>Six<br>Enam</td>
-                <td>&ndash;&bull;&bull;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/4d/6_number_morse_code.ogg'></audio></td>
+                <td>Six</td>
+                <td>Enam</td>
+                <td>&ndash;&bull;&bull;&bull;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/4d/6_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>7</td>
-                <td>Seven<br>Tujuh</td>
-                <td>&ndash;&ndash;&bull;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/1/14/7_number_morse_code.ogg'></audio></td>
+                <td>Seven</td>
+                <td>Tujuh</td>
+                <td>&ndash;&ndash;&bull;&bull;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/1/14/7_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>8</td>
-                <td>Eight<br>Lapan</td>
-                <td>&ndash;&ndash;&ndash;&bull;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/3a/8_number_morse_code.ogg'></audio></td>
+                <td>Eight</td>
+                <td>Lapan</td>
+                <td>&ndash;&ndash;&ndash;&bull;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/3/3a/8_number_morse_code.ogg'></audio></td>
               </tr>
               <tr>
                 <td>9</td>
-                <td>Nine<br>Sembilan</td>
-                <td>&ndash;&ndash;&ndash;&ndash;&bull;<br><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/44/9_number_morse_code.ogg'></audio></td>
+                <td>Nine</td>
+                <td>Sembilan</td>
+                <td>&ndash;&ndash;&ndash;&ndash;&bull;</td>
+                <td><audio class='rounded-pill w-75' controls preload='metadata' src='https://upload.wikimedia.org/wikipedia/commons/4/44/9_number_morse_code.ogg'></audio></td>
               </tr>
             </tbody>
           </table>

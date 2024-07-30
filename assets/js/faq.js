@@ -11,7 +11,8 @@ $(document).ready(function () {
 			columns: [
 				{ title: 'Nama', name: 'server-name', data: 'nickname' },
 				{ title: '', name: 'server-note', data: 'note' },
-				{ title: 'Alamat', name: 'server-address', data: 'address', render: (data) => `<a class='text-reset text-decoration-none font-monospace' href='ts3server://${data}' target='_blank' rel='noopener noreferrer'>${data}</a>` },
+				{ title: 'Versi', name: 'client-version', data: 'clientVer' },
+				{ title: 'Alamat', name: 'server-address', data: 'address' },
 			],
 			columnDefs: [
 				{ className: 'text-center align-middle', targets: '_all' },
@@ -22,6 +23,12 @@ $(document).ready(function () {
 					targets: 0,
 				},
 				{ visible: false, targets: 1 },
+				{
+					render: function (data, type, row) {
+						return `<a class='text-reset text-decoration-none font-monospace' href='ts3server://${data}&addbookmark=${encodeURI(row.nickname)}' target='_blank' rel='noopener noreferrer'>${data}</a>`
+					},
+					targets: 3,
+				},
 			],
 			caption: `<i class='bi-exclamation-triangle-fill text-danger-emphasis'></i> &mdash; Pelayan telah disenarai hitam oleh TeamSpeak Systems, Inc.<br><i class='bi-exclamation-diamond-fill text-warning-emphasis'></i> &mdash; Pemilik sah IKRAP RAPI &lpar;JZ&rpar; sahaja.`,
 			processing: true,
