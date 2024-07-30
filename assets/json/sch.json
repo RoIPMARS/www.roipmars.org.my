@@ -2848,7 +2848,7 @@
 			"Hari": "Selasa<br>30/07/2024<br>21:00 MYT",
 			"Acara": "[KHUSUS] Hari Ikrar Gerakan Pramuka",
 			"NCS": "YD4DTA | YF5NZL",
-			"Laporan": "&shy;"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='3007242100'>32</button>"
 		},
 		{
 			"Hari": "Rabu<br>31/07/2024<br>21:00 MYT",
