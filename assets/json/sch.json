@@ -2860,7 +2860,7 @@
 			"Hari": "Khamis<br>01/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Malam Jumat",
 			"NCS": "YC4AUM | YC8HBQ",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-person-slash text-danger fs-2'></i>"
 		},
 		{
 			"Hari": "Sabtu<br>03/08/2024<br>21:00 MYT",
