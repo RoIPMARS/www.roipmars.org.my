@@ -2865,8 +2865,8 @@
 		{
 			"Hari": "Sabtu<br>03/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "V85AFF | 9W2ORL",
-			"Laporan": "&shy;"
+			"NCS": "V85AFF | V85PZ",
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Ahad<br>04/08/2024<br>21:00 MYT",
@@ -2901,7 +2901,7 @@
 		{
 			"Hari": "Sabtu<br>10/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "9W2YBT | 9M6AUA",
+			"NCS": "V85AFF | 9M6AUA",
 			"Laporan": "&shy;"
 		},
 		{
@@ -2913,13 +2913,13 @@
 		{
 			"Hari": "Isnin<br>12/08/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Gajah Sedunia",
-			"NCS": "9W2ORL | 9M6JAY",
+			"NCS": "9M2SFL | 9M6JAY",
 			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Selasa<br>13/08/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Tangan Kidal Antarabangsa",
-			"NCS": "V85AFF | 9M6RDY",
+			"NCS": "9W2AYP | 9M6RDY",
 			"Laporan": "&shy;"
 		},
 		{
@@ -2937,7 +2937,7 @@
 		{
 			"Hari": "Sabtu<br>17/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "9M2SFL | 9W6RHN",
+			"NCS": "V85AFF | 9W6RHN",
 			"Laporan": "&shy;"
 		},
 		{
@@ -2949,13 +2949,13 @@
 		{
 			"Hari": "Isnin<br>19/08/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kemanusiaan Sedunia",
-			"NCS": "9W2AYP | 9M2SFL",
+			"NCS": "9M2SFL | 9W2AYP",
 			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Selasa<br>20/08/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Nyamuk Sedunia",
-			"NCS": "9W2YBT | 9W2AYP",
+			"NCS": "9W2AYP | 9M2SFL",
 			"Laporan": "&shy;"
 		},
 		{
@@ -2973,7 +2973,7 @@
 		{
 			"Hari": "Sabtu<br>24/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "9W2ORL | 9W2YBT",
+			"NCS": "V85AFF | V85PZ",
 			"Laporan": "&shy;"
 		},
 		{
@@ -2985,7 +2985,7 @@
 		{
 			"Hari": "Isnin<br>26/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "V85AFF | 9W2ORL",
+			"NCS": "9M2SFL | V85PZ",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3009,7 +3009,7 @@
 		{
 			"Hari": "Sabtu<br>31/08/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kebangsaan",
-			"NCS": "9M2SFL | V85AFF",
+			"NCS": "9W2AYP | 9M6AUA",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3021,7 +3021,7 @@
 		{
 			"Hari": "Isnin<br>02/09/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "9W2AYP | V85PZ",
+			"NCS": "V85AFF | 9M2SFL",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3039,19 +3039,19 @@
 		{
 			"Hari": "Khamis<br>05/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kerja Amal Antarabangsa",
-			"NCS": "9W2YBT | 9M6AUA",
+			"NCS": "9M2SFL | 9W2AYP",
 			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Sabtu<br>07/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kerjasama Polis Antarabangsa",
-			"NCS": "9W2ORL | 9M6JAY",
+			"NCS": "9W2AYP | V85AFF",
 			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Ahad<br>08/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Celik Huruf Antarabangsa",
-			"NCS": "V85AFF | 9M6RDY",
+			"NCS": "V85AFF | V85PZ",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3063,7 +3063,7 @@
 		{
 			"Hari": "Selasa<br>10/09/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Selasa",
-			"NCS": "9M2SFL | 9W6RHN",
+			"NCS": "9M2SFL | 9M6AUA",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3081,7 +3081,7 @@
 		{
 			"Hari": "Sabtu<br>14/09/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "9W2AYP | 9M2SFL",
+			"NCS": "9W2AYP | 9M6JAY",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3093,7 +3093,7 @@
 		{
 			"Hari": "Isnin<br>16/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Malaysia & Hari Keputeraan Nabi Muhammad S.A.W.",
-			"NCS": "9W2YBT | 9W2AYP",
+			"NCS": "V85AFF | 9M6RDY",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3117,7 +3117,7 @@
 		{
 			"Hari": "Sabtu<br>21/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Tanpa Pencemaran Bahan Api",
-			"NCS": "9W2ORL | 9W2YBT",
+			"NCS": "9M2SFL | 9W6RHN",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3129,7 +3129,7 @@
 		{
 			"Hari": "Isnin<br>23/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Bahasa Isyarat Antarabangsa",
-			"NCS": "V85AFF | 9W2ORL",
+			"NCS": "9W2AYP | 9M2SFL",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3153,19 +3153,19 @@
 		{
 			"Hari": "Sabtu<br>28/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Maritim Sedunia",
-			"NCS": "9M2SFL | V85AFF",
+			"NCS": "V85AFF | 9W2AYP",
 			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Ahad<br>29/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Jantung Sedunia",
-			"NCS": "9W2AYP | V85PZ",
+			"NCS": "9M2SFL | V85AFF",
 			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Isnin<br>30/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Penterjemahan Antarabangsa",
-			"NCS": "9W2YBT | 9M6AUA",
+			"NCS": "9W2AYP | V85PZ",
 			"Laporan": "&shy;"
 		},
 		{
