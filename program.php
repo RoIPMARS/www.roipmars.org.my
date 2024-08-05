@@ -103,10 +103,6 @@
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6rhn.png' alt='9W6RHN'>
 										<p class='lh-1 my-0'>9W6RHN<br><span class='fw-bold'>ROSLAN</span></p>
 									</div>
-									<!-- <div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/011.png' alt='9W2NDI'>
-										<p class='lh-1 my-0'>9W2NDI<br><span class='fw-bold'>NASA</span></p>
-									</div> -->
 								</div>
 							</div>
 							<div class='carousel-item'>
@@ -122,10 +118,6 @@
 									<div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2orl.png' alt='9W2ORL'>
 										<p class='lh-1 my-0'>9W2ORL<br><span class='fw-bold'>RAHIM</span></p>
-									</div>
-									<div class='vstack gap-3'>
-										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2ybt.png' alt='9W2YBT'>
-										<p class='lh-1 my-0'>9W2YBT<br><span class='fw-bold'>FAISAL</span></p>
 									</div>
 									<div class='vstack gap-3'>
 										<img class='img-fluid rounded-circle object-fit-cover mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/037.png' alt='V85PZ'>
