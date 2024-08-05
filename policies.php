@@ -306,7 +306,9 @@
               </ol>
               <h5>Cenderahati &amp; Hadiah</h5>
               <p>Sebarang cenderahati &amp; hadiah yang disediakan bagi mana-mana aktiviti adalah tanggungjawab sepenuhnya pihak penaja. Kami tidak akan bertanggungjawab keatas mana-mana proses samada penyediaan mahupun penghantaran cenderahati tersebut kepada penerima. Namun yang demikian, segala penggunaan nama dan/atau logo RoIPMARS pada cenderahati tersebut adalah atas budi bicara Pegawai Tertinggi kami.</p>
-              <p>Kami ada menyediakan saguhati tahunan bagi pengendali &amp; penyokong terbaik sepanjang tahun. Saguhati ini adalah tanda terima kasih kami kepada pengendali yang telah menjalankan tugas sepanjang tahun dengan komited. Pengiraan tahunan akan dibuat pada minggu akhir setiap tahun. Segala syarat kelayakan dan terma tahunan adalah bergantung sepenuhnya kepada laporan aktiviti tahunan dan budi bicara Pegawai Rekod RoIPMARS. Penerima saguhati tahunan akan dihubungi oleh Pegawai Rekod selewatnya pada 7 Februari &lpar;tarikh akhir&rpar; bagi melancarkan proses penghantaran dari pihak penaja. Ketiadaan atau kelewatan respon dari penerima akan menyebabkan saguhati ditarik semula selepas tarikh akhir. Saguhati yang telah ditarik semula tidak boleh dituntut oleh mana-mana pihak.</p>
+              <h5>Saguhati Tahunan</h5>
+              <p>Kami ada menyediakan saguhati tahunan bagi pengendali &amp; penyokong terbaik sepanjang tahun. Saguhati ini adalah tanda terima kasih kami kepada pengendali yang telah menjalankan tugas sepanjang tahun dengan komited &amp; penyokong yang telah menyokong aktiviti kami dengan penuh dedikasi. Pengiraan tahunan akan dibuat pada minggu pertama tahun berikutnya. Segala syarat kelayakan dan terma tahunan adalah bergantung sepenuhnya kepada laporan aktiviti tahunan dan budi bicara Pegawai Rekod RoIPMARS. Penerima saguhati tahunan akan dihubungi oleh Pegawai Rekod bermula dari 14 Januari dan hendaklah direspon sebelum / selewatnya pada 7 Februari &lpar;tarikh akhir&rpar; bagi melancarkan proses penghantaran dari pihak penaja. Ketiadaan atau kelewatan respon dari penerima akan menyebabkan saguhati ditarik semula selepas tarikh akhir. Saguhati yang telah ditarik semula tidak boleh dituntut oleh mana-mana pihak.</p>
+              <canvas id='tlRecordGifts' loading='lazy' alt='tlRecordGifts'></canvas>
             </div>
             <!-- <hr> -->
             <!-- <div id='svcsubs'></div> -->
@@ -314,6 +316,11 @@
         </div>
       </div>
     </div> <?php require_once 'footer.php' ?>
+    <script src='https://cdn.jsdelivr.net/npm/chart.js@latest/dist/chart.umd.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@latest/dist/chartjs-adapter-date-fns.bundle.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@latest/dist/chartjs-plugin-deferred.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@latest/chartjs-plugin-watermark.min.js' crossorigin='anonymous'></script>
+    <script src='/assets/js/policies.js'></script>
   </body>
 
 </html>
