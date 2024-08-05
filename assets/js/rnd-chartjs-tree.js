@@ -1,5 +1,6 @@
 const rndHAMtree = document.getElementById('rndHAMtree')
 const rndCBtree = document.getElementById('rndCBtree')
+const bodyCSS = window.getComputedStyle(document.querySelector('body'))
 
 function dtCFormat(input) {
 	return new Intl.DateTimeFormat('ms-MY', {
@@ -31,14 +32,14 @@ function lastMod(url) {
 
 Chart.register(ChartDeferred)
 Chart.register(ChartDataLabels)
-Chart.defaults.backgroundColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg')
-Chart.defaults.borderColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-border-color')
-Chart.defaults.color = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-color')
-Chart.defaults.font.family = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-font-monospace')
+Chart.defaults.backgroundColor = bodyCSS.getPropertyValue('--bs-body-bg')
+Chart.defaults.borderColor = bodyCSS.getPropertyValue('--bs-border-color')
+Chart.defaults.color = bodyCSS.getPropertyValue('--bs-body-color')
+Chart.defaults.font.family = bodyCSS.getPropertyValue('--bs-body-font-monospace')
 Chart.defaults.font.lineHeight = 1
 Chart.defaults.font.size = 12
-Chart.defaults.plugins.datalabels.backgroundColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-tertiary-bg')
-Chart.defaults.plugins.datalabels.borderColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-border-color')
+Chart.defaults.plugins.datalabels.backgroundColor = bodyCSS.getPropertyValue('--bs-tertiary-bg')
+Chart.defaults.plugins.datalabels.borderColor = bodyCSS.getPropertyValue('--bs-border-color')
 Chart.defaults.plugins.datalabels.borderRadius = 5
 Chart.defaults.plugins.datalabels.borderWidth = 1
 Chart.defaults.plugins.datalabels.clamp = true
@@ -49,7 +50,7 @@ Chart.defaults.plugins.deferred.delay = 1000
 Chart.defaults.plugins.deferred.yOffset = '50%'
 Chart.defaults.plugins.legend.display = false
 Chart.defaults.plugins.title.display = true
-Chart.defaults.plugins.title.font.family = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-font-family')
+Chart.defaults.plugins.title.font.family = bodyCSS.getPropertyValue('--bs-body-font-family')
 Chart.defaults.plugins.title.font.lineHeight = 1
 Chart.defaults.plugins.title.font.size = 18
 Chart.defaults.plugins.title.font.weight = 'bold'
