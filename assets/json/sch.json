@@ -2866,19 +2866,19 @@
 			"Hari": "Sabtu<br>03/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
 			"NCS": "V85AFF | V85PZ",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0308242100'>32</button>"
 		},
 		{
 			"Hari": "Ahad<br>04/08/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Persahabatan",
 			"NCS": "9W2AYP | V85AFF",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0408242100'>17</button>"
 		},
 		{
 			"Hari": "Isnin<br>05/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
 			"NCS": "9W2AYP | V85PZ",
-			"Laporan": "&shy;"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0508242100'>27</button>"
 		},
 		{
 			"Hari": "Selasa<br>06/08/2024<br>21:00 MYT",
@@ -2997,7 +2997,7 @@
 		{
 			"Hari": "Rabu<br>28/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "9M6AUA | V85AFF",
+			"NCS": "9M6RDY | V85AFF",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3069,7 +3069,7 @@
 		{
 			"Hari": "Rabu<br>11/09/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "9M6RDY | 9M6JAY",
+			"NCS": "9M6AUA | 9M6JAY",
 			"Laporan": "&shy;"
 		},
 		{
