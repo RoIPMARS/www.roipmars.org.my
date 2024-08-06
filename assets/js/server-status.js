@@ -28,7 +28,7 @@ modal.addEventListener('show.bs.modal', (event) => {
 	modalBody.innerHTML = `<img class='w-75' src='${statPage}?style=${statBadgeStyle}&label=${encodeURI('RoIPMARS Network Services')}' loading='lazy' alt='roipmars-server overall status'>
 	<table class='table teble-bordered table-sm text-center align-middle my-3 caption-top'>
 		<caption class='text-center'>
-			updated at ${timeLoad.toISOString()} ; full stats page <a href='https://status.mhrtech.my/status/roipmars' target='_blank' rel='external'>here</a>
+			updated at ${timeLoad.toISOString()} ; full stats page <a href='https://uptime.roipmars.org.my' target='_blank' rel='external'>here</a>
 		</caption>
 		<tbody>
 			<tr>
@@ -104,7 +104,7 @@ modal.addEventListener('show.bs.modal', (event) => {
 			}
 			getAllImg[i].src = imgwithrand
 		}
-		tableCaption.innerHTML = `updated at ${new Date().toISOString()} ; full stats page <a href='https://status.mhrtech.my/status/roipmars' target='_blank' rel='external'>here</a>`
+		tableCaption.innerHTML = `updated at ${new Date().toISOString()} ; full stats page <a href='https://uptime.roipmars.org.my' target='_blank' rel='external'>here</a>`
 	}
 	setInterval(imgReload, 3 * 60 * 1000)
 })
