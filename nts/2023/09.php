@@ -34,7 +34,7 @@
       </table>
       <p>Kami tidak akan bertanggungjawab atas segala perkara yang ditinggalkan oleh jawatankuasa bertindak sebelum ini.</p>
       <p>Diminta semua pemilik isyarat panggilan RoIPMARS Network supaya menukarkan isyarat panggilan sebelum ini kepada isyarat panggilan semasa yang dapat disemak di: <a href='/cbmars'>SINI</a>.</p>
-      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2309'>member@roipmars.org.my</a></p>
+      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='contact'>member@roipmars.org.my</a></p>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2 ft-signature1'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>

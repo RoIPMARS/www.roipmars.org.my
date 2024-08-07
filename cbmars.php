@@ -57,7 +57,7 @@
           $file_last_modified = filemtime(__DIR__ . '/assets/json/cbmars.json');
           echo ' setakat ' . datefmt_format($dtfmt, $file_last_modified);
           ?></p>
-          <p class='fw-bold'>Penafian: Ahli CB RoIPMARS tidak termaktub dengan seluruh perlembagaan Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti keahlian yang berbeza.<br>Nota: Untuk semakan lanjut atau penukaran maklumat, sila emel maklumat lengkap anda ke <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Callsign%20CB'>member@roipmars.org.my</a></p>
+          <p class='fw-bold'>Penafian: Ahli CB RoIPMARS tidak termaktub dengan seluruh perlembagaan Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti keahlian yang berbeza.<br>Nota: Untuk semakan lanjut atau penukaran maklumat, sila emel maklumat lengkap anda ke <a href='contact'>member@roipmars.org.my</a></p>
         </div>
         <div class='col-12 mb-3 text-center'>
           <table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='cbcslist'>

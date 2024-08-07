@@ -31,7 +31,7 @@
       </table>
       <p>Pelayan akan mengalami gangguan semasa tempoh penyelenggaraan. Dinasihatkan supaya tidak melakukan sebarang aktiviti semasa tempoh penyelenggaraan.</p>
       <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Persefahaman dan kerjasama anda amat kami hargai. Jutaan kemaafan kami pohon dari Pihak Pengurusan Kumpulan RoIPMARS kepada anda semua.</p>
-      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2304'>member@roipmars.org.my</a></p>
+      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='contact'>member@roipmars.org.my</a></p>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2 ft-signature1'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>

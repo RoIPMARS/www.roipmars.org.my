@@ -36,7 +36,7 @@
         </tbody>
       </table>
       <p>Adalah dimaklumkan platform utama RoIPMARS tidak terjejas dan masih berjalan seperti biasa.</p>
-      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2405'>member@roipmars.org.my</a>
+      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='contact'>member@roipmars.org.my</a>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2 ft-signature1'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>

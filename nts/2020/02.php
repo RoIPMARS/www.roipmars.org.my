@@ -19,7 +19,7 @@
       <p class='mb-2'>Berhubung dengan perkara diatas, bermula Februari 2020, pihak pengurusan RoIP MARS tidak lagi mengeluarkan sijil bagi NCS Mingguan di server TS3 RoIP MARS tetapi bakal digantikan dengan Sijil 'Top NCS' dan 'Top Station of NCS' secara tahunan.</p>
       <p>Setelah meneliti berkenaan pengeluaran sijil NCS Mingguan tersebut, kami mengambil keputusan untuk tidak lagi mengeluarkan sijil NCS secara mingguan atas sebab kekangan ruang <i>&lpar;disk space&rpar;</i> di laman sesawang &lpar;<a href='https://dl.roipmars.org.my'>Sijil</a>&rpar; untuk kami simpan dan siarkan kepada umum.</p>
       <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Jutaan kemaafan kami mohon bagi pihak MARS kepada anda semua.</p>
-      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2002'>member@roipmars.org.my</a></p>
+      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='contact'>member@roipmars.org.my</a></p>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2 ft-signature1'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>

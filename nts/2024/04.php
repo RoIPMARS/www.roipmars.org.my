@@ -40,7 +40,7 @@
       <p>Buat masa ini, semua koleksi sijil &amp; eQSL siap masih boleh didapati di <a href='https://dl.roipmars.org.my/#files%2Fcertificates' target='_blank'>dl.roipmars.org.my</a> sehingga tarikh diatas. Selepas pada tarikh diatas, segala koleksi sijil &amp; eQSL akan dialihkan ke pelayan pihak ketiga iaitu <a href='https://archived.mhrtech.my' target='_blank'>archived.mhrtech.my</a>. Dalam masa yang sama, semua eQSL yang dihantar ke bahagian rekod tidak lagi wajib seperti sebelum ini, pembuatan &amp; pengedarannya adalah tanggungjawab NCS sendiri dan pihak ketiga tidak memberi jaminan bahawa semua koleksi yang dihantar akan dimuatnaik ke pelayan tersebut.</p>
       <p>Namun yang demikian, anda boleh mula menggunakan penjana sijil pada halaman sumber seperti diatas dengan memilih dan klik pada tanda panggilan anda.</p>
       <p>Pihak Pengurusan Rangkaian Kumpulan RoIPMARS memohon maaf atas kesulitan yang bakal dihadapi demi seluruh kelansungan Rangkaian Kumpulan RoIPMARS.</p>
-      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='mailto:member@roipmars.org.my?subject=Inkuiri%20Notis2404'>member@roipmars.org.my</a>
+      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='contact'>member@roipmars.org.my</a>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2 ft-signature1'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>
