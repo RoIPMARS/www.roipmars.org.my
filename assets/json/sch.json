@@ -2883,14 +2883,14 @@
 		{
 			"Hari": "Selasa<br>06/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Selasa",
-			"NCS": "YC4AUM | YF5NZL",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "YC4AUM | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0608242100'>24</button>"
 		},
 		{
 			"Hari": "Rabu<br>07/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "9M6JAY | 9M6RDY",
-			"Laporan": "&shy;"
+			"NCS": "9M6RDY",
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Khamis<br>08/08/2024<br>21:00 MYT",
