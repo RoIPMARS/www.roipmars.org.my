@@ -89,6 +89,14 @@ modal.addEventListener('show.bs.modal', (event) => {
 					<img src='${statBadge}/48/ping/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-redis average ping'> <img src='${statBadge}/48/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-redis average response time'>
 				</td>
 			</tr>
+			<tr>
+				<th>n8n<br>&lpar;api.roipmars.org.my&rpar;</th>
+				<td>
+					<img src='${statBadge}/17/status?style=${statBadgeStyle}' loading='lazy' alt='roipmars-n8n status'> <img src='${statBadge}/17/response?style=${statBadgeStyle}' loading='lazy' alt='roipmars-n8n response time'> <img src='${statBadge}/17/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-n8n uptime'>
+					<br>
+					<img src='${statBadge}/17/ping/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-n8n average ping'> <img src='${statBadge}/17/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-n8n average response time'>
+				</td>
+			</tr>
 		</tbody>
 	</table>`
 	function imgReload() {
