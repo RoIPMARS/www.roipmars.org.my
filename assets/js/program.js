@@ -597,6 +597,7 @@ $(document).ready(function () {
 	const netReport = document.getElementById('netRep')
 	const netRepCall = document.getElementById('netRepCall')
 	const netRepMod = document.getElementById('netRepMod')
+	const netRepModGraph = document.getElementById('netRepModGraph')
 	netRep.addEventListener('show.bs.modal', (event) => {
 		const button = event.relatedTarget
 		const source = button.getAttribute('data-bs-source')
@@ -843,6 +844,24 @@ $(document).ready(function () {
 						responsive: true,
 						searching: false,
 					})
+					// const modGraphID = `net-${source}-modgraph`
+					// netRepModGraph.id = modGraphID
+					// const MoTGraph = new Chart(netRepModGraph, {
+					// 	data: {
+					// 		datasets: modData.motcount,
+					// 		labels: modData.method,
+					// 	},
+					// 	options: {
+					// 		aspectRatio: 2,
+					// 		borderWidth: 0,
+					// 		plugins: {
+					// 			subtitle: { text: lastMod('/assets/json/netrep.json') },
+					// 			title: { text: 'Mode of Transmission' },
+					// 		},
+					// 		watermark: wmOptions,
+					// 	},
+					// 	type: 'doughnut',
+					// })
 				},
 			})
 
@@ -1308,5 +1327,6 @@ $(document).ready(function () {
 		netReport.id = 'netRep'
 		netRepCall.id = 'netRepCall'
 		netRepMod.id = 'netRepMod'
+		// netRepModGraph.id = 'netRepModGraph'
 	})
 })

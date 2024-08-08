@@ -209,6 +209,8 @@
 											</div>
 											<table class='table table-sm table-striped table-bordered text-center align-middle' id='netRepCall'></table>
 											<table class='table table-sm table-striped table-bordered text-center align-middle' id='netRepMod'></table>
+											<!-- <canvas id='netRepModGraph' loading='lazy' alt='NetMoTGraph'></canvas> -->
+											<hr>
 											<table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='netRep'>
 												<caption class='text-lowercase text-center text-wrap p-0'>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Penyertaan</caption>
 											</table>
