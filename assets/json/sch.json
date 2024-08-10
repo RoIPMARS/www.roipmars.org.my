@@ -2853,8 +2853,8 @@
 		{
 			"Hari": "Rabu<br>31/07/2024<br>21:00 MYT",
 			"Acara": "[SPECIAL] Heroes' Day",
-			"NCS": "9M6JAY | 9W2AYP",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9M6JAY | 9M6RDY",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='3107242100'>14</button>"
 		},
 		{
 			"Hari": "Khamis<br>01/08/2024<br>21:00 MYT",
@@ -2902,7 +2902,7 @@
 			"Hari": "Sabtu<br>10/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
 			"NCS": "V85AFF | 9M6AUA",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Ahad<br>11/08/2024<br>21:00 MYT",
