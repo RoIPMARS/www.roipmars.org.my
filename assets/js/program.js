@@ -820,14 +820,15 @@ $(document).ready(function () {
 								var mode = 'unknown'
 								var motC = 0
 						}
-						modData.push({ mot: netRepModUnqData[d], method: mode, motcount: motC })
+						modData.push({ mot: netRepModUnqData[d], method: mode, count: motC })
 					}
+					console.log(modData)
 					$(`#${modReportID}`).DataTable({
 						data: modData,
 						columns: [
 							{ title: 'MoT', data: 'mot' },
 							{ title: 'Kaedah', data: 'method' },
-							{ title: 'Jumlah', data: 'motcount' },
+							{ title: 'Jumlah', data: 'count' },
 						],
 						columnDefs: [
 							{ className: 'text-center align-middle', targets: '_all' },
@@ -844,12 +845,12 @@ $(document).ready(function () {
 						responsive: true,
 						searching: false,
 					})
-					// const modGraphID = `net-${source}-modgraph`
-					// netRepModGraph.id = modGraphID
+					const modGraphID = `net-${source}-modgraph`
+					netRepModGraph.id = modGraphID
 					// const MoTGraph = new Chart(netRepModGraph, {
 					// 	data: {
-					// 		datasets: modData.motcount,
-					// 		labels: modData.method,
+					// 		datasets: modData.map((m)=>m.count).join(),
+					// 		labels: modData.map((m)=>m.method).join(),
 					// 	},
 					// 	options: {
 					// 		aspectRatio: 2,
@@ -1327,6 +1328,7 @@ $(document).ready(function () {
 		netReport.id = 'netRep'
 		netRepCall.id = 'netRepCall'
 		netRepMod.id = 'netRepMod'
-		// netRepModGraph.id = 'netRepModGraph'
+		// new Chart(netRepModGraph).destroy()
+		netRepModGraph.id = 'netRepModGraph'
 	})
 })
