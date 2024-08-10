@@ -822,7 +822,6 @@ $(document).ready(function () {
 						}
 						modData.push({ mot: netRepModUnqData[d], method: mode, count: motC })
 					}
-					console.log(modData)
 					$(`#${modReportID}`).DataTable({
 						data: modData,
 						columns: [
@@ -845,13 +844,13 @@ $(document).ready(function () {
 						responsive: true,
 						searching: false,
 					})
-					const modGraphID = `net-${source}-modgraph`
-					netRepModGraph.id = modGraphID
+					// const modGraphID = `net-${source}-modgraph`
+					// netRepModGraph.id = modGraphID
 					// const MoTGraph = new Chart(netRepModGraph, {
 					// 	data: {
-					// 		datasets: modData.map((m)=>m.count).join(),
-					// 		labels: modData.map((m)=>m.method).join(),
+					// 		datasets: [{ data: modData.map((m) => m.count) }],
 					// 	},
+					// 	labels: modData.map((m) => m.method),
 					// 	options: {
 					// 		aspectRatio: 2,
 					// 		borderWidth: 0,
@@ -861,8 +860,8 @@ $(document).ready(function () {
 					// 		},
 					// 		watermark: wmOptions,
 					// 	},
-					// 	type: 'doughnut',
-					// })
+					// 	type: 'pie',
+					// }).update()
 				},
 			})
 
@@ -1329,6 +1328,6 @@ $(document).ready(function () {
 		netRepCall.id = 'netRepCall'
 		netRepMod.id = 'netRepMod'
 		// new Chart(netRepModGraph).destroy()
-		netRepModGraph.id = 'netRepModGraph'
+		// netRepModGraph.id = 'netRepModGraph'
 	})
 })
