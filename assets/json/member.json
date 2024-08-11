@@ -64,6 +64,20 @@
 			"Locale": "TANAH JAMBU, BRUNEI"
 		},
 		{
+			"MemberNo": "A034",
+			"Expiry": "31 Dis 2024",
+			"CallSign": "9W2IKA",
+			"Name": "IDHAM KHALIL BIN ABDULL WAHAB",
+			"Locale": "PORT DICKSON, NEGERI SEMBILAN"
+		},
+		{
+			"MemberNo": "A033",
+			"Expiry": "31 Dis 2024",
+			"CallSign": "9W2AKK",
+			"Name": "MUHAMMAD KHAIRUL AMILIN BIN ISMAIL",
+			"Locale": "KOTA BAHRU, KELANTAN"
+		},
+		{
 			"MemberNo": "A029",
 			"Expiry": "31 Dis 2024",
 			"CallSign": "9W2JCP",
@@ -146,20 +160,6 @@
 			"CallSign": "113MSRAO",
 			"Name": "GOWTAMROA A/L MANICKAROW",
 			"Locale": "SUNGAI PETANI, KEDAH"
-		},
-		{
-			"MemberNo": "A034",
-			"Expiry": "31 Dis 2023",
-			"CallSign": "9W2IKA",
-			"Name": "IDHAM KHALIL BIN ABDULL WAHAB",
-			"Locale": "PORT DICKSON, NEGERI SEMBILAN"
-		},
-		{
-			"MemberNo": "A033",
-			"Expiry": "31 Dis 2023",
-			"CallSign": "9W2AKK",
-			"Name": "MUHAMMAD KHAIRUL AMILIN BIN ISMAIL",
-			"Locale": "KOTA BAHRU, KELANTAN"
 		},
 		{
 			"MemberNo": "A030",
