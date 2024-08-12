@@ -2914,7 +2914,7 @@
 			"Hari": "Isnin<br>12/08/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Gajah Sedunia",
 			"NCS": "9M2SFL | 9M6JAY",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Selasa<br>13/08/2024<br>21:00 MYT",
