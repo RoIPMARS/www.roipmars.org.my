@@ -2920,7 +2920,7 @@
 			"Hari": "Selasa<br>13/08/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Tangan Kidal Antarabangsa",
 			"NCS": "9W2AYP | 9M6RDY",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Rabu<br>14/08/2024<br>21:00 MYT",
