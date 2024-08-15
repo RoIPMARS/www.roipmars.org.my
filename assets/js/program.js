@@ -604,14 +604,26 @@ $(document).ready(function () {
 		$('#takwim').delegate('tbody tr td:last-child', 'click', function () {
 			const modalTitle = netRep.querySelector('.modal-title')
 			const takwimrowdata = takwimtable.row(this).data()
-			const takwimday = takwimrowdata.Hari.split('<br>')[0]
 			const takwimdate = takwimrowdata.Hari.split('<br>')[1]
 			const takwimtime = takwimrowdata.Hari.split('<br>')[2]
+			const takwimDateTime = new Intl.DateTimeFormat('ms-MY', {
+				formatMatcher: 'basic',
+				weekday: 'long',
+				day: 'numeric',
+				month: 'long',
+				year: 'numeric',
+				hour: 'numeric',
+				minute: '2-digit',
+				dayPeriod: 'narrow',
+				timeZoneName: 'shortGeneric',
+				hour12: false,
+				timeZone: UserTZ,
+			}).format(new Date(`${takwimdate.split('/').reverse().join('/')} ${takwimtime.split(' ')[0]}`))
 			const takwimact = takwimrowdata.Acara.replace(/\[(KHAS|SPECIAL|KHUSUS)\]/g, '')
 				.trim()
 				.replaceAll(/¹|²/g, '')
 			const takwimncs = takwimrowdata.NCS.split('|')[0].trim()
-			const reportTitle = `Laporan ${takwimact} pada ${takwimday}, ${takwimdate} ${takwimtime} bersama ${takwimncs}`
+			const reportTitle = `Laporan ${takwimact} bersama ${takwimncs}\n${takwimDateTime}`
 			modalTitle.innerText = reportTitle
 			const reportID = `net-${source}`
 			netReport.id = reportID
@@ -646,7 +658,7 @@ $(document).ready(function () {
 					{
 						extend: 'pdfHtml5',
 						download: 'download',
-						className: 'btn-success rounded-3',
+						className: 'btn-success rounded-3 mb-3',
 						text: `Laporan Penuh ${takwimact}, ${takwimdate}`,
 						filename: `RoIPMARS-Net_${source}`,
 						title: `${reportTitle}`,
@@ -667,7 +679,9 @@ $(document).ready(function () {
 								(doc['footer'] = function (currentPage, pageCount) {
 									return [
 										{
-											text: `(C) ${new Date().getFullYear()} RoIPMARS Network | developed by 9W2LGX | generated via ${location.hostname + location.pathname} on ${new Date().toISOString()} | ${currentPage.toString()} of ${pageCount}`,
+											text: `(C) ${new Date().getFullYear()} RoIPMARS™ Network | developed by ${document.querySelector('meta[name="author"]').content} | generated via ${
+												location.hostname + location.pathname
+											} on ${new Date().toISOString()} | ${currentPage.toString()} of ${pageCount}`,
 											alignment: 'center',
 											fontSize: 7,
 										},

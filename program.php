@@ -193,7 +193,7 @@
 							</capton>
 					</table>
 					<div class='modal fade' id='netrep' tabindex='-1' aria-labelledby='netreport' aria-hidden='true'>
-						<div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-md'>
+						<div class='modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg'>
 							<div class='modal-content shadow'>
 								<div class='modal-header'>
 									<h4 class='modal-title text-center mx-auto lh-1' id='netreport'>Laporan Aktiviti</h4>
@@ -207,8 +207,8 @@
 												<div id='prog-success' class='toast text-bg-success' role='status' aria-live='polite' aria-atomic='true'></div>
 												<div id='prog-danger' class='toast text-bg-danger' role='alert' aria-live='assertive' aria-atomic='true'></div>
 											</div>
-											<table class='table table-sm table-striped table-bordered text-center align-middle' id='netRepCall'></table>
-											<table class='table table-sm table-striped table-bordered text-center align-middle' id='netRepMod'></table>
+											<table class='table table-sm table-striped table-bordered' id='netRepCall'></table>
+											<table class='table table-sm table-striped table-bordered' id='netRepMod'></table>
 											<!-- <canvas id='netRepModGraph' loading='lazy' alt='NetMoTGraph'></canvas> -->
 											<hr>
 											<table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='netRep'>
