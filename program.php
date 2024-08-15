@@ -41,10 +41,10 @@
 								<td>1300z &vert; 2100my</td>
 								<td>RoIPMARS Learning English Net</td>
 							</tr>
-							<tr class='table-danger'>
-								<td>Kamis</td>
-								<td>1300z &vert; 2000wib</td>
-								<td>RoIPMARS Indo Net Malam Jumat</td>
+							<tr class='opacity-25'>
+								<td>Khamis</td>
+								<td>&mdash;</td>
+								<td>&mdash;</td>
 							</tr>
 							<tr class='opacity-25'>
 								<td>Jumaat</td>
@@ -179,7 +179,7 @@
 					<h2 class='font-weight-bold'>Takwim Program</h2>
 				</div>
 				<div class='table'>
-					<table class='table table-sm table-striped text-center align-middle user-select-none' id='takwim'>
+					<table class='table table-striped text-center align-middle user-select-none' id='takwim'>
 						<caption class='text-center'>
 							<ul class='list-group'>
 								<li class='list-group-item list-group-item-secondary'>&sup1; Tertakluk kepada Pengisytiharaan Penyimpan Mohor Besar Raja-Raja Melayu</li>
