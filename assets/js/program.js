@@ -597,7 +597,24 @@ $(document).ready(function () {
 	const netReport = document.getElementById('netRep')
 	const netRepCall = document.getElementById('netRepCall')
 	const netRepMod = document.getElementById('netRepMod')
-	const netRepModGraph = document.getElementById('netRepModGraph')
+	// const netRepModGraph = document.getElementById('netRepModGraph')
+	// const MoTGraph = new Chart(netRepModGraph, {
+	// 	data: {
+	// 		datasets: [{ data: [] }],
+	// 		labels: [],
+	// 	},
+	// 	options: {
+	// 		aspectRatio: 2,
+	// 		borderWidth: 0,
+	// 		plugins: {
+	// 			subtitle: { text: lastMod('/assets/json/netrep.json') },
+	// 			title: { text: 'Mode of Transmission' },
+	// 			colors: { forceOverride: true },
+	// 		},
+	// 		watermark: wmOptions,
+	// 	},
+	// 	type: 'pie',
+	// })
 	netRep.addEventListener('show.bs.modal', (event) => {
 		const button = event.relatedTarget
 		const source = button.getAttribute('data-bs-source')
@@ -860,22 +877,10 @@ $(document).ready(function () {
 					})
 					// const modGraphID = `net-${source}-modgraph`
 					// netRepModGraph.id = modGraphID
-					// const MoTGraph = new Chart(netRepModGraph, {
-					// 	data: {
-					// 		datasets: [{ data: modData.map((m) => m.count) }],
-					// 	},
-					// 	labels: modData.map((m) => m.method),
-					// 	options: {
-					// 		aspectRatio: 2,
-					// 		borderWidth: 0,
-					// 		plugins: {
-					// 			subtitle: { text: lastMod('/assets/json/netrep.json') },
-					// 			title: { text: 'Mode of Transmission' },
-					// 		},
-					// 		watermark: wmOptions,
-					// 	},
-					// 	type: 'pie',
-					// }).update()
+					// MoTGraph.data.datasets[0].data = modData.map((m) => m.count)
+					// MoTGraph.data.labels = modData.map((m) => m.method)
+					// MoTGraph.update()
+					// MoTGraph.render()
 				},
 			})
 
@@ -1341,7 +1346,11 @@ $(document).ready(function () {
 		netReport.id = 'netRep'
 		netRepCall.id = 'netRepCall'
 		netRepMod.id = 'netRepMod'
-		// new Chart(netRepModGraph).destroy()
+		// MoTGraph.data.datasets[0].data = 0
+		// MoTGraph.data.labels = ''
+		// MoTGraph.update()
+		// MoTGraph.destroy()
+		// MoTGraph.render()
 		// netRepModGraph.id = 'netRepModGraph'
 	})
 })
