@@ -2944,7 +2944,7 @@
 			"Hari": "Ahad<br>18/08/2024<br>21:00 MYT",
 			"Acara": "[KHUSUS] Hari Konstitusi Republik Indonesia",
 			"NCS": "YD4DTA | YC8HBQ",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Isnin<br>19/08/2024<br>21:00 MYT",
