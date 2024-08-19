@@ -2950,7 +2950,7 @@
 			"Hari": "Isnin<br>19/08/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kemanusiaan Sedunia",
 			"NCS": "9M2SFL | 9W2AYP",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Selasa<br>20/08/2024<br>21:00 MYT",
