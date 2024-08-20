@@ -78,7 +78,7 @@ $(document).ready(function () {
 			{ searchable: false, targets: -1 },
 		],
 		deferRender: true,
-		displayStart: 480,
+		displayStart: 490,
 		ordering: false,
 		lengthChange: false,
 		pageLength: 10,
