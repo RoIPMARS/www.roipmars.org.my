@@ -2950,13 +2950,13 @@
 			"Hari": "Isnin<br>19/08/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kemanusiaan Sedunia",
 			"NCS": "9M2SFL | 9W2AYP",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1908242100'>30</button>"
 		},
 		{
 			"Hari": "Selasa<br>20/08/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Nyamuk Sedunia",
 			"NCS": "9W2AYP | 9M2SFL",
-			"Laporan": "&shy;"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2008242100'>31</button>"
 		},
 		{
 			"Hari": "Rabu<br>21/08/2024<br>21:00 MYT",
@@ -3171,7 +3171,7 @@
 		{
 			"Hari": "Selasa<br>08/10/2024<br>21:00 MYT",
 			"Acara": "[KHUSUS] Hari Tata Ruang Nasional",
-			"NCS": "&shy;",
+			"NCS": "YC4AUM",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3243,7 +3243,7 @@
 		{
 			"Hari": "Selasa<br>22/10/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Selasa",
-			"NCS": "&shy;",
+			"NCS": "YC4AUM",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3279,7 +3279,7 @@
 		{
 			"Hari": "Selasa<br>29/10/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Selasa",
-			"NCS": "&shy;",
+			"NCS": "YC4AUM",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3315,7 +3315,7 @@
 		{
 			"Hari": "Selasa<br>05/11/2024<br>21:00 MYT",
 			"Acara": "[KHUSUS] Hari Cinta Puspa dan Satwa Nasional",
-			"NCS": "&shy;",
+			"NCS": "YC4AUM",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3531,7 +3531,7 @@
 		{
 			"Hari": "Selasa<br>17/12/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Selasa",
-			"NCS": "&shy;",
+			"NCS": "YC4AUM",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3567,7 +3567,7 @@
 		{
 			"Hari": "Selasa<br>24/12/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Selasa",
-			"NCS": "&shy;",
+			"NCS": "YC4AUM",
 			"Laporan": "&shy;"
 		},
 		{
