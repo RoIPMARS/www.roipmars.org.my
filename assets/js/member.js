@@ -56,15 +56,20 @@ $(document).ready(function () {
 		let confirmtxt = `You are requesting Certificate for ${memID}. Are you sure?`
 		if (confirm(confirmtxt) == true) {
 			try {
-				// let getS3Cert = await fetch(`https://api.roipmars.org.my/hooktest/certgen?source=${location.pathname.replace('/', '')}&fileName=RoIPMARS_${memCall}`)
-				// console.log(getS3Cert)
-				// if (getS3Cert.status == 404) {
-				await genCert(memID, memCall, memName, memValidDate)
-				// } else {
-				// 	downloadFile(getS3Cert.blob(), `RoIPMARS_${memCall}.pdf`, 'application/pdf')
-				// }
+				var certGen = await fetch(`https://api.roipmars.org.my/webhook/certgen?call=${memCall}&id=${memID}&source=${location.pathname.replaceAll('/', '')}`)
+				if (certGen.status == 404) {
+					await genCert(memID, memCall, memName, memValidDate)
+				} else {
+					const data = await certGen.blob()
+					const url = window.URL.createObjectURL(data)
+					const link = document.createElement('a')
+					link.href = url
+					link.setAttribute('download', `${memValidDate}_${memID}_${memCall}.pdf`)
+					document.body.appendChild(link)
+					link.click()
+				}
 			} catch (error) {
-				await fetch('https://api.roipmars.org.my/hook/certerr', {
+				await fetch('https://api.roipmars.org.my/webhook/certerr', {
 					method: 'POST',
 					headers: { 'content-type': 'application/json' },
 					body: JSON.stringify({ call: memCall, id: memID, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.name + ': ' + error.message }),
@@ -179,7 +184,7 @@ $(document).ready(function () {
 			toastInfo.innerHTML = `<div class='toast-body'>Member-Certificate Ready!</div>`
 			msgInfo.show()
 			try {
-				let respCtc = await fetch(`https://api.roipmars.org.my/hook/callctc?callsign=${call}`, {
+				let respCtc = await fetch(`https://api.roipmars.org.my/webhook/callctc?callsign=${call}`, {
 					method: 'GET',
 					headers: { 'content-type': 'application/json' },
 				})
@@ -199,7 +204,7 @@ $(document).ready(function () {
 					toastSuccess.innerHTML = `<div class='toast-body'>Member-Certificate ${fileName} saved.\ncheck your 'downloads' folder.</div>`
 					msgSuccess.show()
 					if (location.hostname != 'localhost') {
-						await fetch('https://api.roipmars.org.my/hook/certgen', {
+						await fetch('https://api.roipmars.org.my/webhook/certgen', {
 							method: 'PUT',
 							headers: { 'content-type': 'application/json' },
 							body: JSON.stringify({
@@ -264,7 +269,7 @@ $(document).ready(function () {
 									toastSuccess.innerHTML = `<div class='toast-body'>Member-Certificate ${fileName} sent to ${MailCtc}.\ncheck eMail message from noreply@roipmars.org.my</div>`
 									msgSuccess.show()
 									if (location.hostname != 'localhost') {
-										await fetch('https://api.roipmars.org.my/hook/certgen', {
+										await fetch('https://api.roipmars.org.my/webhook/certgen', {
 											method: 'PUT',
 											headers: { 'content-type': 'application/json' },
 											body: JSON.stringify({
@@ -281,7 +286,7 @@ $(document).ready(function () {
 										})
 									}
 									if (callMail != MailCtc) {
-										await fetch('https://api.roipmars.org.my/hook/callctc', {
+										await fetch('https://api.roipmars.org.my/webhook/callctc', {
 											method: 'POST',
 											headers: { 'content-type': 'application/json' },
 											body: JSON.stringify({
@@ -344,7 +349,7 @@ $(document).ready(function () {
 						toastSuccess.innerHTML = `<div class='toast-body'>Member-Certificate ${fileName} sent to ${WaCtc}.\ncheck WhatsApp message from 601153440440.</div>`
 						msgSuccess.show()
 						if (location.hostname != 'localhost') {
-							await fetch('https://api.roipmars.org.my/hook/certgen', {
+							await fetch('https://api.roipmars.org.my/webhook/certgen', {
 								method: 'PUT',
 								headers: { 'content-type': 'application/json' },
 								body: JSON.stringify({
@@ -361,7 +366,7 @@ $(document).ready(function () {
 							})
 						}
 						if (callCtc != WaCtc) {
-							await fetch('https://api.roipmars.org.my/hook/callctc', {
+							await fetch('https://api.roipmars.org.my/webhook/callctc', {
 								method: 'POST',
 								headers: { 'content-type': 'application/json' },
 								body: JSON.stringify({
