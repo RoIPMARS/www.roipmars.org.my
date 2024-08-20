@@ -201,15 +201,15 @@
 								</div>
 								<div class='modal-body'>
 									<div class='row'>
+										<div class='toast-container position-fixed top-50 start-50 translate-middle p-3 z-3'>
+											<div id='prog-info' class='toast text-bg-info' role='status' aria-live='polite' aria-atomic='true'></div>
+											<div id='prog-success' class='toast text-bg-success' role='status' aria-live='polite' aria-atomic='true'></div>
+											<div id='prog-danger' class='toast text-bg-danger' role='alert' aria-live='assertive' aria-atomic='true'></div>
+										</div>
 										<div class='col-12 align-self-start text-center'>
-											<div class='toast-container position-fixed top-50 start-50 translate-middle p-3 z-3'>
-												<div id='prog-info' class='toast text-bg-info' role='status' aria-live='polite' aria-atomic='true'></div>
-												<div id='prog-success' class='toast text-bg-success' role='status' aria-live='polite' aria-atomic='true'></div>
-												<div id='prog-danger' class='toast text-bg-danger' role='alert' aria-live='assertive' aria-atomic='true'></div>
-											</div>
 											<table class='table table-sm table-striped table-bordered' id='netRepCall'></table>
 											<table class='table table-sm table-striped table-bordered' id='netRepMod'></table>
-											<!-- <canvas id='netRepModGraph' loading='lazy' alt='NetMoTGraph'></canvas> -->
+											<canvas id='netRepModGraph' loading='lazy' alt='NetMoTGraph'></canvas>
 											<hr>
 											<table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='netRep'>
 												<caption class='text-lowercase text-center text-wrap p-0'>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Penyertaan</caption>
@@ -428,52 +428,124 @@
 				<div class='col-lg-6'>
 					<h4 class='text-center'>HAM Net Khas Ambang Tahun Baru Cina 2023</h4>
 					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
-						<thead><th>No</th><th>Stesen</th></thead>
+						<thead>
+							<th>No</th>
+							<th>Stesen</th>
+						</thead>
 						<tbody>
-							<tr><td>1<sup>st</sup></td><td>9W2EVQ</td></tr>
-							<tr><td>2<sup>nd</sup></td><td>9M2RAN</td></tr>
-							<tr><td>3<sup>rd</sup></td><td>9W2JCP</td></tr>
-							<tr><td>4<sup>th</sup></td><td>9W2ESR</td></tr>
-							<tr><td>5<sup>th</sup></td><td>V85AFF</td></tr>
+							<tr>
+								<td>1<sup>st</sup></td>
+								<td>9W2EVQ</td>
+							</tr>
+							<tr>
+								<td>2<sup>nd</sup></td>
+								<td>9M2RAN</td>
+							</tr>
+							<tr>
+								<td>3<sup>rd</sup></td>
+								<td>9W2JCP</td>
+							</tr>
+							<tr>
+								<td>4<sup>th</sup></td>
+								<td>9W2ESR</td>
+							</tr>
+							<tr>
+								<td>5<sup>th</sup></td>
+								<td>V85AFF</td>
+							</tr>
 						</tbody>
 					</table>
 				</div>
 				<div class='col-lg-6'>
 					<h4 class='text-center'>CB Net Khas Sambutan Tahun Baru Cina 2023</h4>
 					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
-						<thead><th>No</th><th>Stesen</th></thead>
+						<thead>
+							<th>No</th>
+							<th>Stesen</th>
+						</thead>
 						<tbody>
-							<tr><td>1<sup>st</sup></td><td>91DATHP</td></tr>
-							<tr><td>2<sup>nd</sup></td><td>113MSSAM</td></tr>
-							<tr><td>3<sup>rd</sup></td><td>113DANDI</td></tr>
-							<tr><td>4<sup>th</sup></td><td>91DAGBW</td></tr>
-							<tr><td>5<sup>th</sup></td><td>91KMAGP</td></tr>
+							<tr>
+								<td>1<sup>st</sup></td>
+								<td>91DATHP</td>
+							</tr>
+							<tr>
+								<td>2<sup>nd</sup></td>
+								<td>113MSSAM</td>
+							</tr>
+							<tr>
+								<td>3<sup>rd</sup></td>
+								<td>113DANDI</td>
+							</tr>
+							<tr>
+								<td>4<sup>th</sup></td>
+								<td>91DAGBW</td>
+							</tr>
+							<tr>
+								<td>5<sup>th</sup></td>
+								<td>91KMAGP</td>
+							</tr>
 						</tbody>
 					</table>
 				</div>
 				<div class='col-lg-6'>
 					<h4 class='text-center'>HAM Net Khas Ambang Tahun Baru 2023</h4>
 					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
-						<thead><th>No</th><th>Stesen</th></thead>
+						<thead>
+							<th>No</th>
+							<th>Stesen</th>
+						</thead>
 						<tbody>
-							<tr><td>1<sup>st</sup></td><td>9W6AFF</td></tr>
-							<tr><td>2<sup>nd</sup></td><td>YD5NCU</td></tr>
-							<tr><td>3<sup>rd</sup></td><td>9W6MOZ</td></tr>
-							<tr><td>4<sup>th</sup></td><td>9W2YJT</td></tr>
-							<tr><td>5<sup>th</sup></td><td>YC3RDY</td></tr>
+							<tr>
+								<td>1<sup>st</sup></td>
+								<td>9W6AFF</td>
+							</tr>
+							<tr>
+								<td>2<sup>nd</sup></td>
+								<td>YD5NCU</td>
+							</tr>
+							<tr>
+								<td>3<sup>rd</sup></td>
+								<td>9W6MOZ</td>
+							</tr>
+							<tr>
+								<td>4<sup>th</sup></td>
+								<td>9W2YJT</td>
+							</tr>
+							<tr>
+								<td>5<sup>th</sup></td>
+								<td>YC3RDY</td>
+							</tr>
 						</tbody>
 					</table>
 				</div>
 				<div class='col-lg-6'>
 					<h4 class='text-center'>CB Net Khas Sambutan Tahun Baru 2023</h4>
 					<table class='table table-bordered table-sm table-responsive-sm text-center align-middle'>
-						<thead><th>No</th><th>Stesen</th></thead>
+						<thead>
+							<th>No</th>
+							<th>Stesen</th>
+						</thead>
 						<tbody>
-							<tr><td>1<sup>st</sup></td><td>113DAHRY</td></tr>
-							<tr><td>2<sup>nd</sup></td><td>113DAZIK</td></tr>
-							<tr><td>3<sup>rd</sup></td><td>225BSLIM</td></tr>
-							<tr><td>4<sup>th</sup></td><td>113DAISS</td></tr>
-							<tr><td>5<sup>th</sup></td><td>113MSUZL</td></tr>
+							<tr>
+								<td>1<sup>st</sup></td>
+								<td>113DAHRY</td>
+							</tr>
+							<tr>
+								<td>2<sup>nd</sup></td>
+								<td>113DAZIK</td>
+							</tr>
+							<tr>
+								<td>3<sup>rd</sup></td>
+								<td>225BSLIM</td>
+							</tr>
+							<tr>
+								<td>4<sup>th</sup></td>
+								<td>113DAISS</td>
+							</tr>
+							<tr>
+								<td>5<sup>th</sup></td>
+								<td>113MSUZL</td>
+							</tr>
 						</tbody>
 					</table>
 				</div>
