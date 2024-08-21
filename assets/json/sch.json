@@ -2944,7 +2944,7 @@
 			"Hari": "Ahad<br>18/08/2024<br>21:00 MYT",
 			"Acara": "[KHUSUS] Hari Konstitusi Republik Indonesia",
 			"NCS": "YD4DTA | YC8HBQ",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<i class='bi-person-slash text-danger fs-2'></i>"
 		},
 		{
 			"Hari": "Isnin<br>19/08/2024<br>21:00 MYT",
@@ -2961,8 +2961,8 @@
 		{
 			"Hari": "Rabu<br>21/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "9W6RHN | 9M2SFL",
-			"Laporan": "&shy;"
+			"NCS": "9M6RDY | 9M2SFL",
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Sabtu<br>24/08/2024<br>21:00 MYT",
@@ -2996,7 +2996,7 @@
 		},
 		{
 			"Hari": "Sabtu<br>31/08/2024<br>21:00 MYT",
-			"Acara": "[KHAS] Hari Kebangsaan",
+			"Acara": "[KHAS] Hari Kebangsaan \"Jiwa Merdeka\"",
 			"NCS": "9W2AYP | 9M6AUA",
 			"Laporan": "&shy;"
 		},
@@ -3074,7 +3074,7 @@
 		},
 		{
 			"Hari": "Isnin<br>16/09/2024<br>21:00 MYT",
-			"Acara": "[KHAS] Hari Malaysia & Hari Keputeraan Nabi Muhammad S.A.W.",
+			"Acara": "[KHAS] Hari Malaysia \"Jiwa Merdeka\" & Hari Keputeraan Nabi Muhammad S.A.W.",
 			"NCS": "V85AFF | 9M6RDY",
 			"Laporan": "&shy;"
 		},
