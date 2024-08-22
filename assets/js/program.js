@@ -607,9 +607,9 @@ $(document).ready(function () {
 			aspectRatio: 2,
 			borderWidth: 0,
 			plugins: {
-				subtitle: { text: lastMod('/assets/json/netrep.json') },
-				title: { text: 'Mode of Transmission' },
 				colors: { forceOverride: true },
+				title: { text: 'Mode of Transmission' },
+				subtitle: { text: lastMod('/assets/json/netrep.json') },
 			},
 			watermark: wmOptions,
 		},
@@ -1126,21 +1126,21 @@ $(document).ready(function () {
 							toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} saved.\ncheck your 'downloads' folder.</div>`
 							msgSuccess.show()
 							if (location.hostname != 'localhost') {
-							await fetch('https://api.roipmars.org.my/webhook/certgen', {
-								method: 'PUT',
-								headers: { 'content-type': 'application/json' },
-								body: JSON.stringify({
-									call: caller,
-									id: dtl.toISOString().split('T')[0],
-									source: location.pathname.replaceAll('/', ''),
-									method: 'downloads',
-									attachment: {
-										content: eCertURI.split(',')[1],
-										mime: eCertURI.split(';')[0].split(':')[1],
-										fileName: eCertURI.split(';')[1].split('=')[1],
-									},
-								}),
-							})
+								await fetch('https://api.roipmars.org.my/webhook/certgen', {
+									method: 'PUT',
+									headers: { 'content-type': 'application/json' },
+									body: JSON.stringify({
+										call: caller,
+										id: dtl.toISOString().split('T')[0],
+										source: location.pathname.replaceAll('/', ''),
+										method: 'downloads',
+										attachment: {
+											content: eCertURI.split(',')[1],
+											mime: eCertURI.split(';')[0].split(':')[1],
+											fileName: eCertURI.split(';')[1].split('=')[1],
+										},
+									}),
+								})
 							}
 							eCert.save(`${fileName}.pdf`)
 						} else {
