@@ -1,0 +1,32 @@
+.marquee {
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+
+.marquee-content {
+	flex: none;
+	justify-content: space-around;
+	display: flex;
+}
+
+.scroll {
+	animation: scroll 90s linear infinite;
+}
+
+.reverse {
+	animation-direction: reverse;
+}
+
+.marquee-image {
+	-webkit-transform: translateZ(0);
+}
+
+@keyframes scroll {
+	from {
+		transform: translateX(calc(10%));
+	}
+	to {
+		transform: translateX(calc(-100% + 3rem));
+	}
+}
