@@ -2986,7 +2986,7 @@
 			"Hari": "Selasa<br>27/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "YC4AUM | YD4DTA",
-			"Laporan": "&shy;"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2708242100'>30</button>"
 		},
 		{
 			"Hari": "Rabu<br>28/08/2024<br>21:00 MYT",
@@ -2996,7 +2996,7 @@
 		},
 		{
 			"Hari": "Sabtu<br>31/08/2024<br>21:00 MYT",
-			"Acara": "[KHAS] Hari Kebangsaan \"Jiwa Merdeka\"",
+			"Acara": "[KHAS] Hari Kebangsaan 'Jiwa Merdeka'",
 			"NCS": "9W2AYP | 9M6AUA",
 			"Laporan": "&shy;"
 		},
@@ -3074,7 +3074,7 @@
 		},
 		{
 			"Hari": "Isnin<br>16/09/2024<br>21:00 MYT",
-			"Acara": "[KHAS] Hari Malaysia \"Jiwa Merdeka\" & Hari Keputeraan Nabi Muhammad S.A.W.",
+			"Acara": "[KHAS] Hari Malaysia 'Jiwa Merdeka' & Hari Keputeraan Nabi Muhammad S.A.W.",
 			"NCS": "V85AFF | 9M6RDY",
 			"Laporan": "&shy;"
 		},
