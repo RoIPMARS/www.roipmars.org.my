@@ -898,7 +898,7 @@ $(document).ready(function () {
 				let confirmtxt = `You have selected eCert dated ${new Intl.DateTimeFormat('en-MY', { dateStyle: 'full' }).format(new Date(takwimdate.split('/')[2], takwimdate.split('/')[1] - 1, takwimdate.split('/')[0]))} for ${selected.call}. Are you sure?`
 				if (confirm(confirmtxt) == true) {
 					try {
-						var certGen = await fetch(`https://api.roipmars.org.my/webhook/certgen?call=${selected.call}&id=${takwimdate.split('/').reverse().join('-')}&source=${location.pathname.replaceAll('/', '')}`)
+						var certGen = await fetch(`${hookAPI.URL}/certgen?call=${selected.call}&id=${takwimdate.split('/').reverse().join('-')}&source=${location.pathname.replaceAll('/', '')}`)
 						if (certGen.status == 404) {
 							await generateCert(takwimdate, takwimact, takwimncs, selected.call, selected.mode, selected.utc)
 						} else {
@@ -911,7 +911,7 @@ $(document).ready(function () {
 							link.click()
 						}
 					} catch (error) {
-						await fetch('https://api.roipmars.org.my/webhook/certerr', {
+						await fetch(`${hookAPI.URL}/certerr`, {
 							method: 'POST',
 							headers: { 'content-type': 'application/json' },
 							body: JSON.stringify({ call: selected.call, id: takwimdate, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.name + ': ' + error.message }),
@@ -1011,7 +1011,7 @@ $(document).ready(function () {
 					toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> lookup caller detail...</div>`
 					msgInfo.show()
 					try {
-						let respCALL = await fetch(`https://api.roipmars.org.my/webhook/csnames?callsign=${caller}`)
+						let respCALL = await fetch(`${hookAPI.URL}/csnames?callsign=${caller}`)
 						if (respCALL) {
 							let NetCaller = await respCALL.json()
 							eCert.setFont('KodeMono-Bold').setFontSize(90).setTextColor('#5cce54').text(NetCaller.call, 148.5, 100, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 200, renderingMode: 'fillThenStroke' })
@@ -1026,7 +1026,7 @@ $(document).ready(function () {
 						msgInfo.show()
 						eCert.setFont('SairaExtraCondensed-Thin').setFontSize(25).setTextColor('black').text('NCS', 148.5, 155, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
 						try {
-							let respNCS = await fetch(`https://api.roipmars.org.my/webhook/csnames?callsign=${ncs}`)
+							let respNCS = await fetch(`${hookAPI.URL}/csnames?callsign=${ncs}`)
 							if (respNCS) {
 								let NetNCS = await respNCS.json()
 								eCert.setFont('KodeMono-Medium').setFontSize(30).setTextColor('black').text(NetNCS.call, 148.5, 163, { align: 'center', baseline: 'middle', lineHeightFactor: 1, maxWidth: 90, renderingMode: 'fillThenStroke' })
@@ -1106,7 +1106,7 @@ $(document).ready(function () {
 					toastInfo.innerHTML = `<div class='toast-body'>eCert Ready!</div>`
 					msgInfo.show()
 					try {
-						let respCtc = await fetch(`https://api.roipmars.org.my/webhook/callctc?callsign=${caller}`, {
+						let respCtc = await fetch(`${hookAPI.URL}/callctc?callsign=${caller}`, {
 							method: 'GET',
 							headers: { 'content-type': 'application/json' },
 						})
@@ -1125,23 +1125,21 @@ $(document).ready(function () {
 						if (MailCtc == null || MailCtc == '') {
 							toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} saved.\ncheck your 'downloads' folder.</div>`
 							msgSuccess.show()
-							if (location.hostname != 'localhost') {
-								await fetch('https://api.roipmars.org.my/webhook/certgen', {
-									method: 'PUT',
-									headers: { 'content-type': 'application/json' },
-									body: JSON.stringify({
-										call: caller,
-										id: dtl.toISOString().split('T')[0],
-										source: location.pathname.replaceAll('/', ''),
-										method: 'downloads',
-										attachment: {
-											content: eCertURI.split(',')[1],
-											mime: eCertURI.split(';')[0].split(':')[1],
-											fileName: eCertURI.split(';')[1].split('=')[1],
-										},
-									}),
-								})
-							}
+							await fetch(`${hookAPI.URL}/certgen`, {
+								method: 'PUT',
+								headers: { 'content-type': 'application/json' },
+								body: JSON.stringify({
+									call: caller,
+									id: dtl.toISOString().split('T')[0],
+									source: location.pathname.replaceAll('/', ''),
+									method: 'downloads',
+									attachment: {
+										content: eCertURI.split(',')[1],
+										mime: eCertURI.split(';')[0].split(':')[1],
+										fileName: eCertURI.split(';')[1].split('=')[1],
+									},
+								}),
+							})
 							eCert.save(`${fileName}.pdf`)
 						} else {
 							toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> checking eMail availability...</div>`
@@ -1190,25 +1188,23 @@ $(document).ready(function () {
 										if (data.messageId) {
 											toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} sent to ${MailCtc}.\ncheck eMail message from noreply@roipmars.org.my</div>`
 											msgSuccess.show()
-											if (location.hostname != 'localhost') {
-												await fetch('https://api.roipmars.org.my/webhook/certgen', {
-													method: 'PUT',
-													headers: { 'content-type': 'application/json' },
-													body: JSON.stringify({
-														call: caller,
-														id: dtl.toISOString().split('T')[0],
-														source: location.pathname.replaceAll('/', ''),
-														method: 'email',
-														attachment: {
-															content: eCertURI.split(',')[1],
-															mime: eCertURI.split(';')[0].split(':')[1],
-															fileName: eCertURI.split(';')[1].split('=')[1],
-														},
-													}),
-												})
-											}
+											await fetch(`${hookAPI.URL}/certgen`, {
+												method: 'PUT',
+												headers: { 'content-type': 'application/json' },
+												body: JSON.stringify({
+													call: caller,
+													id: dtl.toISOString().split('T')[0],
+													source: location.pathname.replaceAll('/', ''),
+													method: 'email',
+													attachment: {
+														content: eCertURI.split(',')[1],
+														mime: eCertURI.split(';')[0].split(':')[1],
+														fileName: eCertURI.split(';')[1].split('=')[1],
+													},
+												}),
+											})
 											if (callMail != MailCtc) {
-												await fetch('https://api.roipmars.org.my/webhook/callctc', {
+												await fetch(`${hookAPI.URL}/callctc`, {
 													method: 'POST',
 													headers: { 'content-type': 'application/json' },
 													body: JSON.stringify({
@@ -1274,25 +1270,23 @@ $(document).ready(function () {
 							if (res.ok) {
 								toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} sent to ${WaCtc}.\ncheck WhatsApp message from 601153440440.</div>`
 								msgSuccess.show()
-								if (location.hostname != 'localhost') {
-									await fetch('https://api.roipmars.org.my/webhook/certgen', {
-										method: 'PUT',
-										headers: { 'content-type': 'application/json' },
-										body: JSON.stringify({
-											call: caller,
-											id: dtl.toISOString().split('T')[0],
-											source: location.pathname.replaceAll('/', ''),
-											method: 'whatsapp',
-											attachment: {
-												content: eCertURI.split(',')[1],
-												mime: eCertURI.split(';')[0].split(':')[1],
-												fileName: eCertURI.split(';')[1].split('=')[1],
-											},
-										}),
-									})
-								}
+								await fetch(`${hookAPI.URL}/certgen`, {
+									method: 'PUT',
+									headers: { 'content-type': 'application/json' },
+									body: JSON.stringify({
+										call: caller,
+										id: dtl.toISOString().split('T')[0],
+										source: location.pathname.replaceAll('/', ''),
+										method: 'whatsapp',
+										attachment: {
+											content: eCertURI.split(',')[1],
+											mime: eCertURI.split(';')[0].split(':')[1],
+											fileName: eCertURI.split(';')[1].split('=')[1],
+										},
+									}),
+								})
 								if (callCtc != WaCtc) {
-									await fetch('https://api.roipmars.org.my/webhook/callctc', {
+									await fetch(`${hookAPI.URL}/callctc`, {
 										method: 'POST',
 										headers: { 'content-type': 'application/json' },
 										body: JSON.stringify({
