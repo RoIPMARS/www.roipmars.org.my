@@ -1175,9 +1175,7 @@ $(document).ready(function () {
 										to: [{ email: MailCtc, name: caller }],
 										replyTo: { name: 'Member RoIPMARS', email: 'member@roipmars.org.my' },
 										subject: `eCert_RoIPMARS-${caller}`,
-										htmlContent: `<html><body><p>Hi, thank you for using our services. Here is your requested certificate;</p><table><tr><td>CallSign</td><td>${caller}</td></tr><tr><td>Time</td><td>${dtl.toUTCString()}</td></tr></table><p>You have requested a certificate from our records via ${location} on ${new Date().toString()} using ${
-											navigator.userAgent.split('(')[1].split(' ')[0]
-										}.</p><p>Please keep it in a safe place.For any questions, please contact one of our administrators.<br><br>Sincerely,<br>Records Division, RoIPMARS</p></body></html>`,
+										htmlContent: `<html><body><p>Hi, thank you for using our services. Here is your requested certificate;</p><table><tr><td>CallSign</td><td>${caller}</td></tr><tr><td>Time</td><td>${dtl.toUTCString()}</td></tr></table><p>You have requested a certificate from our records via ${location} on ${new Date().toString()}.</p><p>Please keep it in a safe place.For any questions, please contact one of our administrators.<br><br>Sincerely,<br>Records Division, RoIPMARS</p></body></html>`,
 										textContent: `You have requested a certificate from our records`,
 										attachment: [{ content: eCertURI.split(',')[1], name: `${fileName}.pdf` }],
 										tags: ['eQSL'],
@@ -1257,11 +1255,10 @@ $(document).ready(function () {
 								isGroup: false,
 								filename: `eCert_${fileName}.pdf`,
 								base64: eCertURI,
-								caption: `Hai ${caller},\nTerima kasih telah menggunakan perkhidmatan kami. Inilah sijil yang anda minta;\n- CallSign: ${caller}\n- Masa: ${dtl.toUTCString()}\n\nAnda telah meminta sijil dari rekod kami melalui ${location} dari ${
-									navigator.userAgent.split('(')[1].split(' ')[0]
-								} pada ${new Intl.DateTimeFormat('ms-MY', { dateStyle: 'medium', timeStyle: 'long', hourCycle: 'h24' }).format(
-									new Date()
-								)}.\nSila simpan di tempat yang selamat.\nUntuk sebarang pertanyaan, sila hubungi salah seorang pentadbir kami.\n\nIkhlas,\nBahagian Rekod, RoIPMARS`,
+								caption: `Hai ${caller},\nTerima kasih telah menggunakan perkhidmatan kami. Inilah sijil yang anda minta;\n- CallSign: ${caller}\n- Masa: ${dtl.toUTCString()}\n\nAnda telah meminta sijil dari rekod kami melalui ${location} pada ${new Intl.DateTimeFormat(
+									'ms-MY',
+									{ dateStyle: 'medium', timeStyle: 'long', hourCycle: 'h24' }
+								).format(new Date())}.\nSila simpan di tempat yang selamat.\nUntuk sebarang pertanyaan, sila hubungi salah seorang pentadbir kami.\n\nIkhlas,\nBahagian Rekod, RoIPMARS`,
 							}),
 						}).then(async (res) => {
 							if (res.ok) {
