@@ -2974,7 +2974,7 @@
 			"Hari": "Ahad<br>25/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Hujung Minggu",
 			"NCS": "YD4DTA | YF5NZL",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<i class='bi-person-slash text-danger fs-2'></i>"
 		},
 		{
 			"Hari": "Isnin<br>26/08/2024<br>21:00 MYT",
@@ -2991,8 +2991,8 @@
 		{
 			"Hari": "Rabu<br>28/08/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "9M6RDY | V85AFF",
-			"Laporan": "&shy;"
+			"NCS": "9W6RHN | V85AFF",
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Sabtu<br>31/08/2024<br>21:00 MYT",
@@ -3375,13 +3375,13 @@
 		{
 			"Hari": "Isnin<br>18/11/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "9M2SFL",
+			"NCS": "9W2AYP | 9M2SFL",
 			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Selasa<br>19/11/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Lelaki Sedunia",
-			"NCS": "9W2AYP",
+			"NCS": "9M2SFL | 9W2AYP",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3393,13 +3393,13 @@
 		{
 			"Hari": "Khamis<br>21/11/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Televisyen Sedunia",
-			"NCS": "9W2ORL",
+			"NCS": "9W2ORL | V85AFF",
 			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Sabtu<br>23/11/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "V85AFF",
+			"NCS": "V85AFF | 9W2ORL",
 			"Laporan": "&shy;"
 		},
 		{
