@@ -1226,83 +1226,113 @@ $(document).ready(function () {
 							}
 						}
 					} else {
-						let isUserinCommunity = await fetch(`${waAPI.BaseURL}/group-members-ids/120363237967506395`, {
+						toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> checking WhatsApp number ${WaCtc}...</div>`
+						msgInfo.show()
+						let checkNumber = await fetch(`${waAPI.BaseURL}/check-number-status/${WaCtc}`, {
 							method: 'GET',
 							headers: {
 								'content-type': 'application/json',
 								authorization: waAPI.Token,
 							},
 						})
-							.then((res) => res.json())
-							.then((data) => {
-								for (let r = 0; r < data.response.length; r++) {
-									let communityUsers = data.response[r].user
-									if (communityUsers == `${WaCtc}`) {
-										return true
-									}
-								}
+							.then(async (res) => res.json())
+							.then(async (data) => {
+								return data.response[0].canReceiveMessage
 							})
-						toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> sending eCert via WhatsApp to ${WaCtc}...</div>`
-						msgInfo.show()
-						await fetch(`${waAPI.BaseURL}/send-file`, {
-							method: 'POST',
-							headers: {
-								'content-type': 'application/json',
-								authorization: waAPI.Token,
-							},
-							body: JSON.stringify({
-								phone: WaCtc,
-								isGroup: false,
-								filename: `eCert_${fileName}.pdf`,
-								base64: eCertURI,
-								caption: `Hai ${caller},\nTerima kasih telah menggunakan perkhidmatan kami. Inilah sijil yang anda minta;\n- CallSign: ${caller}\n- Masa: ${dtl.toUTCString()}\n\nAnda telah meminta sijil dari rekod kami melalui ${location} pada ${new Intl.DateTimeFormat(
-									'ms-MY',
-									{ dateStyle: 'medium', timeStyle: 'long', hourCycle: 'h24' }
-								).format(new Date())}.\nSila simpan di tempat yang selamat.\nUntuk sebarang pertanyaan, sila hubungi salah seorang pentadbir kami.\n\nIkhlas,\nBahagian Rekod, RoIPMARS`,
-							}),
-						}).then(async (res) => {
-							if (res.ok) {
-								toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} sent to ${WaCtc}.\ncheck WhatsApp message from 601153440440.</div>`
-								msgSuccess.show()
-								await fetch(`${hookAPI.URL}/certgen`, {
-									method: 'PUT',
-									headers: { 'content-type': 'application/json' },
-									body: JSON.stringify({
-										call: caller,
-										id: dtl.toISOString().split('T')[0],
-										source: location.pathname.replaceAll('/', ''),
-										method: 'whatsapp',
-										attachment: {
-											content: eCertURI.split(',')[1],
-											mime: eCertURI.split(';')[0].split(':')[1],
-											fileName: eCertURI.split(';')[1].split('=')[1],
-										},
-									}),
+						if (checkNumber == false) {
+							toastDanger.innerHTML = `<div class='toast-body'>invalid number ${WaCtc}. please retry with other valid WhatsApp number.</div>`
+							msgDanger.show()
+						} else {
+							let isUserinCommunity = await fetch(`${waAPI.BaseURL}/group-members-ids/120363237967506395`, {
+								method: 'GET',
+								headers: {
+									'content-type': 'application/json',
+									authorization: waAPI.Token,
+								},
+							})
+								.then((res) => res.json())
+								.then((data) => {
+									for (let r = 0; r < data.response.length; r++) {
+										let communityUsers = data.response[r].user
+										if (communityUsers == `${WaCtc}`) {
+											return true
+										}
+									}
 								})
-								if (callCtc != WaCtc) {
-									await fetch(`${hookAPI.URL}/callctc`, {
-										method: 'POST',
+							toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> sending eCert via WhatsApp to ${WaCtc}...</div>`
+							msgInfo.show()
+							await fetch(`${waAPI.BaseURL}/send-file`, {
+								method: 'POST',
+								headers: {
+									'content-type': 'application/json',
+									authorization: waAPI.Token,
+								},
+								body: JSON.stringify({
+									phone: WaCtc,
+									isGroup: false,
+									filename: `eCert_${fileName}.pdf`,
+									base64: eCertURI,
+									caption: `Hai ${caller},\nTerima kasih telah menggunakan perkhidmatan kami. Inilah sijil yang anda minta;\n- CallSign: ${caller}\n- Masa: ${dtl.toUTCString()}\n\nAnda telah meminta sijil dari rekod kami melalui ${location} pada ${new Intl.DateTimeFormat(
+										'ms-MY',
+										{ dateStyle: 'medium', timeStyle: 'long', hourCycle: 'h24' }
+									).format(new Date())}.\nSila simpan di tempat yang selamat.\nUntuk sebarang pertanyaan, sila hubungi salah seorang pentadbir kami.\n\nIkhlas,\nBahagian Rekod, RoIPMARS`,
+								}),
+							}).then(async (res) => {
+								if (res.ok) {
+									toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} sent to ${WaCtc}.\ncheck WhatsApp message from 601153440440.</div>`
+									msgSuccess.show()
+									await fetch(`${hookAPI.URL}/certgen`, {
+										method: 'PUT',
 										headers: { 'content-type': 'application/json' },
 										body: JSON.stringify({
-											callsign: caller,
-											contact: WaCtc,
-											email: callMail,
+											call: caller,
+											id: dtl.toISOString().split('T')[0],
+											source: location.pathname.replaceAll('/', ''),
+											method: 'whatsapp',
+											attachment: {
+												content: eCertURI.split(',')[1],
+												mime: eCertURI.split(';')[0].split(':')[1],
+												fileName: eCertURI.split(';')[1].split('=')[1],
+											},
 										}),
 									})
-								}
-								if (isUserinCommunity != true) {
-									let communityInviteLink = await fetch(`${waAPI.BaseURL}/group-invite-link/120363237967506395`, {
-										method: 'GET',
-										headers: {
-											'content-type': 'application/json',
-											authorization: waAPI.Token,
-										},
-									})
-										.then(async (res) => res.json())
-										.then(async (data) => {
-											return data.response
+									if (callCtc != WaCtc) {
+										await fetch(`${hookAPI.URL}/callctc`, {
+											method: 'POST',
+											headers: { 'content-type': 'application/json' },
+											body: JSON.stringify({
+												callsign: caller,
+												contact: WaCtc,
+												email: callMail,
+											}),
 										})
-									await fetch(`${waAPI.BaseURL}/send-message`, {
+									}
+									if (isUserinCommunity != true) {
+										let communityInviteLink = await fetch(`${waAPI.BaseURL}/group-invite-link/120363237967506395`, {
+											method: 'GET',
+											headers: {
+												'content-type': 'application/json',
+												authorization: waAPI.Token,
+											},
+										})
+											.then(async (res) => res.json())
+											.then(async (data) => {
+												return data.response
+											})
+										await fetch(`${waAPI.BaseURL}/send-message`, {
+											method: 'POST',
+											headers: {
+												'content-type': 'application/json',
+												authorization: waAPI.Token,
+											},
+											body: JSON.stringify({
+												phone: WaCtc,
+												isGroup: false,
+												message: `Hai ${caller},\n\nAnda dijemput menyertai Komuniti WhatsApp RoIPMARS melalui pautan ini: ${communityInviteLink}`,
+											}),
+										})
+									}
+									await fetch(`${waAPI.BaseURL}/archive-chat`, {
 										method: 'POST',
 										headers: {
 											'content-type': 'application/json',
@@ -1311,27 +1341,15 @@ $(document).ready(function () {
 										body: JSON.stringify({
 											phone: WaCtc,
 											isGroup: false,
-											message: `Hai ${caller},\n\nAnda dijemput menyertai Komuniti WhatsApp RoIPMARS melalui pautan ini: ${communityInviteLink}`,
+											value: true,
 										}),
 									})
+								} else {
+									toastDanger.innerHTML = `<div class='toast-body'>eCert send failed. retry again later.</div>`
+									msgDanger.show()
 								}
-								await fetch(`${waAPI.BaseURL}/archive-chat`, {
-									method: 'POST',
-									headers: {
-										'content-type': 'application/json',
-										authorization: waAPI.Token,
-									},
-									body: JSON.stringify({
-										phone: WaCtc,
-										isGroup: false,
-										value: true,
-									}),
-								})
-							} else {
-								toastDanger.innerHTML = `<div class='toast-body'>eCert send failed. retry again later.</div>`
-								msgDanger.show()
-							}
-						})
+							})
+						}
 					}
 				}
 			})
