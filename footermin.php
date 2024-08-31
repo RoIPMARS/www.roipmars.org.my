@@ -97,7 +97,11 @@
               $fileindir = filemtime($src_folder . '/' . $files[0]);
               function getVisitorIp() {
                 if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-                  $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR'] . ' dari ' . $_SERVER['HTTP_CF_IPCITY'] . ', ' . $_SERVER['HTTP_CF_REGION'] . ', ' . $_SERVER['HTTP_CF_IPCOUNTRY'];
+                  if (!isset($_SERVER['HTTP_CF_IPCITY']) || ($_SERVER['HTTP_CF_IPCITY'] == $_SERVER['HTTP_CF_REGION'])) {
+                    $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR'] . ' dari ' . $_SERVER['HTTP_CF_REGION'] . ', ' . $_SERVER['HTTP_CF_IPCOUNTRY'];
+                  } else {
+                    $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR'] . ' dari ' . $_SERVER['HTTP_CF_IPCITY'] . ', ' . $_SERVER['HTTP_CF_REGION'] . ', ' . $_SERVER['HTTP_CF_IPCOUNTRY'];
+                  }
                 } else {
                   $getIP = json_decode(file_get_contents('http://v4v6.ipv6-test.com/api/myip.php?json'));
                   $ipAdress = $getIP->address . ' [' . str_replace('ip', 'IP', $getIP->proto) . ']';
