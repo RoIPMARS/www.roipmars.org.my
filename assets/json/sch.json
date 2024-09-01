@@ -2998,13 +2998,13 @@
 			"Hari": "Sabtu<br>31/08/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kebangsaan 'Jiwa Merdeka'",
 			"NCS": "9W2AYP | V85AFF",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='3108242100'>55</button>"
 		},
 		{
 			"Hari": "Ahad<br>01/09/2024<br>21:00 MYT",
 			"Acara": "[KHUSUS] Hari Polisi Wanita (POLWAN)",
-			"NCS": "YD4DTA | YC8HBQ",
-			"Laporan": "&shy;"
+			"NCS": "YC8HBQ | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0109242100'>32</button>"
 		},
 		{
 			"Hari": "Isnin<br>02/09/2024<br>21:00 MYT",
