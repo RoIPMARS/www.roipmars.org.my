@@ -310,7 +310,7 @@ $(document).ready(function () {
 				})
 					.then(async (res) => res.json())
 					.then(async (data) => {
-						return data.response[0].canReceiveMessage
+						return data.response.canReceiveMessage
 					})
 				if (checkNumber == false) {
 					toastDanger.innerHTML = `<div class='toast-body'>invalid number ${WaCtc}. please retry with other valid WhatsApp number.</div>`
