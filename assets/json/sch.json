@@ -3010,13 +3010,13 @@
 			"Hari": "Isnin<br>02/09/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
 			"NCS": "V85AFF | 9M2SFL",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0209242100'>22</button>"
 		},
 		{
 			"Hari": "Selasa<br>03/09/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "YC4AUM | YF5NZL",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-person-slash text-danger fs-2'></i>"
 		},
 		{
 			"Hari": "Rabu<br>04/09/2024<br>21:00 MYT",
@@ -3075,7 +3075,7 @@
 		{
 			"Hari": "Isnin<br>16/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Malaysia 'Jiwa Merdeka' & Hari Keputeraan Nabi Muhammad S.A.W.",
-			"NCS": "V85AFF | 9M6RDY",
+			"NCS": "9W2AYP | 9M6RDY",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3123,13 +3123,13 @@
 		{
 			"Hari": "Sabtu<br>28/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Maritim Sedunia",
-			"NCS": "V85AFF | 9W2AYP",
+			"NCS": "9W2ORL | 9W2AYP",
 			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Ahad<br>29/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Jantung Sedunia",
-			"NCS": "9M2SFL | V85AFF",
+			"NCS": "9W2NDI | V85AFF",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3141,7 +3141,7 @@
 		{
 			"Hari": "Selasa<br>01/10/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Warga Emas Antarabangsa",
-			"NCS": "9W2ORL | 9M6AUA",
+			"NCS": "9M2SFL | 9M6AUA",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3153,7 +3153,7 @@
 		{
 			"Hari": "Sabtu<br>05/10/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "V85AFF | 9M6JAY",
+			"NCS": "9W2ORL | 9M6JAY",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3195,7 +3195,7 @@
 		{
 			"Hari": "Ahad<br>13/10/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Pengurangan Bencana Alam Antarabangsa",
-			"NCS": "V85AFF | 9W2AYP",
+			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3219,13 +3219,13 @@
 		{
 			"Hari": "Khamis<br>17/10/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Pembasmian Kemiskinan Antarabangsa",
-			"NCS": "9W2ORL | V85PZ",
+			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Sabtu<br>19/10/2024<br>21:00 MYT",
 			"Acara": "[KHAS] JOTA-JOTI 2024",
-			"NCS": "V85AFF | 9M6AUA",
+			"NCS": "9W2ORL | 9M6AUA",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3273,7 +3273,7 @@
 		{
 			"Hari": "Isnin<br>28/10/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "9W2ORL | 9W6RHN",
+			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3291,7 +3291,7 @@
 		{
 			"Hari": "Khamis<br>31/10/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Bandar Raya Sedunia",
-			"NCS": "V85AFF | 9M2SFL",
+			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3339,7 +3339,7 @@
 		{
 			"Hari": "Isnin<br>11/11/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Veteran",
-			"NCS": "V85AFF | V85PZ",
+			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3369,7 +3369,7 @@
 		{
 			"Hari": "Ahad<br>17/11/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kelahiran Pra-Matang Sedunia",
-			"NCS": "V85AFF | 9W6RHN",
+			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3393,13 +3393,13 @@
 		{
 			"Hari": "Khamis<br>21/11/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Televisyen Sedunia",
-			"NCS": "9W2ORL | V85AFF",
+			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Sabtu<br>23/11/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "V85AFF | 9W2ORL",
+			"NCS": "9W2ORL | 9W6RHN",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3435,13 +3435,13 @@
 		{
 			"Hari": "Jumaat<br>29/11/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Solidariti Antarabangsa Bersama Rakyat Palestin",
-			"NCS": "9W2ORL | 9M6JAY",
+			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Sabtu<br>30/11/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kesedaraan Mencederakan Diri",
-			"NCS": "V85AFF | 9M6RDY",
+			"NCS": "9W2ORL | 9M6RDY",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3459,7 +3459,7 @@
 		{
 			"Hari": "Selasa<br>03/12/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Batik Malaysia",
-			"NCS": "9W2ORL | 9W2AYP",
+			"NCS": "V85AFF | 9W2AYP",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3495,7 +3495,7 @@
 		{
 			"Hari": "Selasa<br>10/12/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Hak Asasi Manusia",
-			"NCS": "9W2ORL | 9M6AUA",
+			"NCS": "V85AFF | 9M6AUA",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3513,7 +3513,7 @@
 		{
 			"Hari": "Sabtu<br>14/12/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Monyet Sedunia",
-			"NCS": "V85AFF | 9M6JAY",
+			"NCS": "9W2ORL | 9M6JAY",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3554,14 +3554,14 @@
 		},
 		{
 			"Hari": "Ahad<br>22/12/2024<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Ibu",
+			"Acara": "[KHUSUS] Hari Ibu Nasional",
 			"NCS": "YD4DTA | YF5NZL",
 			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Isnin<br>23/12/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "9W2ORL | 9M2SFL",
+			"NCS": "V85AFF | 9M2SFL",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3579,7 +3579,7 @@
 		{
 			"Hari": "Sabtu<br>28/12/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "V85AFF | 9W2AYP",
+			"NCS": "9W2ORL | 9W2AYP",
 			"Laporan": "&shy;"
 		},
 		{
