@@ -3046,7 +3046,7 @@
 			"Hari": "Isnin<br>09/09/2024<br>21:00 MYT",
 			"Acara": "[KHUSUS] Hari Sukan Nasional",
 			"NCS": "YC8HBQ | YD4DTA",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Selasa<br>10/09/2024<br>21:00 MYT",
