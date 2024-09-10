@@ -766,14 +766,23 @@ $(document).ready(function () {
 					})
 					callerClass.push(callC)
 					const callData = [
-						{ caller: 'Domestik', callcount: callerClass[0].Domestik },
-						{ caller: 'Antarabangsa', callcount: callerClass[0].Antarabangsa },
+						{
+							caller: 'Domestik',
+							callcount: callerClass[0].Domestik,
+							callcountper: new Intl.NumberFormat('ms-MY', { style: 'percent' }).format(callerClass[0].Domestik / netRepCallData.length),
+						},
+						{
+							caller: 'Antarabangsa',
+							callcount: callerClass[0].Antarabangsa,
+							callcountper: new Intl.NumberFormat('ms-MY', { style: 'percent' }).format(callerClass[0].Antarabangsa / netRepCallData.length),
+						},
 					]
 					$(`#${callReportID}`).DataTable({
 						data: callData,
 						columns: [
 							{ title: 'Pemanggil', data: 'caller' },
 							{ title: 'Jumlah', data: 'callcount' },
+							{ title: '%', data: 'callcountper' },
 						],
 						columnDefs: [
 							{ className: 'text-center align-middle', targets: '_all' },
@@ -851,7 +860,12 @@ $(document).ready(function () {
 								var mode = 'unknown'
 								var motC = 0
 						}
-						modData.push({ mot: netRepModUnqData[d], method: mode, count: motC })
+						modData.push({
+							mot: netRepModUnqData[d],
+							method: mode,
+							count: motC,
+							countper: new Intl.NumberFormat('ms-MY', { style: 'percent' }).format(motC / netRepModData.length),
+						})
 					}
 					$(`#${modReportID}`).DataTable({
 						data: modData,
@@ -859,6 +873,7 @@ $(document).ready(function () {
 							{ title: 'MoT', data: 'mot' },
 							{ title: 'Kaedah', data: 'method' },
 							{ title: 'Jumlah', data: 'count' },
+							{ title: '%', data: 'countper' },
 						],
 						columnDefs: [
 							{ className: 'text-center align-middle', targets: '_all' },
