@@ -29,7 +29,7 @@
 						<tbody>
 							<tr class='table-primary'>
 								<td>Isnin</td>
-								<td>1300z &vert; 2100my</td>
+								<td>1300z &vert; 2100myt</td>
 								<td>RoIPMARS Net Awal Minggu</td>
 							</tr>
 							<tr class='table-danger'>
@@ -39,7 +39,7 @@
 							</tr>
 							<tr class='table-success'>
 								<td>Wednesday</td>
-								<td>1300z &vert; 2100my</td>
+								<td>1300z &vert; 2100myt</td>
 								<td>RoIPMARS Learning English Net</td>
 							</tr>
 							<tr class='opacity-25'>
@@ -54,7 +54,7 @@
 							</tr>
 							<tr class='table-primary'>
 								<td>Sabtu</td>
-								<td>1300z &vert; 2100my</td>
+								<td>1300z &vert; 2100myt</td>
 								<td>RoIPMARS Net Malam Minggu</td>
 							</tr>
 							<tr class='table-danger'>
@@ -80,64 +80,64 @@
 				</div>
 				<div class='col-12 my-3 text-center'>
 					<h4>Barisan Petugas Bahagian Siaraya &amp; Aktiviti</h4>
-					<div class='marquee rounded-circle clearfix w-50 mx-auto'>
+					<div class='marquee rounded-pill clearfix w-75 mx-auto'>
 						<div class='marquee-content scroll gap-5'>
-								<div class='position-relative mx-5 px-5'>
-									<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' alt='9W2AYP'>
-									<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9W2AYP<br><span class='fw-bold'>SABRI</span></p>
-								</div>
-								<div class='position-relative mx-5 px-5'>
-									<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/032.png' alt='V85AFF'>
-									<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>V85AFF<br><span class='fw-bold'>MAHATHIR</span></p>
-								</div>
-								<div class='position-relative mx-5 px-5'>
-									<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m2sfl.png' alt='9M2SFL'>
-									<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9M2SFL<br><span class='fw-bold'>SAIFUL</span></p>
-								</div>
-								<div class='position-relative mx-5 px-5'>
-									<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m6jay.png' alt='9M6JAY'>
-									<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9M6JAY<br><span class='fw-bold'>JOHN JR.</span></p>
-								</div>
-								<div class='position-relative mx-5 px-5'>
-									<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6rhn.png' alt='9W6RHN'>
-									<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9W6RHN<br><span class='fw-bold'>ROSLAN</span></p>
-								</div>
-								<!-- <div class='position-relative mx-5 px-5'>
-									<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/010.png' alt='9M6AUA'>
-									<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9M6AUA<br><span class='fw-bold'>JEOFREY</span></p>
-								</div> -->
-								<div class='position-relative mx-5 px-5'>
-									<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/017.png' alt='9M6RDY'>
-									<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9M6RDY<br><span class='fw-bold'>RUDY</span></p>
-								</div>
-								<!-- <div class='position-relative mx-5 px-5'>
+							<div class='position-relative mx-5 px-5'>
+								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' alt='9W2AYP'>
+								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9W2AYP<br><span class='fw-bold'>SABRI</span><br><span class='fw-light'>Ketua Wilayah Malaysia</span></p>
+							</div>
+							<div class='position-relative mx-5 px-5'>
+								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m2sfl.png' alt='9M2SFL'>
+								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9M2SFL<br><span class='fw-bold'>SAIFUL</span></p>
+							</div>
+							<div class='position-relative mx-5 px-5'>
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2orl.png' alt='9W2ORL'>
 								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9W2ORL<br><span class='fw-bold'>RAHIM</span></p>
-							</div> -->
-								<!-- <div class='position-relative mx-5 px-5'>
+							</div>
+							<div class='position-relative mx-5 px-5'>
+								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m6jay.png' alt='9M6JAY'>
+								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9M6JAY<br><span class='fw-bold'>JOHN JR.</span></p>
+							</div>
+							<div class='position-relative mx-5 px-5'>
+								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/010.png' alt='9M6AUA'>
+								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9M6AUA<br><span class='fw-bold'>JEOFREY</span></p>
+							</div>
+							<div class='position-relative mx-5 px-5'>
+								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/017.png' alt='9M6RDY'>
+								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9M6RDY<br><span class='fw-bold'>RUDY</span></p>
+							</div>
+							<div class='position-relative mx-5 px-5'>
+								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6rhn.png' alt='9W6RHN'>
+								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9W6RHN<br><span class='fw-bold'>ROSLAN</span></p>
+							</div>
+							<div class='position-relative mx-5 px-5'>
+								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/032.png' alt='V85AFF'>
+								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>V85AFF<br><span class='fw-bold'>MAHATHIR</span><br><span class='fw-light'>Ketua Wilayah Brunei</span></p>
+							</div>
+							<div class='position-relative mx-5 px-5'>
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/037.png' alt='V85PZ'>
 								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>V85PZ<br><span class='fw-bold'>PENGIRAN AZIZ</span></p>
-							</div> -->
-								<div class='position-relative mx-5 px-5'>
-									<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yc4aum.png' alt='YC4AUM'>
-									<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>YC4AUM<br><span class='fw-bold'>INDRA</span></p>
-								</div>
-								<div class='position-relative mx-5 px-5'>
-									<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yc8hbq.png' alt='YC8HBQ'>
-									<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>YC8HBQ<br><span class='fw-bold'>ABDULLAH</span></p>
-								</div>
-								<div class='position-relative mx-5 px-5'>
-									<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yd4dta.png' alt='YD4DTA'>
-									<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>YD4DTA<br><span class='fw-bold'>DITA</span></p>
-								</div>
-								<!-- <div class='position-relative mx-5 px-5'>
+							</div>
+							<div class='position-relative mx-5 px-5'>
+								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yd4dta.png' alt='YD4DTA'>
+								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>YD4DTA<br><span class='fw-bold'>DITA</span><br><span class='fw-light'>Ketua Wilayah Indonesia</span></p>
+							</div>
+							<div class='position-relative mx-5 px-5'>
+								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yc4aum.png' alt='YC4AUM'>
+								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>YC4AUM<br><span class='fw-bold'>INDRA</span></p>
+							</div>
+							<div class='position-relative mx-5 px-5'>
+								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yc8hbq.png' alt='YC8HBQ'>
+								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>YC8HBQ<br><span class='fw-bold'>ABDULLAH</span></p>
+							</div>
+							<div class='position-relative mx-5 px-5'>
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yf5nzl.png' alt='YF5NZL'>
 								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>YF5NZL<br><span class='fw-bold'>NUZUL</span></p>
 							</div>
 							<div class='position-relative mx-5 px-5'>
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yf5wco.png' alt='YF5WCO'>
 								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>YF5WCO<br><span class='fw-bold'>ISMAIL</span></p>
-							</div> -->
+							</div>
 						</div>
 					</div>
 				</div>
