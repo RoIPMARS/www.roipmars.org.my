@@ -597,6 +597,24 @@ $(document).ready(function () {
 	const netReport = document.getElementById('netRep')
 	const netRepCall = document.getElementById('netRepCall')
 	const netRepMod = document.getElementById('netRepMod')
+	const netRepCallGraph = document.getElementById('netRepCallGraph')
+	const CallGraph = new Chart(netRepCallGraph, {
+		data: {
+			datasets: [{ data: [] }],
+			labels: [],
+		},
+		options: {
+			aspectRatio: 2,
+			borderWidth: 0,
+			plugins: {
+				colors: { forceOverride: true },
+				title: { text: 'Wilayah Pemanggil' },
+				subtitle: { text: lastMod('/assets/json/netrep.json') },
+			},
+			watermark: wmOptions,
+		},
+		type: 'pie',
+	})
 	const netRepModGraph = document.getElementById('netRepModGraph')
 	const MoTGraph = new Chart(netRepModGraph, {
 		data: {
@@ -608,7 +626,7 @@ $(document).ready(function () {
 			borderWidth: 0,
 			plugins: {
 				colors: { forceOverride: true },
-				title: { text: 'Mode of Transmission' },
+				title: { text: 'Kaedah Transmisi' },
 				subtitle: { text: lastMod('/assets/json/netrep.json') },
 			},
 			watermark: wmOptions,
@@ -747,40 +765,44 @@ $(document).ready(function () {
 					const callReportID = `net-${source}-call`
 					netRepCall.id = callReportID
 					const netRepCallData = new DataTable(`#${reportID}`).column(0).data()
-					const callerClass = []
+					const callData = []
 					const callerClassData = []
 					const callC = {}
 					for (let c = 0; c < netRepCallData.length; ++c) {
 						switch (netRepCallData[c]) {
-							case netRepCallData[c].match(/^9M|9W/)?.input:
-								var callClass = 'Domestik'
+							case netRepCallData[c].match(/^9M|9W|113|58/)?.input:
+								var callRegion = 'Malaysia'
+								break
+							case netRepCallData[c].match(/^JZ|PK|PL|PM|PN|PO|YB|YC|YD|YE|YF|YG|YH|7A|7B|7C|7D|7E|7F|7G|7H|7I|8A|8B|8C|8D|8E|8F|8G|8H|8I|91/)?.input:
+								var callRegion = 'Indonesia'
+								break
+							case netRepCallData[c].match(/^V8|225/)?.input:
+								var callRegion = 'Brunei'
+								break
+							case netRepCallData[c].match(/^DU|DV|DW|DX|DY|DZ|4D|4E|4F|4G|4H|4I|79/)?.input:
+								var callRegion = 'Philippines'
 								break
 							default:
-								var callClass = 'Antarabangsa'
+								var callRegion = 'Lain-Lain'
 								break
 						}
-						callerClassData.push(callClass)
+						callerClassData.push(callRegion)
 					}
 					callerClassData.forEach((y) => {
 						callC[y] = (callC[y] || 0) + 1
 					})
-					callerClass.push(callC)
-					const callData = [
-						{
-							caller: 'Domestik',
-							callcount: callerClass[0].Domestik,
-							callcountper: new Intl.NumberFormat('ms-MY', { style: 'percent' }).format(callerClass[0].Domestik / netRepCallData.length),
-						},
-						{
-							caller: 'Antarabangsa',
-							callcount: callerClass[0].Antarabangsa,
-							callcountper: new Intl.NumberFormat('ms-MY', { style: 'percent' }).format(callerClass[0].Antarabangsa / netRepCallData.length),
-						},
-					]
+					for (let [regions, counts] of Object.entries(callC)) {
+						callData.push({
+							region: regions,
+							callcount: counts,
+							callcountper: new Intl.NumberFormat('ms-MY', { style: 'percent' }).format(counts / netRepCallData.length),
+						})
+					}
+					console.log(callData)
 					$(`#${callReportID}`).DataTable({
 						data: callData,
 						columns: [
-							{ title: 'Pemanggil', data: 'caller' },
+							{ title: 'Wilayah', data: 'region' },
 							{ title: 'Jumlah', data: 'callcount' },
 							{ title: '%', data: 'callcountper' },
 						],
@@ -799,6 +821,11 @@ $(document).ready(function () {
 						responsive: true,
 						searching: false,
 					})
+					netRepCallGraph.id = `net-${source}-callgraph`
+					CallGraph.data.datasets[0].data = callData.map((c) => c.callcount)
+					CallGraph.data.labels = callData.map((c) => c.region)
+					CallGraph.update()
+					CallGraph.render()
 
 					const modReportID = `net-${source}-mod`
 					netRepMod.id = modReportID
@@ -813,46 +840,57 @@ $(document).ready(function () {
 					for (let d = 0; d < netRepModUnqData.length; ++d) {
 						switch (netRepModUnqData[d]) {
 							case 'DC':
+								var code = 'DC'
 								var mode = 'Discord'
 								var motC = modCount.DC
 								break
 							case 'EL':
+								var code = 'EL'
 								var mode = 'EchoLink'
 								var motC = modCount.EL
 								break
 							case 'FRN':
+								var code = 'FRN'
 								var mode = 'Free Radio Network'
 								var motC = modCount.FRN
 								break
 							case 'MBL':
+								var code = 'MBL'
 								var mode = 'Mumble'
 								var motC = modCount.MBL
 								break
 							case 'PNT':
+								var code = 'PNT'
 								var mode = 'Peanut'
 								var motC = modCount.PNT
 								break
 							case 'RF':
+								var code = 'RF'
 								var mode = 'Radio Frequency'
 								var motC = modCount.RF
 								break
 							case 'TG':
+								var code = 'TG'
 								var mode = 'Telegram'
 								var motC = modCount.TG
 								break
 							case 'TS':
+								var code = 'TS'
 								var mode = 'TeamSpeak'
 								var motC = modCount.TS
 								break
 							case 'TT':
+								var code = 'TT'
 								var mode = 'Team Talk'
 								var motC = modCount.TT
 								break
 							case 'WA':
+								var code = 'WA'
 								var mode = 'WhatsApp'
 								var motC = modCount.WA
 								break
 							case 'ZL':
+								var code = 'ZL'
 								var mode = 'Zello'
 								var motC = modCount.ZL
 								break
@@ -861,7 +899,7 @@ $(document).ready(function () {
 								var motC = 0
 						}
 						modData.push({
-							mot: netRepModUnqData[d],
+							mot: code,
 							method: mode,
 							count: motC,
 							countper: new Intl.NumberFormat('ms-MY', { style: 'percent' }).format(motC / netRepModData.length),
@@ -1374,6 +1412,7 @@ $(document).ready(function () {
 		netReport.id = 'netRep'
 		netRepCall.id = 'netRepCall'
 		netRepMod.id = 'netRepMod'
+		netRepCallGraph.id = 'netRepCallGraph'
 		netRepModGraph.id = 'netRepModGraph'
 	})
 })
