@@ -19,7 +19,7 @@ $(document).ready(function () {
 		processing: true,
 		ordering: false,
 		pagingType: 'full_numbers',
-		pageLength: 25,
+		pageLength: 50,
 		searchDelay: 350,
 		responsive: true,
 		order: [
