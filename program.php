@@ -190,25 +190,25 @@
 										<div id='prog-success' class='toast text-bg-success' role='status' aria-live='polite' aria-atomic='true'></div>
 										<div id='prog-danger' class='toast text-bg-danger' role='alert' aria-live='assertive' aria-atomic='true'></div>
 									</div>
-									<div class='row text-center'>
-										<div class='col-6'>
+									<div class='row text-center d-flex align-items-center justify-content-center'>
+										<div class='col-lg-5'>
 											<table class='table table-sm table-striped table-bordered' id='netRepCall'></table>
 										</div>
-										<div class='col-6'>
-											<table class='table table-sm table-striped table-bordered' id='netRepMod'></table>
-										</div>
-										<div class='col-6'>
+										<div class='col-lg-7 pb-lg-3 h-100'>
 											<canvas id='netRepCallGraph' loading='lazy' alt='NetCallGraph'></canvas>
 										</div>
-										<div class='col-6'>
+										<div class='col-lg-5'>
+											<table class='table table-sm table-striped table-bordered' id='netRepMod'></table>
+										</div>
+										<div class='col-lg-7 pt-lg-3 h-100'>
 											<canvas id='netRepModGraph' loading='lazy' alt='NetMoTGraph'></canvas>
 										</div>
-										<hr class='my-3'>
-										<div class='row text-center'>
-											<table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='netRep'>
-												<caption class='text-lowercase text-center text-wrap p-0'>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Penyertaan</caption>
-											</table>
-										</div>
+									</div>
+									<hr class='my-3'>
+									<div class='row text-center'>
+										<table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='netRep'>
+											<caption class='text-lowercase text-center text-wrap p-0'>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Penyertaan</caption>
+										</table>
 									</div>
 								</div>
 							</div>
