@@ -89,9 +89,6 @@ $(document).ready(function () {
 				toastDanger.innerHTML = `<div class='toast-body'>generator script error.<br>${error.name}: ${error.message}<br>reported to developer</div>`
 				msgDanger.show()
 				console.log(error)
-				// setTimeout(function () {
-				// 	location.reload()
-				// }, 10000)
 			}
 		}
 		async function genCert(id, call, name, regDate) {

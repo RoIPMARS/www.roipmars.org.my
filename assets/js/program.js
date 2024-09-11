@@ -934,9 +934,6 @@ $(document).ready(function () {
 						toastDanger.innerHTML = `<div class='toast-body'>generator script error.<br>${error.name}: ${error.message}<br>reported to developer</div>`
 						msgDanger.show()
 						console.log(error)
-						// setTimeout(function () {
-						// 	location.reload()
-						// }, 10000)
 					}
 				}
 				async function generateCert(date, activity, ncs, caller, modes, utctime) {
@@ -1377,11 +1374,6 @@ $(document).ready(function () {
 		netReport.id = 'netRep'
 		netRepCall.id = 'netRepCall'
 		netRepMod.id = 'netRepMod'
-		// MoTGraph.data.datasets[0].data = 0
-		// MoTGraph.data.labels = ''
-		// MoTGraph.update()
-		// MoTGraph.destroy()
-		// MoTGraph.render()
 		netRepModGraph.id = 'netRepModGraph'
 	})
 })
