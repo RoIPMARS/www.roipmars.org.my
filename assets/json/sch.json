@@ -3021,8 +3021,8 @@
 		{
 			"Hari": "Rabu<br>04/09/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "9M6JAY | 9M6AUA",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9M6JAY | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0409242100'>13</button>"
 		},
 		{
 			"Hari": "Khamis<br>05/09/2024<br>21:00 MYT",
@@ -3057,8 +3057,8 @@
 		{
 			"Hari": "Rabu<br>11/09/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "9M6AUA | 9M6JAY",
-			"Laporan": "&shy;"
+			"NCS": "9M6JAY | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1109242100'>17</button>"
 		},
 		{
 			"Hari": "Sabtu<br>14/09/2024<br>21:00 MYT",
