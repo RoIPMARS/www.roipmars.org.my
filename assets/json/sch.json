@@ -3028,7 +3028,7 @@
 			"Hari": "Khamis<br>05/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kerja Amal Antarabangsa",
 			"NCS": "9M2SFL | 9W2AYP",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0509242100'>25</button>"
 		},
 		{
 			"Hari": "Sabtu<br>07/09/2024<br>21:00 MYT",
@@ -3195,7 +3195,7 @@
 		{
 			"Hari": "Ahad<br>13/10/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Pengurangan Bencana Alam Antarabangsa",
-			"NCS": "&shy;",
+			"NCS": "9M6JAY | 9W2AYP",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3219,7 +3219,7 @@
 		{
 			"Hari": "Khamis<br>17/10/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Pembasmian Kemiskinan Antarabangsa",
-			"NCS": "&shy;",
+			"NCS": "9M6RDY | V85PZ",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3291,7 +3291,7 @@
 		{
 			"Hari": "Khamis<br>31/10/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Bandar Raya Sedunia",
-			"NCS": "&shy;",
+			"NCS": "9W6RHN | 9M2SFL",
 			"Laporan": "&shy;"
 		},
 		{
