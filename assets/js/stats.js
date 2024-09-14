@@ -11,7 +11,7 @@ const byCSLocaleWeek = document.getElementById('byCSLocaleWeek')
 const byCSLocaleDays = document.getElementById('byCSLocaleDays')
 const byCountry = document.getElementById('byCountry')
 
-Chart.register(ChartDeferred, ChartjsPluginStacked100.default)
+Chart.register(ChartDeferred)
 Chart.defaults.backgroundColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg')
 Chart.defaults.borderColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-border-color')
 Chart.defaults.color = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-color')
@@ -28,14 +28,15 @@ Chart.defaults.plugins.datalabels = {
 	offset: 0,
 	padding: 0,
 	textAlign: 'center',
-	// formatter: function (value, context) {
-	// 	let total = 0
-	// 	for (let i = 0; i < context.dataIndex.length; i++) {
-	// 		let values = context.dataset.data[i]
-	// 		total += values
-	// 	}
-	// 	value + '\n' + Math.round((value/total) * 100) + '%'
-	// },
+	formatter: function (value, context) {
+		let total = 0
+		let allData = context.dataset.data
+		for (let i = 0; i < allData.length; i++) {
+			let values = allData[i]
+			total += values
+		}
+		return value + '\n(' + Math.round((value / total) * 100) + '%)'
+	},
 }
 Chart.defaults.plugins.title.display = true
 Chart.defaults.plugins.title.font.family = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-font-family')
@@ -206,7 +207,6 @@ $.getJSON('/assets/json/s-day.json', function (dayData) {
 			categoryPercentage: 0.98,
 			plugins: {
 				subtitle: { text: lastMod('/assets/json/s-day.json') },
-				// stacked100: { enable: true, precision: 0 },
 				title: { text: 'Hari' },
 			},
 			scales: {
@@ -238,7 +238,6 @@ $.getJSON('/assets/json/s-weekday.json', function (weekDayData) {
 			categoryPercentage: 0.98,
 			plugins: {
 				subtitle: { text: lastMod('/assets/json/s-weekday.json') },
-				// stacked100: { enable: true, precision: 0 },
 				title: { text: 'Minggu/Hari' },
 			},
 			scales: {
@@ -362,7 +361,6 @@ $.getJSON('/assets/json/s-month.json', function (monthData) {
 			categoryPercentage: 0.98,
 			plugins: {
 				subtitle: { text: lastMod('/assets/json/s-month.json') },
-				// stacked100: { enable: true, precision: 0 },
 				title: { text: 'Bulan' },
 			},
 			scales: {
@@ -392,7 +390,6 @@ $.getJSON('/assets/json/s-quarter.json', function (quarterData) {
 			categoryPercentage: 0.98,
 			plugins: {
 				subtitle: { text: lastMod('/assets/json/s-quarter.json') },
-				// stacked100: { enable: true, precision: 0 },
 				title: { text: 'Suku Tahun' },
 			},
 			scales: {

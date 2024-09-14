@@ -548,7 +548,7 @@
 		<?php require_once 'footer.php' ?>
 		<script src='https://cdn.jsdelivr.net/combine/npm/pdfmake,npm/pdfmake/build/vfs_fonts.min.js,npm/datatables.net,npm/datatables.net-bs5,npm/datatables.net-buttons,npm/datatables.net-buttons-bs5,npm/datatables.net-buttons/js/buttons.html5.min.js,npm/datatables.net-responsive,npm/datatables.net-responsive-bs5,npm/datatables.net-searchpanes,npm/datatables.net-searchpanes-bs5,npm/datatables.net-select,npm/datatables.net-select-bs5' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/jspdf/dist/jspdf.umd.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/combine/npm/chart.js,npm/chartjs-chart-geo,npm/chartjs-plugin-annotation,npm/chartjs-plugin-stacked100,npm/chartjs-plugin-datalabels,npm/chartjs-plugin-deferred' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/combine/npm/chart.js,npm/chartjs-chart-geo,npm/chartjs-plugin-annotation,npm/chartjs-plugin-datalabels,npm/chartjs-plugin-deferred' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark/chartjs-plugin-watermark.min.js' crossorigin='anonymous'></script>
 		<script src='/assets/js/keys.js'></script>
 		<script src='/assets/js/program.js'></script>
