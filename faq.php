@@ -3,7 +3,7 @@
 
   <head>
     <title>Soalan Lazim</title>
-		<link rel='stylesheet' href='https://cdn.jsdelivr.net/combine/npm/datatables.net-bs5@latest/css/dataTables.bootstrap5.min.css,npm/datatables.net-buttons-bs5@latest/css/buttons.bootstrap5.min.css,npm/datatables.net-responsive-bs5@latest/css/responsive.bootstrap5.min.css,npm/datatables.net-searchpanes-bs5@latest/css/searchPanes.bootstrap5.min.css,npm/datatables.net-select-bs5@latest/css/select.bootstrap5.min.css' crossorigin='anonymous'>
+		<link rel='stylesheet' href='https://cdn.jsdelivr.net/combine/npm/datatables.net-bs5/css/dataTables.bootstrap5.min.css,npm/datatables.net-buttons-bs5/css/buttons.bootstrap5.min.css,npm/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css,npm/datatables.net-searchpanes-bs5/css/searchPanes.bootstrap5.min.css,npm/datatables.net-select-bs5/css/select.bootstrap5.min.css' crossorigin='anonymous'>
   </head>
 
   <body>
@@ -534,7 +534,7 @@
       </div>
     </div>
     <?php require_once 'footer.php' ?>
-    <script src='https://cdn.jsdelivr.net/combine/npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.min.js,npm/datatables.net@latest,npm/datatables.net-bs5@latest,npm/datatables.net-buttons@latest,npm/datatables.net-buttons-bs5@latest,npm/datatables.net-buttons@latest/js/buttons.html5.min.js,npm/datatables.net-responsive@latest,npm/datatables.net-responsive-bs5@latest,npm/datatables.net-searchpanes@latest,npm/datatables.net-searchpanes-bs5@latest,npm/datatables.net-select@latest,npm/datatables.net-select-bs5@latest' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/combine/npm/pdfmake,npm/pdfmake/build/vfs_fonts.min.js,npm/datatables.net,npm/datatables.net-bs5,npm/datatables.net-buttons,npm/datatables.net-buttons-bs5,npm/datatables.net-buttons/js/buttons.html5.min.js,npm/datatables.net-responsive,npm/datatables.net-responsive-bs5,npm/datatables.net-searchpanes,npm/datatables.net-searchpanes-bs5,npm/datatables.net-select,npm/datatables.net-select-bs5' crossorigin='anonymous'></script>
     <script src='/assets/js/faq.js'></script>
   </body>
 

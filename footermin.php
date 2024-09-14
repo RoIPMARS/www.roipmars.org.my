@@ -2,8 +2,8 @@
 <html data-bs-theme='auto'>
 
   <head>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.min.css' crossorigin='anonymous'>
     <link rel='stylesheet' href='https://use.typekit.net/kew7gwq.css'>
     <link rel='stylesheet' href='/assets/css/cfonts.css'>
     <script src='https://kit.fontawesome.com/221737b641.js' crossorigin='anonymous'></script>
@@ -136,8 +136,8 @@
         </div>
       </div>
     </footer>
-    <script src='https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js' crossorigin='anonymous'></script>
     <script src='/assets/js/sources.js'></script>
     <script src='/assets/js/theme.js'></script>
   </body>

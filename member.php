@@ -3,13 +3,13 @@
 
   <head>
     <title>Keahlian</title>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/combine/npm/datatables.net-bs5@latest/css/dataTables.bootstrap5.min.css,npm/datatables.net-buttons-bs5@latest/css/buttons.bootstrap5.min.css,npm/datatables.net-responsive-bs5@latest/css/responsive.bootstrap5.min.css,npm/datatables.net-searchpanes-bs5@latest/css/searchPanes.bootstrap5.min.css,npm/datatables.net-select-bs5@latest/css/select.bootstrap5.min.css' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet@latest/dist/leaflet.min.css' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@latest/dist/L.Control.Locate.min.css' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet-loading@latest/src/Control.Loading.min.css' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet-fullscreen@latest/dist/leaflet.fullscreen.min.css' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer@latest/leaflet.rainviewer.min.css' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/xguaita/Leaflet.MapCenterCoord@latest/src/L.Control.MapCenterCoord.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/combine/npm/datatables.net-bs5/css/dataTables.bootstrap5.min.css,npm/datatables.net-buttons-bs5/css/buttons.bootstrap5.min.css,npm/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css,npm/datatables.net-searchpanes-bs5/css/searchPanes.bootstrap5.min.css,npm/datatables.net-select-bs5/css/select.bootstrap5.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet/dist/leaflet.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet-loading/src/Control.Loading.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet-fullscreen/dist/leaflet.fullscreen.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/xguaita/Leaflet.MapCenterCoord/src/L.Control.MapCenterCoord.min.css' crossorigin='anonymous'>
   </head>
 
   <body>
@@ -258,22 +258,22 @@
       </div>
     </div>
     <?php require_once 'footer.php' ?>
-    <script src='https://cdn.jsdelivr.net/combine/npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.min.js,npm/datatables.net@latest,npm/datatables.net-bs5@latest,npm/datatables.net-buttons@latest,npm/datatables.net-buttons-bs5@latest,npm/datatables.net-buttons@latest/js/buttons.html5.min.js,npm/datatables.net-responsive@latest,npm/datatables.net-responsive-bs5@latest,npm/datatables.net-searchpanes@latest,npm/datatables.net-searchpanes-bs5@latest,npm/datatables.net-select@latest,npm/datatables.net-select-bs5@latest' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/jspdf@latest/dist/jspdf.umd.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/combine/npm/pdfmake,npm/pdfmake/build/vfs_fonts.min.js,npm/datatables.net,npm/datatables.net-bs5,npm/datatables.net-buttons,npm/datatables.net-buttons-bs5,npm/datatables.net-buttons/js/buttons.html5.min.js,npm/datatables.net-responsive,npm/datatables.net-responsive-bs5,npm/datatables.net-searchpanes,npm/datatables.net-searchpanes-bs5,npm/datatables.net-select,npm/datatables.net-select-bs5' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/jspdf/dist/jspdf.umd.min.js' crossorigin='anonymous'></script>
     <script src='/assets/js/keys.js'></script>
     <script src='/assets/js/member.js'></script>
-    <script src='https://cdn.jsdelivr.net/npm/leaflet@latest/dist/leaflet.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@latest/dist/L.Control.Locate.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/leaflet-loading@latest/src/Control.Loading.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/leaflet-fullscreen@latest/dist/Leaflet.fullscreen.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/@joergdietrich/leaflet.terminator@latest/L.Terminator.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/leaflet.smooth_marker_bouncing@latest/dist/bundle.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/gh/ha8tks/Leaflet.Maidenhead@latest/src/L.Maidenhead.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/gh/maneoverland/leaflet.WorldMiniMap@latest/dist/Control.WorldMiniMap.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer@latest/leaflet.rainviewer.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/gh/xguaita/Leaflet.MapCenterCoord@latest/src/L.Control.MapCenterCoord.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/gh/leaflet-extras/leaflet-providers@latest/leaflet-providers.min.js' crossorigin='anonymous'></script>
-    <script src='https://api.jawg.io/libraries/jawg-places@latest/jawg-places.js?access-token=Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/leaflet/dist/leaflet.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/leaflet-loading/src/Control.Loading.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/leaflet-fullscreen/dist/Leaflet.fullscreen.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@joergdietrich/leaflet.terminator/L.Terminator.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/leaflet.smooth_marker_bouncing/dist/bundle.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/gh/ha8tks/Leaflet.Maidenhead/src/L.Maidenhead.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/gh/maneoverland/leaflet.WorldMiniMap/dist/Control.WorldMiniMap.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/gh/xguaita/Leaflet.MapCenterCoord/src/L.Control.MapCenterCoord.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/gh/leaflet-extras/leaflet-providers/leaflet-providers.min.js' crossorigin='anonymous'></script>
+    <script src='https://api.jawg.io/libraries/jawg-places/jawg-places.js?access-token=Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ' crossorigin='anonymous'></script>
     <script src='/assets/js/membersmap.js'></script>
   </body>
 

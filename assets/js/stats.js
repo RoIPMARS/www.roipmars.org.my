@@ -697,7 +697,7 @@ $.getJSON('/assets/json/s-quarter.json', function (localeQuarterData) {
 })
 
 $.getJSON('/assets/json/s-country.json', function (countryData) {
-	fetch('https://cdn.jsdelivr.net/npm/world-atlas@latest/countries-110m.json')
+	fetch('https://cdn.jsdelivr.net/npm/world-atlas/countries-110m.json')
 		.then((r) => r.json())
 		.then((data) => {
 			const countries = ChartGeo.topojson.feature(data, data.objects.countries).features
