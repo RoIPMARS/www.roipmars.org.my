@@ -4,12 +4,7 @@
   <head>
     <title>Keahlian</title>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/combine/npm/datatables.net-bs5/css/dataTables.bootstrap5.min.css,npm/datatables.net-buttons-bs5/css/buttons.bootstrap5.min.css,npm/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css,npm/datatables.net-searchpanes-bs5/css/searchPanes.bootstrap5.min.css,npm/datatables.net-select-bs5/css/select.bootstrap5.min.css' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet/dist/leaflet.min.css' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet-loading/src/Control.Loading.min.css' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/leaflet-fullscreen/dist/leaflet.fullscreen.min.css' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.min.css' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/xguaita/Leaflet.MapCenterCoord/src/L.Control.MapCenterCoord.min.css' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/combine/npm/leaflet/dist/leaflet.min.css,npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css,npm/leaflet-loading/src/Control.Loading.min.css,npm/leaflet-fullscreen/dist/leaflet.fullscreen.min.css,gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.min.css,gh/xguaita/Leaflet.MapCenterCoord/src/L.Control.MapCenterCoord.min.css' crossorigin='anonymous'>
   </head>
 
   <body>
@@ -262,17 +257,7 @@
     <script src='https://cdn.jsdelivr.net/npm/jspdf/dist/jspdf.umd.min.js' crossorigin='anonymous'></script>
     <script src='/assets/js/keys.js'></script>
     <script src='/assets/js/member.js'></script>
-    <script src='https://cdn.jsdelivr.net/npm/leaflet/dist/leaflet.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/leaflet-loading/src/Control.Loading.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/leaflet-fullscreen/dist/Leaflet.fullscreen.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/@joergdietrich/leaflet.terminator/L.Terminator.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/leaflet.smooth_marker_bouncing/dist/bundle.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/gh/ha8tks/Leaflet.Maidenhead/src/L.Maidenhead.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/gh/maneoverland/leaflet.WorldMiniMap/dist/Control.WorldMiniMap.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/gh/xguaita/Leaflet.MapCenterCoord/src/L.Control.MapCenterCoord.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/gh/leaflet-extras/leaflet-providers/leaflet-providers.min.js' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/combine/npm/leaflet,npm/leaflet.locatecontrol,npm/leaflet-loading,npm/leaflet-fullscreen/dist/Leaflet.fullscreen.min.js,npm/leaflet.smooth_marker_bouncing/dist/bundle.min.js,npm/@joergdietrich/leaflet.terminator,gh/ha8tks/Leaflet.Maidenhead/src/L.Maidenhead.min.js,gh/maneoverland/leaflet.WorldMiniMap/dist/Control.WorldMiniMap.min.js,gh/mwasil/Leaflet.Rainviewer/leaflet.rainviewer.min.js,gh/xguaita/Leaflet.MapCenterCoord/src/L.Control.MapCenterCoord.min.js,gh/leaflet-extras/leaflet-providers/leaflet-providers.min.js' crossorigin='anonymous'></script>
     <script src='https://api.jawg.io/libraries/jawg-places/jawg-places.js?access-token=Yfk7oslxn7AhBWNOPFQwyxp8J48VAbifha47L9S0TrRSI5K8WrBYvO4ByWkeEqpQ' crossorigin='anonymous'></script>
     <script src='/assets/js/membersmap.js'></script>
   </body>
