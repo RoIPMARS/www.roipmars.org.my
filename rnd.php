@@ -106,11 +106,8 @@
       </div>
     </div>
     <?php require_once 'footer.php' ?>
-		<script src='https://cdn.jsdelivr.net/npm/chart.js@latest/dist/chart.umd.min.js' crossorigin='anonymous'></script>
-    <script src='https://cdn.jsdelivr.net/npm/chartjs-chart-graph@latest/build/index.umd.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@latest/dist/chartjs-plugin-datalabels.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@latest/dist/chartjs-plugin-deferred.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@latest/chartjs-plugin-watermark.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/combine/npm/chart.js,npm/chartjs-chart-graph,npm/chartjs-plugin-datalabels,npm/chartjs-plugin-deferred' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark/chartjs-plugin-watermark.min.js' crossorigin='anonymous'></script>
 		<script src='/assets/js/rnd-chartjs-tree.js'></script>
   </body>
 

@@ -548,12 +548,8 @@
 		<?php require_once 'footer.php' ?>
 		<script src='https://cdn.jsdelivr.net/combine/npm/pdfmake@latest,npm/pdfmake@latest/build/vfs_fonts.min.js,npm/datatables.net@latest,npm/datatables.net-bs5@latest,npm/datatables.net-buttons@latest,npm/datatables.net-buttons-bs5@latest,npm/datatables.net-buttons@latest/js/buttons.html5.min.js,npm/datatables.net-responsive@latest,npm/datatables.net-responsive-bs5@latest,npm/datatables.net-searchpanes@latest,npm/datatables.net-searchpanes-bs5@latest,npm/datatables.net-select@latest,npm/datatables.net-select-bs5@latest' crossorigin='anonymous'></script>
 		<script src='https://cdn.jsdelivr.net/npm/jspdf@latest/dist/jspdf.umd.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chart.js@latest/dist/chart.umd.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-chart-geo@latest/build/index.umd.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@latest/dist/chartjs-plugin-annotation.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@latest/dist/chartjs-plugin-deferred.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-stacked100@latest/build/index.min.js' crossorigin='anonymous'></script>
-		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark@latest/chartjs-plugin-watermark.min.js' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/combine/npm/chart.js,npm/chartjs-chart-geo,npm/chartjs-plugin-annotation,npm/chartjs-plugin-stacked100,npm/chartjs-plugin-deferred' crossorigin='anonymous'></script>
+		<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark/chartjs-plugin-watermark.min.js' crossorigin='anonymous'></script>
 		<script src='/assets/js/keys.js'></script>
 		<script src='/assets/js/program.js'></script>
 		<script src='/assets/js/stats.js'></script>
