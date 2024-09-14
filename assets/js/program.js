@@ -603,6 +603,7 @@ $(document).ready(function () {
 			datasets: [{ data: [] }],
 			labels: [],
 		},
+		plugins: [ChartDataLabels],
 		options: {
 			aspectRatio: 2,
 			borderWidth: 0,
@@ -621,6 +622,7 @@ $(document).ready(function () {
 			datasets: [{ data: [] }],
 			labels: [],
 		},
+		plugins: [ChartDataLabels],
 		options: {
 			aspectRatio: 2,
 			borderWidth: 0,

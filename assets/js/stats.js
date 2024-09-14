@@ -21,6 +21,22 @@ Chart.defaults.font.size = 10
 Chart.defaults.plugins.deferred.delay = 1000
 Chart.defaults.plugins.deferred.yOffset = '80%'
 Chart.defaults.plugins.legend.position = 'top'
+Chart.defaults.plugins.datalabels = {
+	clamp: true,
+	clip: true,
+	font: { lineHeight: 1 },
+	offset: 0,
+	padding: 0,
+	textAlign: 'center',
+	// formatter: function (value, context) {
+	// 	let total = 0
+	// 	for (let i = 0; i < context.dataIndex.length; i++) {
+	// 		let values = context.dataset.data[i]
+	// 		total += values
+	// 	}
+	// 	value + '\n' + Math.round((value/total) * 100) + '%'
+	// },
+}
 Chart.defaults.plugins.title.display = true
 Chart.defaults.plugins.title.font.family = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-font-family')
 Chart.defaults.plugins.title.font.lineHeight = 1
@@ -395,6 +411,7 @@ $.getJSON('/assets/json/s-mode.json', function (modeData) {
 			datasets: [{ data: modeData.md }],
 			labels: modeData.Mode,
 		},
+		plugins: [ChartDataLabels],
 		options: {
 			aspectRatio: 2,
 			borderWidth: 0,
