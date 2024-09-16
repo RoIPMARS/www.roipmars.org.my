@@ -3046,7 +3046,7 @@
 			"Hari": "Isnin<br>09/09/2024<br>21:00 MYT",
 			"Acara": "[KHUSUS] Hari Sukan Nasional",
 			"NCS": "YC8HBQ | YD4DTA",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<i class='bi-person-slash text-danger fs-2'></i>"
 		},
 		{
 			"Hari": "Selasa<br>10/09/2024<br>21:00 MYT",
@@ -3070,18 +3070,12 @@
 			"Hari": "Ahad<br>15/09/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Indo Net Hujung Minggu",
 			"NCS": "YC8HBQ | YC4AUM",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-person-slash text-danger fs-2'></i>"
 		},
 		{
 			"Hari": "Isnin<br>16/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Malaysia 'Jiwa Merdeka' & Hari Keputeraan Nabi Muhammad S.A.W.",
 			"NCS": "9W2AYP | 9M6RDY",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>17/09/2024<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Perhubungan Nasional",
-			"NCS": "YC4AUM | YC8HBQ",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3097,21 +3091,9 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>22/09/2024<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "YC8HBQ | YF5WCO",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>23/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Bahasa Isyarat Antarabangsa",
 			"NCS": "9W2AYP | 9M2SFL",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>24/09/2024<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Tani",
-			"NCS": "YC4AUM | YD4DTA",
 			"Laporan": "&shy;"
 		},
 		{
