@@ -32,10 +32,10 @@
 								<td>1300z &vert; 2100myt</td>
 								<td>RoIPMARS Net Awal Minggu</td>
 							</tr>
-							<tr class='table-danger'>
+							<tr class='opacity-25'>
 								<td>Selasa</td>
-								<td>1300z &vert; 2000wib</td>
-								<td>RoIPMARS Indo Net Selasa</td>
+								<td></td>
+								<td></td>
 							</tr>
 							<tr class='table-success'>
 								<td>Wednesday</td>
@@ -57,10 +57,10 @@
 								<td>1300z &vert; 2100myt</td>
 								<td>RoIPMARS Net Malam Minggu</td>
 							</tr>
-							<tr class='table-danger'>
-								<td>Minggu</td>
-								<td>1300z &vert; 2000wib</td>
-								<td>RoIPMARS Indo Net Hujung Minggu</td>
+							<tr class='opacity-25'>
+								<td>Ahad</td>
+								<td></td>
+								<td></td>
 							</tr>
 						</tbody>
 					</table>
@@ -118,7 +118,7 @@
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/037.png' alt='V85PZ'>
 								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>V85PZ<br><span class='fw-bold'>PENGIRAN AZIZ</span></p>
 							</div>
-							<div class='position-relative mx-5 px-5'>
+							<!-- <div class='position-relative mx-5 px-5'>
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yd4dta.png' alt='YD4DTA'>
 								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>YD4DTA<br><span class='fw-bold'>DITA</span><br><span class='fw-light'>Ketua Wilayah Indonesia</span></p>
 							</div>
@@ -137,7 +137,7 @@
 							<div class='position-relative mx-5 px-5'>
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yf5wco.png' alt='YF5WCO'>
 								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>YF5WCO<br><span class='fw-bold'>ISMAIL</span></p>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
