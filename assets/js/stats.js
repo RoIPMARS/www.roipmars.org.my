@@ -35,7 +35,10 @@ Chart.defaults.plugins.datalabels = {
 			let values = allData[i]
 			total += values
 		}
-		return value + '\n(' + Math.round((value / total) * 100) + '%)'
+		if (Math.round((value / total) * 100) > 5) {
+			formatted = value + '\n(' + Math.round((value / total) * 100) + '%)'
+		} else formatted = ''
+		return formatted
 	},
 }
 Chart.defaults.plugins.title.display = true
