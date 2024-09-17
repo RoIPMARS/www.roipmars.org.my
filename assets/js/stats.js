@@ -21,10 +21,21 @@ Chart.defaults.font.size = 10
 Chart.defaults.plugins.deferred.delay = 1000
 Chart.defaults.plugins.deferred.yOffset = '80%'
 Chart.defaults.plugins.legend.position = 'top'
+Chart.defaults.plugins.title.display = true
+Chart.defaults.plugins.title.font.family = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-font-family')
+Chart.defaults.plugins.title.font.size = 18
+Chart.defaults.plugins.title.font.weight = 'bold'
+Chart.defaults.plugins.title.padding = 0
+Chart.defaults.plugins.title.position = 'top'
+Chart.defaults.plugins.subtitle.display = true
+Chart.defaults.plugins.subtitle.align = 'end'
+Chart.defaults.plugins.subtitle.font.size = 8
+Chart.defaults.plugins.subtitle.font.weight = 'lighter'
+Chart.defaults.plugins.subtitle.padding = 0
+Chart.defaults.plugins.subtitle.position = 'top'
 Chart.defaults.plugins.datalabels = {
 	clamp: true,
 	clip: true,
-	font: { lineHeight: 1 },
 	offset: 0,
 	padding: 0,
 	textAlign: 'center',
@@ -41,20 +52,6 @@ Chart.defaults.plugins.datalabels = {
 		return formatted
 	},
 }
-Chart.defaults.plugins.title.display = true
-Chart.defaults.plugins.title.font.family = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-font-family')
-Chart.defaults.plugins.title.font.lineHeight = 1
-Chart.defaults.plugins.title.font.size = 18
-Chart.defaults.plugins.title.font.weight = 'bold'
-Chart.defaults.plugins.title.padding = { top: 0, bottom: 1 }
-Chart.defaults.plugins.title.position = 'top'
-Chart.defaults.plugins.subtitle.display = true
-Chart.defaults.plugins.subtitle.align = 'end'
-Chart.defaults.plugins.subtitle.font.size = 8
-Chart.defaults.plugins.subtitle.font.weight = 'lighter'
-Chart.defaults.plugins.subtitle.font.lineHeight = 1
-Chart.defaults.plugins.subtitle.padding = { top: 1, bottom: 0 }
-Chart.defaults.plugins.subtitle.position = 'top'
 const wmOptions = {
 	image: 'https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand_oglow_f-50.png',
 	opacity: 0.2,
@@ -481,7 +478,7 @@ $.getJSON('/assets/json/s-days.json', function (localeDaysData) {
 					},
 				},
 				subtitle: { text: lastMod('/assets/json/s-days.json') },
-				title: { text: 'Panggilan Harian' },
+				title: { text: 'Penyertaan Harian' },
 			},
 			pointBorderWidth: 1,
 			pointStyle: 'crossRot',
@@ -553,7 +550,7 @@ $.getJSON('/assets/json/s-week.json', function (localeWeekData) {
 					},
 				},
 				subtitle: { text: lastMod('/assets/json/s-week.json') },
-				title: { text: 'Panggilan Mingguan' },
+				title: { text: 'Penyertaan Mingguan' },
 			},
 			pointBorderWidth: 1,
 			pointStyle: 'cross',
@@ -625,7 +622,7 @@ $.getJSON('/assets/json/s-month.json', function (localeMonthData) {
 					},
 				},
 				subtitle: { text: lastMod('/assets/json/s-month.json') },
-				title: { text: 'Panggilan Bulanan' },
+				title: { text: 'Penyertaan Bulanan' },
 			},
 			pointBorderWidth: 1,
 			pointStyle: 'cross',
@@ -697,7 +694,7 @@ $.getJSON('/assets/json/s-quarter.json', function (localeQuarterData) {
 					},
 				},
 				subtitle: { text: lastMod('/assets/json/s-quarter.json') },
-				title: { text: 'Panggilan Suku Tahun' },
+				title: { text: 'Penyertaan Suku Tahun' },
 			},
 			pointBorderWidth: 1,
 			pointStyle: 'cross',
@@ -745,7 +742,7 @@ $.getJSON('/assets/json/s-country.json', function (countryData) {
 					plugins: {
 						legend: { display: false },
 						subtitle: { text: lastMod('/assets/json/s-country.json') },
-						title: { text: 'Penyertaan' },
+						title: { text: 'Wilayah Penyertaan' },
 					},
 					scales: {
 						color: {
