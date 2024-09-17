@@ -3076,7 +3076,7 @@
 			"Hari": "Isnin<br>16/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Malaysia 'Jiwa Merdeka' & Hari Keputeraan Nabi Muhammad S.A.W.",
 			"NCS": "9W2AYP | 9M6RDY",
-			"Laporan": "&shy;"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1609242100'>35</button>"
 		},
 		{
 			"Hari": "Rabu<br>18/09/2024<br>21:00 MYT",
@@ -3087,7 +3087,7 @@
 		{
 			"Hari": "Sabtu<br>21/09/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Tanpa Pencemaran Bahan Api",
-			"NCS": "9M2SFL | 9W6RHN",
+			"NCS": "9M2SFL | 9W2AYP",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3123,7 +3123,7 @@
 		{
 			"Hari": "Selasa<br>01/10/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Warga Emas Antarabangsa",
-			"NCS": "9M2SFL | 9M6AUA",
+			"NCS": "9M2SFL | 9W6RHN",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3139,21 +3139,9 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>06/10/2024<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "YD4DTA | YC4AUM",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>07/10/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kapas Sedunia",
 			"NCS": "9M2SFL | 9M6RDY",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>08/10/2024<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Tata Ruang Nasional",
-			"NCS": "YC4AUM | YC8HBQ",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3211,21 +3199,9 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>20/10/2024<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "YC8HBQ | YF5NZL",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>21/10/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
 			"NCS": "9M2SFL | 9M6JAY",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>22/10/2024<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
-			"NCS": "YC4AUM | YF5WCO",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3235,33 +3211,15 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Khamis<br>24/10/2024<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Dokter Indonesia",
-			"NCS": "YD4DTA | YC4AUM",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Sabtu<br>26/10/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
 			"NCS": "9W2AYP | 9M6RDY",
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>27/10/2024<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Listrik Nasional",
-			"NCS": "YC8HBQ | YC4AUM",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>28/10/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>29/10/2024<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
-			"NCS": "YC4AUM | YC8HBQ",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3283,21 +3241,9 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>03/11/2024<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "YD4DTA | YF5NZL",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>04/11/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
 			"NCS": "9W2AYP | 9W2ORL",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>05/11/2024<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Cinta Puspa dan Satwa Nasional",
-			"NCS": "YC4AUM | YF5WCO",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3310,12 +3256,6 @@
 			"Hari": "Sabtu<br>09/11/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
 			"NCS": "9W2ORL | V85AFF",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Ahad<br>10/11/2024<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Pahlawan",
-			"NCS": "YC8HBQ | YD4DTA",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3385,12 +3325,6 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>24/11/2024<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "YD4DTA | YC4AUM",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>25/11/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
 			"NCS": "9M2SFL | V85PZ",
@@ -3406,12 +3340,6 @@
 			"Hari": "Rabu<br>27/11/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
 			"NCS": "9M6JAY | 9M6AUA",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Khamis<br>28/11/2024<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Menanam Pohon Indonesia",
-			"NCS": "YC8HBQ | YC4AUM",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3469,12 +3397,6 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Isnin<br>09/12/2024<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Armada Republik Indonesia",
-			"NCS": "YD4DTA | YF5NZL",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Selasa<br>10/12/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Hak Asasi Manusia",
 			"NCS": "V85AFF | 9M6AUA",
@@ -3487,21 +3409,9 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Khamis<br>12/12/2024<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Bhakti Transmigrasi",
-			"NCS": "YC8HBQ | YF5WCO",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Sabtu<br>14/12/2024<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Monyet Sedunia",
 			"NCS": "9W2ORL | 9M6JAY",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Ahad<br>15/12/2024<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "YD4DTA | YC4AUM",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3511,21 +3421,9 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Selasa<br>17/12/2024<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
-			"NCS": "YC4AUM | YD4DTA",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Rabu<br>18/12/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
 			"NCS": "9M6AUA | 9W6RHN",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Khamis<br>19/12/2024<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Bela Negara",
-			"NCS": "YC8HBQ | YC4AUM",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3535,21 +3433,9 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>22/12/2024<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Ibu Nasional",
-			"NCS": "YD4DTA | YF5NZL",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>23/12/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
 			"NCS": "V85AFF | 9M2SFL",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>24/12/2024<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
-			"NCS": "YC4AUM | YF5WCO",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3562,12 +3448,6 @@
 			"Hari": "Sabtu<br>28/12/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
 			"NCS": "9W2ORL | 9W2AYP",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Ahad<br>29/12/2024<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "YC8HBQ | YD4DTA",
 			"Laporan": "&shy;"
 		},
 		{
@@ -3595,20 +3475,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>05/01/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Korps Wanita Angkatan Laut (KOWAL)",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>06/01/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>07/01/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -3625,20 +3493,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>12/01/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>13/01/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>14/01/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -3655,20 +3511,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>19/01/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>20/01/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>21/01/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -3685,20 +3529,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>26/01/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Kusta Internasional",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>27/01/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Israk Mikraj",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>28/01/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -3715,20 +3547,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>02/02/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Lahan Basah Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>03/02/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>04/02/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Kanker Sedunia",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -3745,20 +3565,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>09/02/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Persatuan Wartawan Indonesia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>10/02/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Benih Antarabangsa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>11/02/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -3781,20 +3589,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>16/02/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>17/02/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>18/02/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -3817,20 +3613,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>23/02/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>24/02/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>25/02/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4141,12 +3925,6 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Selasa<br>08/04/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Rabu<br>09/04/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
 			"NCS": "&shy;",
@@ -4159,20 +3937,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>13/04/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>14/04/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Penyakit Chagas Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>15/04/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Senyap Sedunia",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4195,26 +3961,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Sabtu<br>19/04/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Pertahanan Sipil",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Ahad<br>20/04/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Konsumen Nasional",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>21/04/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kreativiti dan Inovasi Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>22/04/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Bumi",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4237,20 +3985,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>27/04/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Pemasyarakatan Indonesia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>28/04/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Keselamatan dan Kesihatan Sedunia di Tempat Kerja",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>29/04/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Tari Sedunia",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4273,20 +4009,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>04/05/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Tawa Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>05/05/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Bidan Antarabangsa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>06/05/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Asma Sedunia",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4303,20 +4027,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>11/05/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Migrasi Burung Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>12/05/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kesihatan Tumbuhan Antarabangsa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>13/05/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4327,20 +4039,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Khamis<br>15/05/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Keluarga Internasional",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Sabtu<br>17/05/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Telekomunikasi dan Maklumat Masyarakat Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Ahad<br>18/05/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Museum Internasional",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4351,20 +4051,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Selasa<br>20/05/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Lebah Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Rabu<br>21/05/2025<br>21:00 MYT",
 			"Acara": "[SPECIAL] International Tea Day",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Khamis<br>22/05/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Keanekaragaman Hayati Internasional",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4375,32 +4063,14 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>25/05/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Sepak Bola Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>26/05/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Selasa<br>27/05/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Rabu<br>28/05/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Khamis<br>29/05/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Lanjut Usia",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4423,12 +4093,6 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Selasa<br>03/06/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Sepeda Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Rabu<br>04/06/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
 			"NCS": "&shy;",
@@ -4447,20 +4111,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>08/06/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Laut Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>09/06/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>10/06/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Media Sosial",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4471,32 +4123,14 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Khamis<br>12/06/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Menentang Pekerja Anak Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Sabtu<br>14/06/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Penderma Darah Sedunia",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>15/06/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Kesadaran Pelecehan Orang Tua Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>16/06/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kiriman Wang Keluarga Antarabangsa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>17/06/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Dermaga",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4513,20 +4147,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>22/06/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Ulang Tahun Kota Jakarta",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>23/06/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Janda Antarabangsa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>24/06/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Internasional Perempuan dalam Diplomasi",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4537,32 +4159,14 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Khamis<br>26/06/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Anti Narkoba",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Jumaat<br>27/06/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Awal Muharram 1447H",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>29/06/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Daerah Tropis Internasional",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>30/06/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Asteroid Antarabangsa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>01/07/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Buah",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4579,20 +4183,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>06/07/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Koperasi Internasional",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>07/07/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>08/07/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4605,12 +4197,6 @@
 		{
 			"Hari": "Sabtu<br>12/07/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Ahad<br>13/07/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4633,20 +4219,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Khamis<br>17/07/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Keadilan Internasional",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Sabtu<br>19/07/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Ahad<br>20/07/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Catur Sedunia",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4681,20 +4255,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>27/07/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Sungai Nasional",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>28/07/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Hepatitis Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>29/07/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Harimau Internasional",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4717,20 +4279,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>03/08/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>04/08/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>05/08/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4747,20 +4297,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>10/08/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Veteran Nasional",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>11/08/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>12/08/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Pemuda Internasional",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4771,20 +4309,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Khamis<br>14/08/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Pramuka",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Sabtu<br>16/08/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Ahad<br>17/08/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Proklamasi Kemerdekaan Republik Indonesia",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4795,20 +4321,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Selasa<br>19/08/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Kemanusiaan Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Rabu<br>20/08/2025<br>21:00 MYT",
 			"Acara": "[SPECIAL] World Mosquito Day",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Khamis<br>21/08/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Maritim Nasional",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4819,20 +4333,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>24/08/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Televisi Nasional",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>25/08/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>26/08/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4861,20 +4363,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Selasa<br>02/09/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Rabu<br>03/09/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Khamis<br>04/09/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Pelanggan Nasional",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4885,20 +4375,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>07/09/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Keputeraan Nabi Muhammad S.A.W.",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>08/09/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Celik Huruf Antarabangsa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>09/09/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Belanja Online Nasional (Harbolnas)",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4909,20 +4387,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Khamis<br>11/09/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Radio Nasional",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Sabtu<br>13/09/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Ahad<br>14/09/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4945,32 +4411,14 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Khamis<br>18/09/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Kesetaraan Gaji Internasional",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Sabtu<br>20/09/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Pembersihan Sedunia",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>21/09/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Perdamaian Internasional",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>22/09/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>23/09/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Bahasa Isyarat Internasional",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4987,20 +4435,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>28/09/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Sungai Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>29/09/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kesedaran Antarabangsa terhadap Kehilangan dan Pembaziran Makanan",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>30/09/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Penerjemahan Internasional",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -5011,20 +4447,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Khamis<br>02/10/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Tanpa Kekerasan Internasional",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Sabtu<br>04/10/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Minggu Angkasa Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Ahad<br>05/10/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Guru Sedunia",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -5035,20 +4459,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Selasa<br>07/10/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Habitat Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Rabu<br>08/10/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Khamis<br>09/10/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Penglihatan Sedunia",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -5059,20 +4471,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>12/10/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>13/10/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Pengurangan Risiko Bencana Antarabangsa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>14/10/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Standar Sedunia",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -5083,32 +4483,14 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Khamis<br>16/10/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Pangan Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Sabtu<br>18/10/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>19/10/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>20/10/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>21/10/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -5125,20 +4507,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>26/10/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>27/10/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Warisan Audiovisual Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>28/10/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Sumpah Pemuda",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -5149,32 +4519,14 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Khamis<br>30/10/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Keuangan",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Sabtu<br>01/11/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>02/11/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>03/11/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>04/11/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -5191,20 +4543,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>09/11/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>10/11/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>11/11/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Bangunan Indonesia",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -5221,20 +4561,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>16/11/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Toleransi Internasional",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>17/11/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari Kelahiran Pra-Matang Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>18/11/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -5245,32 +4573,14 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Khamis<br>20/11/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Filsafat Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Sabtu<br>22/11/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>23/11/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>24/11/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>25/11/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Guru Nasional",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -5287,20 +4597,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>30/11/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>01/12/2025<br>21:00 MYT",
 			"Acara": "[KHAS] Hari AIDS Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>02/12/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Internasional untuk Penghapusan Perbudakan",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -5323,20 +4621,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>07/12/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Penerbangan Sipil Internasional",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>08/12/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>09/12/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Anti Korupsi Internasional",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -5359,20 +4645,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>14/12/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Sejarah Nasional",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>15/12/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>16/12/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -5395,20 +4669,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>21/12/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Bola Basket Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>22/12/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>23/12/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Selasa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -5425,20 +4687,8 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Ahad<br>28/12/2025<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
 			"Hari": "Isnin<br>29/12/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Selasa<br>30/12/2025<br>21:00 MYT",
-			"Acara": "[KHUSUS] Hari Jadi Satuan Pengamanan (Satpam)",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -5457,12 +4707,6 @@
 		{
 			"Hari": "Sabtu<br>03/01/2026<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Ahad<br>04/01/2026<br>21:00 MYT",
-			"Acara": "RoIPMARS Indo Net Hujung Minggu",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		}
