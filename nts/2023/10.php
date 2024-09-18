@@ -23,7 +23,7 @@
         </ol>
       <p>Perubahan diatas berkuatkuasa <strong>mulai Disember 2023</strong>. Pihak pengurusan juga merancang untuk mengisi kekosongan yang ada dengan mendapatkan kerjasama dan kesinambungan dari pihak ketiga. Sebarang perubahan dalam waktu terdekat akan dikaitkan dengan rujukan diatas.</p>
       <p>Diharap dengan perubahan ini, dapat kita bersatu dalam kerjasama erat demi menaikkan lagi semangat komunikasi dikalangan penggiat radio dua hala.</p>
-      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='contact'>member@roipmars.org.my</a></p>
+      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='/contact'>member@roipmars.org.my</a></p>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2 ft-signature1'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>

@@ -31,7 +31,7 @@
       </table>
       <p>Pelayan tidak akan ditutup semasa tempoh penyelenggaraan kerana ia hanya menjejaskan sambungan pelayan. Dinasihatkan supaya tidak lakukan apa-apa aktiviti semasa tempoh penyelenggaraan kerana ia akan mengakibatkan kerosakan data akibat daripada sambungan yang tidak konsisten.</p>
       <p class='text-center'>Diharap pihak tuan dapat ambil maklum berkenaan perkara ini. Persefahaman dan kerjasama anda amat kami hargai. Jutaan kemaafan kami pohon dari Pihak Pengurusan Kumpulan RoIPMARS kepada anda semua.</p>
-      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='contact'>member@roipmars.org.my</a></p>
+      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='/contact'>member@roipmars.org.my</a></p>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2 ft-signature1'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>

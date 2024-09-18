@@ -39,7 +39,7 @@
         </tbody>
       </table>
       <p>Diharap pihak pemunya berdaftar dapat menyemak semula isyarat panggilan anda di: <a href='/cbmars'>SINI</a>.</p>
-      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='contact'>member@roipmars.org.my</a></p>
+      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='/contact'>member@roipmars.org.my</a></p>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2 ft-signature1'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>

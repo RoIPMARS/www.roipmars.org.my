@@ -20,7 +20,7 @@
       <p>Sehubungan dengan kejadian baru-baru ini, pihak kami juga terkejut dengan apa yang telah berlaku, namun kejadian tersebut dapat diselesaikan oleh Pegawai Rangkaian kami dengan pantas dan kami tidak akan bertanggungjawab atas apa yang telah berlaku.</p>
       <p>Kami memohon agar semua penggiat radio perantara &lpar;gateway&rpar; untuk tidak melakukan sambungan dari mana-mana rangkaian kami ke mana-mana pengulang tanpa keizinan bertulis dari kedua-dua pihak.</p>
       <p>Segala kecuaian yang telah/sedang/akan berlaku adalah tanggungjawab sepenuhnya pemilik perantara tersebut. Pihak kami sama sekali tidak akan bertanggungjawab atas segala kecuaian atau kesilapan yang berpunca dari pihak ketiga. </p>
-      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='contact'>member@roipmars.org.my</a></p>
+      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='/contact'>member@roipmars.org.my</a></p>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2 ft-signature1'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>

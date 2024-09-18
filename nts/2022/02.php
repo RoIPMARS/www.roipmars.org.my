@@ -20,7 +20,7 @@
       <p>Namun begitu, pihak pengurusan teknikal kami telahpun mengambil insiatif dengan serta merta menukar ke platform lain. Segala maklumat dari platform lama telahpun dibuang dan tidak lagi dapat diperoleh kembali.</p>
       <p>Diharap mana-mana pihak yang telahpun mendaftar di platform lama untuk mendaftar kembali di platform yang baru bagi membolehkan pembelian barangan kami.</p>
       <p>Segala sokongan anda atas pembelian barangan kami adalah sangat dihargai.</p>
-      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='contact'>member@roipmars.org.my</a></p>
+      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='/contact'>member@roipmars.org.my</a></p>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2 ft-signature1'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>

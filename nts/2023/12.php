@@ -26,7 +26,7 @@
         </table>
       <p>Selepas penyelenggaraan sistem selesai, kesemua ahli aktif &lpar;termasuk ahli CB&rpar; akan menerima notifikasi aktiviti khas yang akan dihantar secara automatik melalui WhatsApp daripada +603-3396 0874 &lpar;MHR TECHNOLOGY&rpar; ke nombor telefon yang telah didaftarkan di dalam sistem kami. Sekiranya anda ingin membatalkan notifikasi tersebut, sila balas &quot;BATAL NOTIFIKASI&quot; ke WhatsApp tersebut.</p>
       <p>Namun yang demikian, pihak pentadbir sistem akan sedaya upaya untuk meneruskan notifikasi ke platform Facebook &amp; Telegram kami semasa tempoh penyelenggaraan. Anda boleh membuat carian &quot;RoIPMARS Network&quot; di kedua-dua platform tersebut bagi mendapatkan maklumat lanjut.</p>
-      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='contact'>member@roipmars.org.my</a></p>
+      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='/contact'>member@roipmars.org.my</a></p>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2 ft-signature1'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>

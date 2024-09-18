@@ -27,7 +27,7 @@
       </table>
       <p>Namun yang demikian, nama domain roipmars.com masih boleh digunakan sehingga 02 Sep 2024 dan segala sambungan yang berkaitan akan dipautkan ke roipmars.org.my. Adalah disarankan supaya menukar penanda halaman anda dari roipmars.com ke roipmars.org.my mulai dari tarikh henti operasi diatas.</p>
       <p>Pihak Pengurusan Rangkaian Kumpulan RoIPMARS memohon maaf atas kesulitan yang bakal dihadapi demi seluruh kelansungan Rangkaian Kumpulan RoIPMARS.</p>
-      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='contact'>member@roipmars.org.my</a>
+      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='/contact'>member@roipmars.org.my</a>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2 ft-signature1'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>

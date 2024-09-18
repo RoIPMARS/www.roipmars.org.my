@@ -20,7 +20,7 @@
       <p>Segala sijil dan kad QSL anda akan dikemaskini dari masa ke semasa dan boleh didapati di laman sesawang <a href='https://dl.roipmars.org.my'>ftp.roipmars.org.my</a>.</p>
       <p>Diharap pihak tuan dapat memaklumkan perkara ini kepada rakan-rakan dan sahabat handai. Sokongan dan bantuan anda semua dapat membantu usaha kami untuk kekal aktif dan relevan sepanjang masa.</p>
       <p>Jutaan terima kasih kami ucapkan atas segala sokongan anda.</p>
-      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='contact'>member@roipmars.org.my</a></p>
+      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila email kepada: <a href='/contact'>member@roipmars.org.my</a></p>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2 ft-signature1'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>

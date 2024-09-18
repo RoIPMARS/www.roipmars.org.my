@@ -47,7 +47,7 @@
       <p>Sekiranya hari peringatan &lpar;Net Khas&rpar; jatuh pada hari selain anjuran RoIPMARS &lpar;selain dari hari peringatan/kelepasan kebangsaan negara tertentu&rpar;, pihak RoIPMARS akan mengambil alih aktiviti tersebut.</p>
       <p>Sehubungan dengan itu, Bahagian Siaraya &amp; Aktiviti RoIPMARS menjemput mana mana pihak untuk turut berkolaborasi bersama menjayakan aktiviti yang telah dirancang. Sebarang persoalan, anda boleh menghubungi pegawai kami di talian WhatsApp &lpar;<a href='https://wa.me/60148453456' target='_blank'>+60148453456</a>&rpar;.</p>
       <p>Diharap dengan usahasama ini, dapat kita bersatu dalam kerjasama erat demi menaikkan lagi semangat komunikasi dikalangan penggiat radio dua hala.</p>
-      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='contact'>member@roipmars.org.my</a></p>
+      <p class='text-center'>Sekiranya anda memerlukan bantuan, sila emel kepada: <a href='/contact'>member@roipmars.org.my</a></p>
       <p class='fs-4 text-end mt-2 mb-0 ft-signature'>Pentadbir Rangkaian</p>
       <p class='text-end mt-0 mb-2 ft-signature1'>Pengurusan Rangkaian Kumpulan RoIPMARS</p>
     </div>
