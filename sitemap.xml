@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.roipmars.org.my/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
       <image:image>
@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/snotice</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -47,7 +47,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/faq</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -62,7 +62,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/howto</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -110,7 +110,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/rnd</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/member</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -220,23 +220,8 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.roipmars.org.my/policies</loc>
-    <lastmod>2024-07-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/tngew/tngew_ht.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/fpx/fpx.png</image:loc>
-      </image:image>
-  </url>
-  <url>
     <loc>https://www.roipmars.org.my/activity</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -730,17 +715,8 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.roipmars.org.my/applogin</loc>
-    <lastmod>2024-07-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://www.roipmars.org.my/contact</loc>
-    <lastmod>2024-07-29</lastmod>
+    <loc>https://www.roipmars.org.my/policies</loc>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -754,8 +730,32 @@
       </image:image>
   </url>
   <url>
+    <loc>https://www.roipmars.org.my/contact</loc>
+    <lastmod>2024-09-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/tngew/tngew_ht.png</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/fpx/fpx.png</image:loc>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://www.roipmars.org.my/applogin</loc>
+    <lastmod>2024-09-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
+      </image:image>
+  </url>
+  <url>
     <loc>https://www.roipmars.org.my/cbinfo</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -773,7 +773,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/program</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -783,16 +783,13 @@
         <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/032.png</image:loc>
-      </image:image>
-      <image:image>
         <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m2sfl.png</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m6jay.png</image:loc>
+        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2orl.png</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6rhn.png</image:loc>
+        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m6jay.png</image:loc>
       </image:image>
       <image:image>
         <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/010.png</image:loc>
@@ -801,28 +798,13 @@
         <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/017.png</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2orl.png</image:loc>
+        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w6rhn.png</image:loc>
       </image:image>
       <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2ybt.png</image:loc>
+        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/032.png</image:loc>
       </image:image>
       <image:image>
         <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/037.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yc4aum.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yc8hbq.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yd4dta.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yf5nzl.png</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yf5wco.png</image:loc>
       </image:image>
       <image:image>
         <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/tngew/tngew_ht.png</image:loc>
@@ -833,7 +815,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/about</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -887,7 +869,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/livefeed</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -896,7 +878,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/cbmars</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -910,8 +892,8 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.roipmars.org.my/nts/2022/02</loc>
-    <lastmod>2024-07-29</lastmod>
+    <loc>https://www.roipmars.org.my/nts/2022/01</loc>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -919,8 +901,17 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.roipmars.org.my/nts/2022/01</loc>
-    <lastmod>2024-07-29</lastmod>
+    <loc>https://www.roipmars.org.my/nts/2022/02</loc>
+    <lastmod>2024-09-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://www.roipmars.org.my/nts/2023/09</loc>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -929,31 +920,13 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/freq/27cb</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.roipmars.org.my/nts/2023/09</loc>
-    <lastmod>2024-07-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2023/08</loc>
-    <lastmod>2024-07-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://www.roipmars.org.my/nts/2023/04</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -962,7 +935,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2023/05</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -971,16 +944,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2023/06</loc>
-    <lastmod>2024-07-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://www.roipmars.org.my/nts/2023/01</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -989,7 +953,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2023/03</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -997,8 +961,17 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.roipmars.org.my/nts/2023/02</loc>
-    <lastmod>2024-07-29</lastmod>
+    <loc>https://www.roipmars.org.my/nts/2023/01</loc>
+    <lastmod>2024-09-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://www.roipmars.org.my/nts/2023/04</loc>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1007,7 +980,16 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2023/07</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://www.roipmars.org.my/nts/2023/02</loc>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1016,7 +998,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2023/11</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1025,7 +1007,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2023/10</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1034,7 +1016,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2023/12</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1043,22 +1025,13 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/freq/27cbmy</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.roipmars.org.my/nts/2024/06</loc>
-    <lastmod>2024-07-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://www.roipmars.org.my/nts/2024/02</loc>
-    <lastmod>2024-07-29</lastmod>
+    <loc>https://www.roipmars.org.my/nts/2024/05</loc>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1067,16 +1040,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2024/01</loc>
-    <lastmod>2024-07-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://www.roipmars.org.my/nts/2024/03</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1085,7 +1049,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2024/04</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1093,8 +1057,17 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.roipmars.org.my/nts/2024/05</loc>
-    <lastmod>2024-07-29</lastmod>
+    <loc>https://www.roipmars.org.my/nts/2024/02</loc>
+    <lastmod>2024-09-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://www.roipmars.org.my/nts/2024/06</loc>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1103,22 +1076,13 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/freq/446pmr</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.roipmars.org.my/nts/2020/09</loc>
-    <lastmod>2024-07-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://www.roipmars.org.my/nts/2020/03</loc>
-    <lastmod>2024-07-29</lastmod>
+    <loc>https://www.roipmars.org.my/nts/2024/03</loc>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1127,7 +1091,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2020/04</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1135,8 +1099,17 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.roipmars.org.my/nts/2020/01</loc>
-    <lastmod>2024-07-29</lastmod>
+    <loc>https://www.roipmars.org.my/nts/2020/09</loc>
+    <lastmod>2024-09-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://www.roipmars.org.my/nts/2020/03</loc>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1145,7 +1118,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2020/02</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1154,7 +1127,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2020/08</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1166,7 +1139,22 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2020/07</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://www.roipmars.org.my/nts/2020/01</loc>
+    <lastmod>2024-09-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.roipmars.org.my/nts/2020/06</loc>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1175,16 +1163,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2020/05</loc>
-    <lastmod>2024-07-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/roipmars/brand.png</image:loc>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://www.roipmars.org.my/nts/2020/06</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1193,7 +1172,7 @@
   </url>
   <url>
     <loc>https://www.roipmars.org.my/nts/2021/01</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-09-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
