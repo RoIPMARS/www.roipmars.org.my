@@ -30,9 +30,9 @@
           <tr>
             <th>Halaman sumber</th>
             <td><ul>
-              <li><a href='./program' target='_blank'>Aktiviti &amp; Program</a></li>
-              <li><a href='./cbmars' target='_blank'>Jalur Rakyat RoIPMARS</a></li>
-              <li><a href='./member' target='_blank'>Keahlian RoIPMARS</a></li>
+              <li><a href='/program' target='_blank'>Aktiviti &amp; Program</a></li>
+              <li><a href='/cbmars' target='_blank'>Jalur Rakyat RoIPMARS</a></li>
+              <li><a href='/member' target='_blank'>Keahlian RoIPMARS</a></li>
             </ul></td>
           </tr>
         </tbody>
