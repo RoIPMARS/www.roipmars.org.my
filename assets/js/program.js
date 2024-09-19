@@ -800,7 +800,6 @@ $(document).ready(function () {
 							callcountper: new Intl.NumberFormat('ms-MY', { style: 'percent' }).format(counts / netRepCallData.length),
 						})
 					}
-					console.log(callData)
 					$(`#${callReportID}`).DataTable({
 						data: callData,
 						columns: [
@@ -1039,15 +1038,16 @@ $(document).ready(function () {
 
 					toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> gathering contact informations...</div>`
 					msgInfo.show()
-					// eCert.addImage('/assets/image/certs/program/ecert_template_site.png', 'PNG', 0, 0, 297, 210)
-					await fetch(`/assets/image/certs/program/${source}.jpg`).then((response) => {
+					// eCert.addImage('/media/image/program/ecert_template_site.png', 'PNG', 0, 0, 297, 210)
+					let sourceFormat = source.split('')[4] + source.split('')[5] + source.split('')[2] + source.split('')[3] + source.split('')[0] + source.split('')[1] + source.slice(-4)
+					await fetch(`/media/image/program/${sourceFormat}.jpg`).then((response) => {
 						if (response.ok) {
-							eCert.addImage(`/assets/image/certs/program/${source}.jpg`, 'JPEG', 0, 0, 297, 210)
+							eCert.addImage(`/media/image/program/${sourceFormat}.jpg`, 'JPEG', 0, 0, 297, 210)
 						} else {
 							if (activity.toLowerCase().search('sahur') > 0) {
-								eCert.addImage(`/assets/image/certs/program/sahur.jpg`, 'JPEG', 0, 0, 297, 210)
+								eCert.addImage(`/media/image/program/sahur.jpg`, 'JPEG', 0, 0, 297, 210)
 							} else {
-								eCert.addImage('/assets/image/certs/program/bg_090324.jpg', 'JPEG', 0, 0, 297, 210)
+								eCert.addImage('/media/image/program/bg_090324.jpg', 'JPEG', 0, 0, 297, 210)
 							}
 						}
 					})
