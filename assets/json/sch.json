@@ -3082,7 +3082,7 @@
 			"Hari": "Rabu<br>18/09/2024<br>21:00 MYT",
 			"Acara": "International Equal Pay Day",
 			"NCS": "9W6RHN | 9M6RDY",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Sabtu<br>21/09/2024<br>21:00 MYT",
