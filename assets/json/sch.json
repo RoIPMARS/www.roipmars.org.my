@@ -3082,7 +3082,7 @@
 			"Hari": "Rabu<br>18/09/2024<br>21:00 MYT",
 			"Acara": "International Equal Pay Day",
 			"NCS": "9W6RHN | 9M6RDY",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1809242100'>18</button>"
 		},
 		{
 			"Hari": "Sabtu<br>21/09/2024<br>21:00 MYT",
@@ -3453,25 +3453,25 @@
 		{
 			"Hari": "Isnin<br>30/12/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
+			"NCS": "V85AFF | 9W2ORL",
 			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Selasa<br>31/12/2024<br>23:15 MYT",
 			"Acara": "Ambang Tahun Baru 2025",
-			"NCS": "&shy;",
+			"NCS": "9M2SFL | V85AFF",
 			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Rabu<br>01/01/2025<br>21:00 MYT",
 			"Acara": "New Year 2025",
-			"NCS": "&shy;",
+			"NCS": "9W2AYP | V85PZ",
 			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Sabtu<br>04/01/2025<br>21:00 MYT",
 			"Acara": "Hari Braille",
-			"NCS": "&shy;",
+			"NCS": "9W2ORL | 9M6AUA",
 			"Laporan": "&shy;"
 		},
 		{
