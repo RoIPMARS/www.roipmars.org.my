@@ -34,8 +34,8 @@
 							</tr>
 							<tr class='opacity-25'>
 								<td>Selasa</td>
-								<td></td>
-								<td></td>
+								<td>&mdash;</td>
+								<td>&mdash;</td>
 							</tr>
 							<tr class='table-success'>
 								<td>Wednesday</td>
@@ -59,8 +59,8 @@
 							</tr>
 							<tr class='opacity-25'>
 								<td>Ahad</td>
-								<td></td>
-								<td></td>
+								<td>&mdash;</td>
+								<td>&mdash;</td>
 							</tr>
 						</tbody>
 					</table>
@@ -245,53 +245,53 @@
 					<h3 class='text-center'>Kedudukan Kategori Jalur Amatur</h3>
 				</div>
 				<div class='col-12'>
-					<p class='text-center'>RoIPMARS HAM Net</p>
+					<h4 class='text-center'>RoIPMARS HAM Net</h4>
 					<div class='row'>
 						<div class='col-lg-6'>
-							<h4 class='text-center'>Pengawal Tertinggi</h4>
+							<h5 class='text-center'>Pengawal Tertinggi</h5>
 							<table class='table table-sm table-striped text-center align-middle' id='all-ncs-rank'></table>
 						</div>
 						<div class='col-lg-6'>
-							<h4 class='text-center'>Stesen Aktif</h4>
+							<h5 class='text-center'>Stesen Aktif</h5>
 							<table class='table table-sm table-striped text-center align-middle' id='all-stn-rank'></table>
 						</div>
 					</div>
 				</div>
 				<div class='col-lg-4'>
-					<p class='text-center'>RoIPMARS HAM Net Bahasa Inggeris</p>
+					<h4 class='text-center'>RoIPMARS HAM Net Bahasa Inggeris</h4>
 					<div class='row'>
 						<div class='col-lg-12'>
-							<h4 class='text-center'>Pengawal Tertinggi</h4>
+							<h5 class='text-center'>Pengawal Tertinggi</h5>
 							<table class='table table-sm table-striped text-center align-middle' id='en-ncs-rank'></table>
 						</div>
 						<div class='col-lg-12'>
-							<h4 class='text-center'>Stesen Aktif</h4>
+							<h5 class='text-center'>Stesen Aktif</h5>
 							<table class='table table-sm table-striped text-center align-middle' id='en-stn-rank'></table>
 						</div>
 					</div>
 				</div>
 				<div class='col-lg-4'>
-					<p class='text-center'>RoIPMARS HAM Net Bahasa Melayu</p>
+					<h4 class='text-center'>RoIPMARS HAM Net Bahasa Melayu</h4>
 					<div class='row'>
 						<div class='col-lg-12'>
-							<h4 class='text-center'>Pengawal Tertinggi</h4>
+							<h5 class='text-center'>Pengawal Tertinggi</h5>
 							<table class='table table-sm table-striped text-center align-middle' id='ms-ncs-rank'></table>
 						</div>
 						<div class='col-lg-12'>
-							<h4 class='text-center'>Stesen Aktif</h4>
+							<h5 class='text-center'>Stesen Aktif</h5>
 							<table class='table table-sm table-striped text-center align-middle' id='ms-stn-rank'></table>
 						</div>
 					</div>
 				</div>
 				<div class='col-lg-4'>
-					<p class='text-center'>RoIPMARS HAM Net Bahasa Indonesia</p>
+					<h4 class='text-center'>RoIPMARS HAM Net Bahasa Indonesia</h4>
 					<div class='row'>
 						<div class='col-lg-12'>
-							<h4 class='text-center'>Pengawal Tertinggi</h4>
+							<h5 class='text-center'>Pengawal Tertinggi</h5>
 							<table class='table table-sm table-striped text-center align-middle' id='id-ncs-rank'></table>
 						</div>
 						<div class='col-lg-12'>
-							<h4 class='text-center'>Stesen Aktif</h4>
+							<h5 class='text-center'>Stesen Aktif</h5>
 							<table class='table table-sm table-striped text-center align-middle' id='id-stn-rank'></table>
 						</div>
 					</div>
@@ -300,28 +300,28 @@
 			<div class='row my-1'>
 				<div class='col-lg-6'>
 					<h3 class='text-center'>Kedudukan Kategori Jalur Rakyat</h3>
-					<p class='text-center'>RoIPMARS CB Net Bahasa Melayu</p>
+					<h4 class='text-center'>RoIPMARS CB Net Bahasa Melayu</h4>
 					<div class='row'>
 						<div class='col-lg-6'>
-							<h4 class='text-center'>Pengawal Tertinggi</h4>
+							<h5 class='text-center'>Pengawal Tertinggi</h5>
 							<table class='table table-sm table-striped text-center align-middle' id='cb-ncs-rank'></table>
 						</div>
 						<div class='col-lg-6'>
-							<h4 class='text-center'>Stesen Paling Aktif</h4>
+							<h5 class='text-center'>Stesen Paling Aktif</h5>
 							<table class='table table-sm table-striped text-center align-middle' id='cb-stn-rank'></table>
 						</div>
 					</div>
 				</div>
 				<div class='col-lg-6'>
 					<h3 class='text-center'>Kedudukan Kategori Terbuka &lpar;VoIP&rpar;</h3>
-					<p class='text-center'>RoIPMARS OpenVoIP Net Bahasa Melayu</p>
+					<h4 class='text-center'>RoIPMARS OpenVoIP Net Bahasa Melayu</h4>
 					<div class='row'>
 						<div class='col-lg-6'>
-							<h4 class='text-center'>Pengawal Tertinggi</h4>
+							<h5 class='text-center'>Pengawal Tertinggi</h5>
 							<table class='table table-sm table-striped text-center align-middle' id='voi-ncs-rank'></table>
 						</div>
 						<div class='col-lg-6'>
-							<h4 class='text-center'>Stesen Paling Aktif</h4>
+							<h5 class='text-center'>Stesen Paling Aktif</h5>
 							<table class='table table-sm table-striped text-center align-middle' id='voi-stn-rank'></table>
 						</div>
 					</div>

@@ -33,6 +33,8 @@ Chart.defaults.plugins.subtitle.font.size = 8
 Chart.defaults.plugins.subtitle.font.weight = 'lighter'
 Chart.defaults.plugins.subtitle.padding = 0
 Chart.defaults.plugins.subtitle.position = 'top'
+Chart.defaults.plugins.tooltip.usePointStyle = true
+Chart.defaults.plugins.tooltip.mode = 'index'
 Chart.defaults.plugins.datalabels = {
 	clamp: true,
 	clip: true,
@@ -85,7 +87,7 @@ $.getJSON('/assets/json/s-time.json', function (timeData) {
 			},
 			scales: {
 				x: { grid: { display: false } },
-				y: { grid: { display: false }, min: 10, type: 'logarithmic' },
+				y: { grid: { display: false }, min: 1, type: 'logarithmic' },
 			},
 			showLine: true,
 			tension: 0.5,
@@ -181,7 +183,7 @@ $.getJSON('/assets/json/s-days.json', function (daysData) {
 			spanGaps: true,
 			scales: {
 				x: { grid: { display: false } },
-				y: { grid: { display: false }, min: 10, type: 'logarithmic' },
+				y: { grid: { display: false }, min: 5, type: 'logarithmic' },
 			},
 			tension: 0.5,
 			watermark: wmOptions,
@@ -334,7 +336,7 @@ $.getJSON('/assets/json/s-week.json', function (weekData) {
 			pointStyle: 'cross',
 			scales: {
 				x: { grid: { display: false } },
-				y: { grid: { display: false }, min: 10, type: 'logarithmic' },
+				y: { grid: { display: false }, min: 5, type: 'logarithmic' },
 			},
 			showLine: true,
 			tension: 0.5,
@@ -553,7 +555,7 @@ $.getJSON('/assets/json/s-week.json', function (localeWeekData) {
 				title: { text: 'Penyertaan Mingguan' },
 			},
 			pointBorderWidth: 1,
-			pointStyle: 'cross',
+			pointStyle: 'crossRot',
 			scales: {
 				x: { grid: { display: false } },
 				y: { grid: { display: false }, type: 'logarithmic' },
@@ -625,7 +627,7 @@ $.getJSON('/assets/json/s-month.json', function (localeMonthData) {
 				title: { text: 'Penyertaan Bulanan' },
 			},
 			pointBorderWidth: 1,
-			pointStyle: 'cross',
+			pointStyle: 'crossRot',
 			scales: {
 				x: { grid: { display: false } },
 				y: { grid: { display: false }, type: 'logarithmic' },
@@ -697,7 +699,7 @@ $.getJSON('/assets/json/s-quarter.json', function (localeQuarterData) {
 				title: { text: 'Penyertaan Suku Tahun' },
 			},
 			pointBorderWidth: 1,
-			pointStyle: 'cross',
+			pointStyle: 'crossRot',
 			scales: {
 				x: { grid: { display: false } },
 				y: { grid: { display: false }, type: 'logarithmic' },
