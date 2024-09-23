@@ -3087,8 +3087,8 @@
 		{
 			"Hari": "Sabtu<br>21/09/2024<br>21:00 MYT",
 			"Acara": "Hari Tanpa Pencemaran Bahan Api",
-			"NCS": "9W2AYP | V85PZ",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2AYP | 9M6RDY",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2109242100'>47</button>"
 		},
 		{
 			"Hari": "Isnin<br>23/09/2024<br>21:00 MYT",
