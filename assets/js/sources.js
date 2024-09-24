@@ -81,16 +81,19 @@ const bodyStartLinks = `<noscript><iframe src='https://www.googletagmanager.com/
 <script>window.fbAsyncInit = function() {FB.init({xfbml: true,version: 'v20.0'}); }; (function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>`
 document.body.insertAdjacentHTML('afterbegin', bodyStartLinks)
 
+const UserTZ = Intl.DateTimeFormat().resolvedOptions().timeZone
+
 function dtCFormat(input) {
 	return new Intl.DateTimeFormat('ms-MY', {
 		formatMatcher: 'basic',
-		day: 'numeric',
+		day: '2-digit',
 		month: 'short',
 		year: 'numeric',
-		hour: 'numeric',
+		hour: '2-digit',
 		minute: '2-digit',
 		timeZoneName: 'short',
 		hour12: false,
+		timeZone: UserTZ,
 	}).format(new Date(input))
 }
 

@@ -6,7 +6,6 @@ const statBadge = 'https://status.mhrtech.my/api/badge'
 const statPage = 'https://status.mhrtech.my/api/status-page/roipmars/badge'
 const statBadgeStyle = 'flat'
 const timeLoad = new Date()
-const UserTZ = Intl.DateTimeFormat().resolvedOptions().timeZone
 const now = new Intl.DateTimeFormat('en-MY', {
 	formatMatcher: 'basic',
 	weekday: 'long',

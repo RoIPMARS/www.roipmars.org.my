@@ -43,7 +43,7 @@ const GCalSrc = {
 	mode: 'AGENDA',
 	bgcolor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
 	hl: navigator.language || 'ms', //language
-	ctz: Intl.DateTimeFormat().resolvedOptions().timeZone, //timezone
+	ctz: UserTZ, //timezone
 	wkst: 2, //weekstart 1(sun) - 7(sat)
 	showCalendars: 0,
 	showDate: 0,
