@@ -12,3 +12,8 @@ function donateStripe() {
   window.open('https://bit.ly/43QBDcI', 'Stripe Donation', 'width=800,height=600');
   return false;
 }
+
+function donatePayPal() {
+	window.open('https://paypal.me/roipmars', 'PayPal Donation', 'width=800,height=600')
+	return false
+}
