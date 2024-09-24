@@ -3093,8 +3093,8 @@
 		{
 			"Hari": "Isnin<br>23/09/2024<br>21:00 MYT",
 			"Acara": "Hari Bahasa Isyarat Antarabangsa",
-			"NCS": "9W2AYP | 9M2SFL",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2309242100'>25</button>"
 		},
 		{
 			"Hari": "Rabu<br>25/09/2024<br>21:00 MYT",
@@ -3105,7 +3105,7 @@
 		{
 			"Hari": "Sabtu<br>28/09/2024<br>21:00 MYT",
 			"Acara": "Hari Maritim Sedunia",
-			"NCS": "9W2ORL | 9W2AYP",
+			"NCS": "9W2AYP",
 			"Laporan": "&shy;"
 		},
 		{
