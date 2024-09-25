@@ -1,19 +1,24 @@
-function donateTngd() {
-  window.open('https://bit.ly/3Nh7Hj8', 'TNGD RoIPMARS Donation', 'width=800,height=600');
-  return false;
+function donateTnGeWallet() {
+	window.open('https://payment.tngdigital.com.my/sc/bDLnBmDoDq', 'TNGD RoIPMARS Donation', 'width=800,height=600')
+	return false
 }
 
-function donateToyyib() {
-  window.open('https://bit.ly/3CDwwRf', 'FPX Donation', 'width=800,height=600');
+function donateToyyibPay() {
+  window.open('https://toyyibpay.com/sumbanganroipmars', 'ToyyibPay Donation', 'width=800,height=600')
   return false;
 }
 
 function donateStripe() {
-  window.open('https://bit.ly/43QBDcI', 'Stripe Donation', 'width=800,height=600');
+  window.open('https://donate.stripe.com/5kA8AceIg7Gegbm5kk', 'Stripe Donation', 'width=800,height=600')
   return false;
 }
 
 function donatePayPal() {
 	window.open('https://paypal.me/roipmars', 'PayPal Donation', 'width=800,height=600')
+	return false
+}
+
+function donateRoIPMARS() {
+	window.open('/donate', 'RoIPMARS Donation', 'width=800,height=600')
 	return false
 }

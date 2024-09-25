@@ -26,7 +26,7 @@
                 <td>1214 0000 4377 12 &lpar;MUAMALAT&rpar;</td>
               </tr>
               <tr>
-                <td colspan='2'>Kami juga menerima: <btn class='btn btn-sm' type='button' onClick='donateTngd()' aria-label='Sumbang melalui TNG E-Wallet'><img class='img-fluid bg-light rounded-2 px-1 mb-1' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/tngew/tngew_ht.png' width='50' alt='donate via tng ewallet'> TnG eWallet</btn> &#124; <btn class='btn btn-sm' type='button' onClick='donateToyyib()' aria-label='Sumbang melalui FPX'><img class='img-fluid bg-light rounded-2 p-1 mb-1' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/brands/fpx/fpx.png' width='50' alt='donate via fpx'> Perbankan Internet</btn> &#124; <btn class='btn btn-sm' type='button' onClick='donateStripe()' aria-label='Sumbang melalui Stripe'><i class='bi-stripe fs-5 align-middle pb-1'></i> Stripe</btn> &#124; <btn class='btn btn-sm' type='button' onClick='donatePayPal()' aria-label='Sumbang melalui PayPal'><i class='bi-paypal fs-5 align-middle pb-1'></i> PayPal</btn>
+                <td colspan='2'>Kami juga menerima: <btn class='btn btn-sm' type='button' onClick='donateRoIPMARS()'>kaedah elektronik &lpar;e-money&rpar;</btn>
                 </td>
               </tr>
             </tbody>
