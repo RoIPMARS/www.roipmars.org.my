@@ -10,7 +10,7 @@
     <main class='container text-center my-3'>
       <div class='row'>
         <h1>Suapan Langsung Rangkaian RoIPMARS</h1>
-        <p>Dengarkan suapan langsung terus dari konti kami yang dikuasakan oleh MHR TECHNOLOGY</p>
+        <p>Dengarkan suapan langsung dari konti kami yang dikuasakan oleh MHR TECHNOLOGY</p>
         <div class='col-lg-6'>
           <div id='hamlive'><div class='spinner-border my-3' role='status'><span class='visually-hidden'>Memuatkan...</span></div></div>
           <div id='hamlive-audio'></div>
