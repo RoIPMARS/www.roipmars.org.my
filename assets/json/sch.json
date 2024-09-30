@@ -3106,13 +3106,13 @@
 			"Hari": "Sabtu<br>28/09/2024<br>21:00 MYT",
 			"Acara": "Hari Maritim Sedunia",
 			"NCS": "9W2AYP",
-			"Laporan": "&shy;"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2809242100'>9</button>"
 		},
 		{
 			"Hari": "Ahad<br>29/09/2024<br>21:00 MYT",
 			"Acara": "Hari Jantung Sedunia",
 			"NCS": "9W2NDI | V85AFF",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Isnin<br>30/09/2024<br>21:00 MYT",
