@@ -3112,13 +3112,13 @@
 			"Hari": "Ahad<br>29/09/2024<br>21:00 MYT",
 			"Acara": "Hari Jantung Sedunia",
 			"NCS": "9W2NDI | V85AFF",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2909242100'>32</button>"
 		},
 		{
 			"Hari": "Isnin<br>30/09/2024<br>21:00 MYT",
 			"Acara": "Hari Penterjemahan Antarabangsa",
 			"NCS": "9W2AYP | V85PZ",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Selasa<br>01/10/2024<br>21:00 MYT",
