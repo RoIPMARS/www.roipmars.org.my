@@ -19,14 +19,14 @@
             <tbody>
               <tr>
                 <th>Nama</th>
-                <td>PERSATUAN PEMINAT RADIO KOMUNIKASI</td>
+                <td>PERSATUAN PEMINAT RADIO KOMUNIKASI &lpar;RoIP&rpar;</td>
               </tr>
               <tr>
                 <th>Akaun</th>
-                <td>1214 0000 4377 12 &lpar;MUAMALAT&rpar;</td>
+                <td>1214 0000 4377 12 &lpar;BANK MUAMALAT MALAYSIA BERHAD&rpar;</td>
               </tr>
               <tr>
-                <td colspan='2'>Kami juga menerima: <btn class='btn btn-sm' type='button' onClick='donateRoIPMARS()'>kaedah elektronik &lpar;e-money&rpar;</btn>
+                <td colspan='2'>Kami juga menerima: <btn class='btn btn-sm btn-outline-secondary' type='button' onClick='donateRoIPMARS()'>kaedah elektronik &lpar;e-money&rpar;</btn>
                 </td>
               </tr>
             </tbody>
