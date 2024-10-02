@@ -1,7 +1,7 @@
 const apiSite = `https://api.mhrtech.my`
-const apiSiteHealthz = `${apiSite}/healthz`
-$.getJSON(apiSiteHealthz, function (apiHealthz) {
-	let apiHealthzRes = apiHealthz.status
+// const apiSiteHealthz = `${apiSite}/healthz`
+// $.getJSON(apiSiteHealthz, function (apiHealthz) {
+// 	let apiHealthzRes = apiHealthz.status
 	let hookURL = `${apiSite}/webhook`
 
 	let dochamLive = document.getElementById('hamlive')
@@ -12,7 +12,7 @@ $.getJSON(apiSiteHealthz, function (apiHealthz) {
 	let doccbLiveAud = document.getElementById('cblive-audio')
 	let cbLiveOwnHook = `${hookURL}/cblive-stat`
 
-	if (apiHealthzRes == 'ok') {
+	// if (apiHealthzRes == 'ok') {
 		if (dochamLive || dochamLiveAud) {
 			$.getJSON(hamLiveOwnHook, function (data) {
 				let status = data.status
@@ -72,9 +72,9 @@ $.getJSON(apiSiteHealthz, function (apiHealthz) {
 				}
 			})
 		}
-	} else {
-		let statsOffline = `<div class='col-auto'>Status: <span class='text-danger-emphasis'><i class='fa-solid fa-volume-xmark fa-fade'></i> Tidak Beroperasi Sementara Waktu</span></div>`
-		dochamLive.innerHTML = `<div class='col-12'><div class='row d-flex justify-content-center'>${statsOffline}}</div>`
-		doccbLive.innerHTML = `<div class='col-12'><div class='row d-flex justify-content-center'>${statsOffline}</div>`
-	}
-})
+	// } else {
+	// 	let statsOffline = `<div class='col-auto'>Status: <span class='text-danger-emphasis'><i class='fa-solid fa-volume-xmark fa-fade'></i> Tidak Beroperasi Sementara Waktu</span></div>`
+	// 	dochamLive.innerHTML = `<div class='col-12'><div class='row d-flex justify-content-center'>${statsOffline}}</div>`
+	// 	doccbLive.innerHTML = `<div class='col-12'><div class='row d-flex justify-content-center'>${statsOffline}</div>`
+	// }
+// })
