@@ -3124,13 +3124,13 @@
 			"Hari": "Selasa<br>01/10/2024<br>21:00 MYT",
 			"Acara": "Hari Warga Emas Antarabangsa",
 			"NCS": "9M2SFL | 9W6RHN",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0110242100'>24</button>"
 		},
 		{
 			"Hari": "Rabu<br>02/10/2024<br>21:00 MYT",
 			"Acara": "World Batik Day",
-			"NCS": "9M6JAY | 9M6AUA",
-			"Laporan": "&shy;"
+			"NCS": "9M6JAY",
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Sabtu<br>05/10/2024<br>21:00 MYT",
