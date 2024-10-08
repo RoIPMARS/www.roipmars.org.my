@@ -3136,13 +3136,13 @@
 			"Hari": "Sabtu<br>05/10/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
 			"NCS": "9W2AYP | 9M6JAY",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0510242100'>30</button>"
 		},
 		{
 			"Hari": "Isnin<br>07/10/2024<br>21:00 MYT",
 			"Acara": "Hari Kapas Sedunia",
 			"NCS": "9M2SFL | 9M6RDY",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Rabu<br>09/10/2024<br>21:00 MYT",
