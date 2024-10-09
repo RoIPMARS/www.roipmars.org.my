@@ -1010,6 +1010,10 @@
   <script src='https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js' crossorigin='anonymous'></script>
   <script src='/assets/js/sources.js'></script>
   <script src='/assets/js/theme.js'></script>
+  <script type='text/javascript' src='https://storage.sociabuzz.com/storage/js/main/buttononwebsite/index.min.js'></script>
+  <script>
+    sbBoW.draw('roipmars', 'U3VwcG9ydCBSb0lQTUFSUw', 'position-bottom-right', '#336699', '#FFFFFF')
+  </script>
 </body>
 
 </html>
