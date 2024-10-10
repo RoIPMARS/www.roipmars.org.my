@@ -3142,13 +3142,13 @@
 			"Hari": "Isnin<br>07/10/2024<br>21:00 MYT",
 			"Acara": "Hari Kapas Sedunia",
 			"NCS": "9M2SFL | 9M6RDY",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0710242100'>28</button>"
 		},
 		{
 			"Hari": "Rabu<br>09/10/2024<br>21:00 MYT",
 			"Acara": "World Post Day",
 			"NCS": "9M6RDY | 9M6JAY",
-			"Laporan": "&shy;"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0910242100'>32</button>"
 		},
 		{
 			"Hari": "Khamis<br>10/10/2024<br>21:00 MYT",
