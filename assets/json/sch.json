@@ -3154,7 +3154,7 @@
 			"Hari": "Khamis<br>10/10/2024<br>21:00 MYT",
 			"Acara": "Hari Kesihatan Mental Sedunia",
 			"NCS": "9W2AYP | 9W6RHN",
-			"Laporan": "&shy;"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1010242100'>11</button>"
 		},
 		{
 			"Hari": "Sabtu<br>12/10/2024<br>21:00 MYT",
