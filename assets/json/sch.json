@@ -3160,7 +3160,7 @@
 			"Hari": "Sabtu<br>12/10/2024<br>21:00 MYT",
 			"Acara": "Hari Sukan Negara",
 			"NCS": "9W2ORL | 9M2SFL",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Ahad<br>13/10/2024<br>21:00 MYT",
