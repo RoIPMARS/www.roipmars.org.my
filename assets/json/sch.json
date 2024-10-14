@@ -3160,13 +3160,13 @@
 			"Hari": "Sabtu<br>12/10/2024<br>21:00 MYT",
 			"Acara": "Hari Sukan Negara",
 			"NCS": "9W2ORL | 9M2SFL",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1210242100'>42</button>"
 		},
 		{
 			"Hari": "Ahad<br>13/10/2024<br>21:00 MYT",
 			"Acara": "Hari Pengurangan Bencana Alam Antarabangsa",
-			"NCS": "9M6JAY | 9W2AYP",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1310242100'>31</button>"
 		},
 		{
 			"Hari": "Isnin<br>14/10/2024<br>21:00 MYT",
