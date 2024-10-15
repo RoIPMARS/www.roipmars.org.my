@@ -3171,8 +3171,8 @@
 		{
 			"Hari": "Isnin<br>14/10/2024<br>21:00 MYT",
 			"Acara": "Hari Standard Sedunia",
-			"NCS": "9M2SFL | 9W2ORL",
-			"Laporan": "&shy;"
+			"NCS": "9M2SFL | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1410242100'>36</button>"
 		},
 		{
 			"Hari": "Selasa<br>15/10/2024<br>21:00 MYT",
