@@ -3184,13 +3184,13 @@
 			"Hari": "Rabu<br>16/10/2024<br>21:00 MYT",
 			"Acara": "World Food Day",
 			"NCS": "9W6RHN | 9M6RDY",
-			"Laporan": "&shy;"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1610242100'>24</button>"
 		},
 		{
 			"Hari": "Khamis<br>17/10/2024<br>21:00 MYT",
 			"Acara": "Hari Pembasmian Kemiskinan Antarabangsa",
-			"NCS": "9M6RDY | V85PZ",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP | V85PZ",
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Sabtu<br>19/10/2024<br>21:00 MYT",
