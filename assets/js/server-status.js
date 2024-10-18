@@ -33,35 +33,35 @@ modal.addEventListener('show.bs.modal', (event) => {
 			<tr>
 				<th>TeamSpeak<br>&lpar;roipmars.org.my&rpar;</th>
 				<td>
-					<img src='${statBadge}/21/status?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-teamspeak-server status'> <img src='${statBadge}/21/response?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-teamspeak-server response time'> <img src='${statBadge}/21/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-teamspeak-server uptime'>
+					<img src='${statBadge}/41/status?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-teamspeak-server status'> <img src='${statBadge}/41/response?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-teamspeak-server response time'> <img src='${statBadge}/41/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-teamspeak-server uptime'>
 					<br>
-					<img src='${statBadge}/21/ping/168?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-teamspeak-server average ping'>
-					<img src='${statBadge}/21/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-teamspeak-server average response time'>
+					<img src='${statBadge}/41/ping/168?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-teamspeak-server average ping'>
+					<img src='${statBadge}/41/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='roipmarsorgmy-teamspeak-server average response time'>
 				</td>
 			</tr>
 			<tr>
 				<th>EchoLink<br>&lpar;9W4GPA-R&rpar;</th>
 				<td>
-					<img src='${statBadge}/10/status?style=${statBadgeStyle}' loading='lazy' alt='echolink-9w4gpa status'> <img src='${statBadge}/10/response?style=${statBadgeStyle}' loading='lazy' alt='echolink-9w4gpa response time'> <img src='${statBadge}/10/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='echolink-9w4gpa uptime'>
+					<img src='${statBadge}/29/status?style=${statBadgeStyle}' loading='lazy' alt='echolink-9w4gpa status'> <img src='${statBadge}/29/response?style=${statBadgeStyle}' loading='lazy' alt='echolink-9w4gpa response time'> <img src='${statBadge}/29/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='echolink-9w4gpa uptime'>
 					<br>
-					<img src='${statBadge}/10/ping/168?style=${statBadgeStyle}' loading='lazy' alt='echolink-9w4gpa average ping'>
-					<img src='${statBadge}/10/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='echolink-9w4gpa average response time'>
+					<img src='${statBadge}/29/ping/168?style=${statBadgeStyle}' loading='lazy' alt='echolink-9w4gpa average ping'>
+					<img src='${statBadge}/29/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='echolink-9w4gpa average response time'>
 				</td>
 			</tr>
 			<tr>
 				<th>HAM Stream<br>&lpar;hamlive.mhrtech.my&rpar;</th>
 				<td>
-					<img src='${statBadge}/61/status?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream status'> <img src='${statBadge}/61/response?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream response time'> <img src='${statBadge}/61/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream uptime'>
+					<img src='${statBadge}/28/status?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream status'> <img src='${statBadge}/28/response?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream response time'> <img src='${statBadge}/28/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream uptime'>
 					<br>
-					<img src='${statBadge}/61/ping/168?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream average ping'> <img src='${statBadge}/61/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream average response time'>
+					<img src='${statBadge}/28/ping/168?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream average ping'> <img src='${statBadge}/28/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-ham-stream average response time'>
 				</td>
 			</tr>
 			<tr>
 				<th>CB Stream<br>&lpar;cblive.mhrtech.my&rpar;</th>
 				<td>
-					<img src='${statBadge}/63/status?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream status'> <img src='${statBadge}/63/response?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream response time'> <img src='${statBadge}/63/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream uptime'>
+					<img src='${statBadge}/27/status?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream status'> <img src='${statBadge}/27/response?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream response time'> <img src='${statBadge}/27/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream uptime'>
 					<br>
-					<img src='${statBadge}/63/ping/168?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream average ping'> <img src='${statBadge}/63/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream average response time'>
+					<img src='${statBadge}/27/ping/168?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream average ping'> <img src='${statBadge}/27/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='mhrtechmy-cb-stream average response time'>
 				</td>
 			</tr>
 			<tr>
@@ -75,25 +75,25 @@ modal.addEventListener('show.bs.modal', (event) => {
 			<tr>
 				<th>PostgreSQL<br>&lpar;roipmars.org.my&rpar;</th>
 				<td>
-					<img src='${statBadge}/47/status?style=${statBadgeStyle}' loading='lazy' alt='roipmars-postgresql status'> <img src='${statBadge}/47/response?style=${statBadgeStyle}' loading='lazy' alt='roipmars-postgresql response time'> <img src='${statBadge}/47/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-postgresql uptime'>
+					<img src='${statBadge}/45/status?style=${statBadgeStyle}' loading='lazy' alt='roipmars-postgresql status'> <img src='${statBadge}/45/response?style=${statBadgeStyle}' loading='lazy' alt='roipmars-postgresql response time'> <img src='${statBadge}/45/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-postgresql uptime'>
 					<br>
-					<img src='${statBadge}/47/ping/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-postgresql average ping'> <img src='${statBadge}/47/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-postgresql average response time'>
+					<img src='${statBadge}/45/ping/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-postgresql average ping'> <img src='${statBadge}/45/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-postgresql average response time'>
 				</td>
 			</tr>
 			<tr>
 				<th>Redis<br>&lpar;roipmars.org.my&rpar;</th>
 				<td>
-					<img src='${statBadge}/48/status?style=${statBadgeStyle}' loading='lazy' alt='roipmars-redis status'> <img src='${statBadge}/48/response?style=${statBadgeStyle}' loading='lazy' alt='roipmars-redis response time'> <img src='${statBadge}/48/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-redis uptime'>
+					<img src='${statBadge}/44/status?style=${statBadgeStyle}' loading='lazy' alt='roipmars-redis status'> <img src='${statBadge}/44/response?style=${statBadgeStyle}' loading='lazy' alt='roipmars-redis response time'> <img src='${statBadge}/44/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-redis uptime'>
 					<br>
-					<img src='${statBadge}/48/ping/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-redis average ping'> <img src='${statBadge}/48/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-redis average response time'>
+					<img src='${statBadge}/44/ping/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-redis average ping'> <img src='${statBadge}/44/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-redis average response time'>
 				</td>
 			</tr>
 			<tr>
 				<th>n8n<br>&lpar;api.roipmars.org.my&rpar;</th>
 				<td>
-					<img src='${statBadge}/17/status?style=${statBadgeStyle}' loading='lazy' alt='roipmars-n8n status'> <img src='${statBadge}/17/response?style=${statBadgeStyle}' loading='lazy' alt='roipmars-n8n response time'> <img src='${statBadge}/17/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-n8n uptime'>
+					<img src='${statBadge}/51/status?style=${statBadgeStyle}' loading='lazy' alt='roipmars-n8n status'> <img src='${statBadge}/51/response?style=${statBadgeStyle}' loading='lazy' alt='roipmars-n8n response time'> <img src='${statBadge}/51/uptime/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-n8n uptime'>
 					<br>
-					<img src='${statBadge}/17/ping/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-n8n average ping'> <img src='${statBadge}/17/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-n8n average response time'>
+					<img src='${statBadge}/51/ping/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-n8n average ping'> <img src='${statBadge}/51/avg-response/168?style=${statBadgeStyle}' loading='lazy' alt='roipmars-n8n average response time'>
 				</td>
 			</tr>
 		</tbody>
