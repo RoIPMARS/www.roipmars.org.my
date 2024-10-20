@@ -3196,7 +3196,7 @@
 			"Hari": "Sabtu<br>19/10/2024<br>21:00 MYT",
 			"Acara": "JOTA-JOTI 2024",
 			"NCS": "9W2ORL | 9M6AUA",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Isnin<br>21/10/2024<br>21:00 MYT",
