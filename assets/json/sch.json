@@ -3189,20 +3189,20 @@
 		{
 			"Hari": "Khamis<br>17/10/2024<br>21:00 MYT",
 			"Acara": "Hari Pembasmian Kemiskinan Antarabangsa",
-			"NCS": "9W2AYP | V85PZ",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2AYP | V85AFF",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1710242100'>25</button>"
 		},
 		{
 			"Hari": "Sabtu<br>19/10/2024<br>21:00 MYT",
 			"Acara": "JOTA-JOTI 2024",
-			"NCS": "9W2ORL | 9M6AUA",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W6RHN | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1910242100'>31</button>"
 		},
 		{
 			"Hari": "Isnin<br>21/10/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
 			"NCS": "9M2SFL | 9M6JAY",
-			"Laporan": "&shy;"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2110242100'>25</button>"
 		},
 		{
 			"Hari": "Rabu<br>23/10/2024<br>21:00 MYT",
