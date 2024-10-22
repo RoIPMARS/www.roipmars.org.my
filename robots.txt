@@ -1,5 +1,9 @@
 User-agent: *
-Disallow: 
+
 Crawl-delay: 15
+
 Disallow: /assets/
+Disallow: /media/
+
 Sitemap: https://www.roipmars.org.my/sitemap.xml
+Sitemap: https://www.roipmars.org.my/sitemap_images.xml
