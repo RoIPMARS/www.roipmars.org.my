@@ -3207,20 +3207,20 @@
 		{
 			"Hari": "Rabu<br>23/10/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "9M6AUA | 9W6RHN",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W6RHN | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2310242100'>24</button>"
 		},
 		{
 			"Hari": "Sabtu<br>26/10/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
 			"NCS": "9W2AYP | 9M6RDY",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2610242100'>30</button>"
 		},
 		{
 			"Hari": "Isnin<br>28/10/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP | 9W6RHN",
+			"Laporan": "<i class='bi-person-slash text-danger fs-2'></i>"
 		},
 		{
 			"Hari": "Rabu<br>30/10/2024<br>21:00 MYT",
