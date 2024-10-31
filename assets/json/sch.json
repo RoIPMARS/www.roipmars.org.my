@@ -3226,7 +3226,7 @@
 			"Hari": "Rabu<br>30/10/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
 			"NCS": "9M6JAY | 9M6AUA",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Khamis<br>31/10/2024<br>21:00 MYT",
