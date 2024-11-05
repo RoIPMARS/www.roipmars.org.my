@@ -3238,13 +3238,13 @@
 			"Hari": "Sabtu<br>02/11/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
 			"NCS": "9M2SFL | 9W2AYP",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0211242100'>28</button>"
 		},
 		{
 			"Hari": "Isnin<br>04/11/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
 			"NCS": "9W2AYP | 9W2ORL",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Rabu<br>06/11/2024<br>21:00 MYT",
