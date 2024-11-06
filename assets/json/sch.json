@@ -3243,8 +3243,8 @@
 		{
 			"Hari": "Isnin<br>04/11/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "9W2AYP | 9W2ORL",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0411242100'>20</button>"
 		},
 		{
 			"Hari": "Rabu<br>06/11/2024<br>21:00 MYT",
