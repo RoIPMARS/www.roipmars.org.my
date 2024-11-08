@@ -524,7 +524,7 @@
 		},
 		{
 			"Hari": "Ahad<br>23/04/2023<br>21:00 MYT",
-			"Acara": "CB Net Hujung Minggu (Hari Buku dan Hak Cipta Sedunia)",
+			"Acara": "CB Net Hujung Minggu (Hari Buku & Hak Cipta Sedunia)",
 			"NCS": "113DAISS | 113DAJCP",
 			"Laporan": "<i class='bi-envelope-slash text-danger fs-3'></i>"
 		},
@@ -548,7 +548,7 @@
 		},
 		{
 			"Hari": "Jumaat<br>28/04/2023<br>21:00 MYT",
-			"Acara": "RoIPMARS Net Santai (Hari Keselamatan dan Kesihatan di Tempat Kerja Sedunia)",
+			"Acara": "RoIPMARS Net Santai (Hari Keselamatan & Kesihatan di Tempat Kerja Sedunia)",
 			"NCS": "9W2SNN",
 			"Laporan": "<i class='bi-envelope-slash text-danger fs-3'></i>"
 		},
@@ -1424,7 +1424,7 @@
 		},
 		{
 			"Hari": "Jumaat<br>10/11/2023<br>21:00 MYT",
-			"Acara": "Hari Sains untuk Keamanan dan Pembangunan Antarabangsa",
+			"Acara": "Hari Sains untuk Keamanan & Pembangunan Antarabangsa",
 			"NCS": "9M6RDY | 9W2AYP",
 			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1011232100'>36</button>"
 		},
@@ -1880,7 +1880,7 @@
 		},
 		{
 			"Hari": "Khamis<br>08/02/2024<br>21:00 MYT",
-			"Acara": "Israk dan Mikraj",
+			"Acara": "Israk & Mikraj",
 			"NCS": "9W2AYP",
 			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0802242100'>38</button>"
 		},
@@ -2270,7 +2270,7 @@
 		},
 		{
 			"Hari": "Sabtu<br>06/04/2024<br>22:00 MYT",
-			"Acara": "Hari Sukan untuk Pembangunan dan Keamanan Antarabangsa",
+			"Acara": "Hari Sukan untuk Pembangunan & Keamanan Antarabangsa",
 			"NCS": "V85AFF | 9W2YBT",
 			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0604242200'>18</button>"
 		},
@@ -2492,7 +2492,7 @@
 		},
 		{
 			"Hari": "Selasa<br>21/05/2024<br>21:00 MYT",
-			"Acara": "Hari Kepelbagaian Budaya Sedunia untuk Dialog dan Pembangunan",
+			"Acara": "Hari Kepelbagaian Budaya Sedunia untuk Dialog & Pembangunan",
 			"NCS": "9W2AYP",
 			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2105242100'>34</button>"
 		},
@@ -3920,7 +3920,7 @@
 		},
 		{
 			"Hari": "Isnin<br>07/04/2025<br>21:00 MYT",
-			"Acara": "Hari Kesihantan Antarabangsa",
+			"Acara": "Hari Kesihatan Antarabangsa",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -3962,7 +3962,7 @@
 		},
 		{
 			"Hari": "Isnin<br>21/04/2025<br>21:00 MYT",
-			"Acara": "Hari Kreativiti dan Inovasi Sedunia",
+			"Acara": "Hari Kreativiti & Inovasi Sedunia",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -3986,7 +3986,7 @@
 		},
 		{
 			"Hari": "Isnin<br>28/04/2025<br>21:00 MYT",
-			"Acara": "Hari Keselamatan dan Kesihatan Sedunia di Tempat Kerja",
+			"Acara": "Hari Keselamatan & Kesihatan di Tempat Kerja",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4040,7 +4040,7 @@
 		},
 		{
 			"Hari": "Sabtu<br>17/05/2025<br>21:00 MYT",
-			"Acara": "Hari Telekomunikasi dan Maklumat Masyarakat Sedunia",
+			"Acara": "Hari Telekomunikasi & Maklumat Masyarakat Sedunia",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4304,7 +4304,7 @@
 		},
 		{
 			"Hari": "Rabu<br>13/08/2025<br>21:00 MYT",
-			"Acara": "International Lefthanders Day)",
+			"Acara": "International Lefthanders Day",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4436,7 +4436,7 @@
 		},
 		{
 			"Hari": "Isnin<br>29/09/2025<br>21:00 MYT",
-			"Acara": "Hari Kesedaran Antarabangsa terhadap Kehilangan dan Pembaziran Makanan",
+			"Acara": "Hari Kesedaran Antarabangsa terhadap Kehilangan & Pembaziran Makanan",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4514,7 +4514,7 @@
 		},
 		{
 			"Hari": "Rabu<br>29/10/2025<br>21:00 MYT",
-			"Acara": "International Day of Care and Support",
+			"Acara": "International Day of Care & Support",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
@@ -4694,7 +4694,7 @@
 		},
 		{
 			"Hari": "Rabu<br>31/12/2025<br>23:15 MYT",
-			"Acara": "New Year Eve 2026",
+			"Acara": "New Year's Eve 2026",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
 		},
