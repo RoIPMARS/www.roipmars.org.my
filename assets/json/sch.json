@@ -3250,13 +3250,13 @@
 			"Hari": "Rabu<br>06/11/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
 			"NCS": "9M6RDY | 9M6JAY",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0611242100'>22</button>"
 		},
 		{
 			"Hari": "Sabtu<br>09/11/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Malam Minggu",
-			"NCS": "9W2ORL | V85AFF",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP | V85AFF",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0911242100'>21</button>"
 		},
 		{
 			"Hari": "Isnin<br>11/11/2024<br>21:00 MYT",
