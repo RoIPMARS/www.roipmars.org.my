@@ -3262,13 +3262,13 @@
 			"Hari": "Isnin<br>11/11/2024<br>21:00 MYT",
 			"Acara": "Hari Veteran",
 			"NCS": "9W2AYP | V85PZ",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1111242100'>29</button>"
 		},
 		{
 			"Hari": "Selasa<br>12/11/2024<br>21:00 MYT",
 			"Acara": "Hari Penyakit Paru-Paru Berair Sedunia",
-			"NCS": "9M2SFL | 9M6AUA",
-			"Laporan": "&shy;"
+			"NCS": "9M2SFL | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1211242100'>26</button>"
 		},
 		{
 			"Hari": "Rabu<br>13/11/2024<br>21:00 MYT",
