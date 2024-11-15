@@ -3280,7 +3280,7 @@
 			"Hari": "Khamis<br>14/11/2024<br>21:00 MYT",
 			"Acara": "Hari Diabetes Sedunia",
 			"NCS": "9W2AYP | 9M6JAY",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Sabtu<br>16/11/2024<br>21:00 MYT",
