@@ -3274,19 +3274,19 @@
 			"Hari": "Rabu<br>13/11/2024<br>21:00 MYT",
 			"Acara": "World Antibiotic Awareness Week",
 			"NCS": "9W6RHN | 9M6RDY",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1311242100'>26</button>"
 		},
 		{
 			"Hari": "Khamis<br>14/11/2024<br>21:00 MYT",
 			"Acara": "Hari Diabetes Sedunia",
-			"NCS": "9W2AYP | 9M6JAY",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1411242100'>25</button>"
 		},
 		{
 			"Hari": "Sabtu<br>16/11/2024<br>21:00 MYT",
 			"Acara": "Hari Falsafah Sedunia",
 			"NCS": "9W2ORL | 9M6RDY",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Ahad<br>17/11/2024<br>21:00 MYT",
