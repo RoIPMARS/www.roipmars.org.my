@@ -3285,14 +3285,14 @@
 		{
 			"Hari": "Sabtu<br>16/11/2024<br>21:00 MYT",
 			"Acara": "Hari Falsafah Sedunia",
-			"NCS": "9W2ORL | 9M6RDY",
+			"NCS": "9W2AYP | 9M6RDY",
 			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Ahad<br>17/11/2024<br>21:00 MYT",
 			"Acara": "Hari Kelahiran Pramatang Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP | 9W6RHN",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1711242100'>26</button>"
 		},
 		{
 			"Hari": "Isnin<br>18/11/2024<br>21:00 MYT",
