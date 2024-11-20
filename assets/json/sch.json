@@ -3304,7 +3304,7 @@
 			"Hari": "Selasa<br>19/11/2024<br>21:00 MYT",
 			"Acara": "Hari Lelaki Sedunia",
 			"NCS": "9M2SFL | 9W2AYP",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Rabu<br>20/11/2024<br>21:00 MYT",
