@@ -3298,13 +3298,13 @@
 			"Hari": "Isnin<br>18/11/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
 			"NCS": "9W2AYP | 9M2SFL",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1811242100'>27</button>"
 		},
 		{
 			"Hari": "Selasa<br>19/11/2024<br>21:00 MYT",
 			"Acara": "Hari Lelaki Sedunia",
 			"NCS": "9M2SFL | 9W2AYP",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1911242100'>28</button>"
 		},
 		{
 			"Hari": "Rabu<br>20/11/2024<br>21:00 MYT",
@@ -3316,7 +3316,7 @@
 			"Hari": "Khamis<br>21/11/2024<br>21:00 MYT",
 			"Acara": "Hari Televisyen Sedunia",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Sabtu<br>23/11/2024<br>21:00 MYT",
