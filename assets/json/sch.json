@@ -3333,8 +3333,8 @@
 		{
 			"Hari": "Selasa<br>26/11/2024<br>21:00 MYT",
 			"Acara": "Hari Pengangkutan Lestari Sedunia",
-			"NCS": "9W2AYP | 9M6AUA",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP | V85AFF",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2611242100'>20</button>"
 		},
 		{
 			"Hari": "Rabu<br>27/11/2024<br>21:00 MYT",
