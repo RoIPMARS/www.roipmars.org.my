@@ -3315,7 +3315,7 @@
 		{
 			"Hari": "Khamis<br>21/11/2024<br>21:00 MYT",
 			"Acara": "Hari Televisyen Sedunia",
-			"NCS": "&shy;",
+			"NCS": "9W6RHN | 9W2AYP",
 			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
@@ -3339,8 +3339,8 @@
 		{
 			"Hari": "Rabu<br>27/11/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "9M6JAY | 9M6AUA",
-			"Laporan": "&shy;"
+			"NCS": "9M6JAY | 9W6RHN",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2711242100'>25</button>"
 		},
 		{
 			"Hari": "Jumaat<br>29/11/2024<br>21:00 MYT",
