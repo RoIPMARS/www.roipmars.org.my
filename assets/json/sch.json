@@ -3310,13 +3310,13 @@
 			"Hari": "Rabu<br>20/11/2024<br>21:00 MYT",
 			"Acara": "Universal Children’s Day",
 			"NCS": "9W6RHN | 9W2AYP",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2011242100'>10</button>"
 		},
 		{
 			"Hari": "Khamis<br>21/11/2024<br>21:00 MYT",
 			"Acara": "Hari Televisyen Sedunia",
 			"NCS": "9W6RHN | 9W2AYP",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2111242100'>27</button>"
 		},
 		{
 			"Hari": "Sabtu<br>23/11/2024<br>21:00 MYT",
