@@ -12,8 +12,8 @@ const byCSLocaleDays = document.getElementById('byCSLocaleDays')
 const byCountry = document.getElementById('byCountry')
 
 Chart.register(ChartDeferred)
-Chart.defaults.backgroundColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg')
-Chart.defaults.borderColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-border-color')
+// Chart.defaults.backgroundColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg')
+// Chart.defaults.borderColor = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-border-color')
 Chart.defaults.color = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-color')
 Chart.defaults.font.family = window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-font-monospace')
 Chart.defaults.font.lineHeight = 1
