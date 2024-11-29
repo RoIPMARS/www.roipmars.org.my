@@ -947,7 +947,12 @@
         <div class='col-lg-8'>
           <p class='text-lg-end font-monospace user-select-none text-break m-0'><a href='/policies' class='text-reset text-decoration-none pe-auto'>Polisi Perkhidmatan</a><span class='text-body-tertiary'> &#124; <i class='nf nf-dev-code'></i> <i class='nf nf-dev-git'></i> <i class='nf nf-dev-php'></i> <i class='nf nf-dev-html5'></i> <i class='nf nf-dev-css3_full'></i> <i class='nf nf-dev-javascript'></i> <i class='nf nf-dev-bootstrap'></i> <i class='nf nf-fa-fa'></i><br>
               <?php
-              $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMM yyyy, HH:mm zzz');
+              date_default_timezone_set("Asia/Kuala_Lumpur");
+              if (!empty($_SERVER['HTTP_CF_TIMEZONE'])) {
+                $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMM yyyy, HH:mm zzz');
+              } else {
+                $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, date_default_timezone_get(), IntlDateFormatter::GREGORIAN, 'EEEE, d MMM yyyy, HH:mm zzz');
+              }
               function scan_dir($dir)
               {
                 $files = array();
