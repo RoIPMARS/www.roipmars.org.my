@@ -3345,8 +3345,8 @@
 		{
 			"Hari": "Jumaat<br>29/11/2024<br>21:00 MYT",
 			"Acara": "Hari Solidariti Antarabangsa Bersama Rakyat Palestin",
-			"NCS": "9W6RHN | 9W2AYP",
-			"Laporan": "&shy;"
+			"NCS": "9W6RHN | V85AFF",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2911242100'>27</button>"
 		},
 		{
 			"Hari": "Sabtu<br>30/11/2024<br>21:00 MYT",
