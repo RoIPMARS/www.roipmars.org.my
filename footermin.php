@@ -970,8 +970,8 @@
               function getVisitorIp()
               {
                 if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-                  if (!isset($_SERVER['HTTP_CF_IPCITY']) || ($_SERVER['HTTP_CF_IPCITY'] == $_SERVER['HTTP_CF_REGION'])) {
-                    $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR'] . ' dari ' . $_SERVER['HTTP_CF_REGION'] . ', ' . $_SERVER['HTTP_CF_IPCOUNTRY'];
+                  if (!isset($_SERVER['HTTP_CF_IPCITY']) || !isset($_SERVER['HTTP_CF_REGION']) || ($_SERVER['HTTP_CF_IPCITY'] == $_SERVER['HTTP_CF_REGION'])) {
+                    $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR'] . ' dari ' . $_SERVER['HTTP_CF_IPCOUNTRY'];
                   } else {
                     $ipAdress = $_SERVER['HTTP_X_FORWARDED_FOR'] . ' dari ' . $_SERVER['HTTP_CF_IPCITY'] . ', ' . $_SERVER['HTTP_CF_REGION'] . ', ' . $_SERVER['HTTP_CF_IPCOUNTRY'];
                   }
