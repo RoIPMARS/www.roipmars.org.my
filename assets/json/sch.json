@@ -3357,8 +3357,8 @@
 		{
 			"Hari": "Ahad<br>01/12/2024<br>21:00 MYT",
 			"Acara": "Hari AIDS Sedunia",
-			"NCS": "9M2SFL | 9W6RHN",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP | 9W6RHN",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0112242100'>37</button>"
 		},
 		{
 			"Hari": "Isnin<br>02/12/2024<br>21:00 MYT",
