@@ -3364,7 +3364,7 @@
 			"Hari": "Isnin<br>02/12/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
 			"NCS": "9W2AYP | 9M2SFL",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Selasa<br>03/12/2024<br>21:00 MYT",
