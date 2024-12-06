@@ -3351,8 +3351,8 @@
 		{
 			"Hari": "Sabtu<br>30/11/2024<br>21:00 MYT",
 			"Acara": "Hari Kesedaraan Mencederakan Diri",
-			"NCS": "9M6RDY",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9M6RDY | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='3011242100'>37</button>"
 		},
 		{
 			"Hari": "Ahad<br>01/12/2024<br>21:00 MYT",
@@ -3381,8 +3381,8 @@
 		{
 			"Hari": "Khamis<br>05/12/2024<br>21:00 MYT",
 			"Acara": "Hari Sukarelawan Antarabangsa",
-			"NCS": "V85AFF | 9W2ORL",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0512242100'>25</button>"
 		},
 		{
 			"Hari": "Sabtu<br>07/12/2024<br>21:00 MYT",
