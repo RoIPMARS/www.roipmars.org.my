@@ -3375,8 +3375,8 @@
 		{
 			"Hari": "Rabu<br>04/12/2024<br>21:00 MYT",
 			"Acara": "International Day of Banks",
-			"NCS": "9M6JAY",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9M6JAY | 9M6RDY",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0412242100'>28</button>"
 		},
 		{
 			"Hari": "Khamis<br>05/12/2024<br>21:00 MYT",
@@ -3387,8 +3387,8 @@
 		{
 			"Hari": "Sabtu<br>07/12/2024<br>21:00 MYT",
 			"Acara": "Hari Penerbangan Awam Antarabangsa",
-			"NCS": "9M2SFL | V85AFF",
-			"Laporan": "&shy;"
+			"NCS": "9M2SFL | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0712242100'>33</button>"
 		},
 		{
 			"Hari": "Ahad<br>08/12/2024<br>21:00 MYT",
