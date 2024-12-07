@@ -3370,7 +3370,7 @@
 			"Hari": "Selasa<br>03/12/2024<br>21:00 MYT",
 			"Acara": "Hari Batik Malaysia",
 			"NCS": "V85AFF | 9W2AYP",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0312242100'>27</button>"
 		},
 		{
 			"Hari": "Rabu<br>04/12/2024<br>21:00 MYT",
