@@ -3394,7 +3394,7 @@
 			"Hari": "Ahad<br>08/12/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Hujung Minggu",
 			"NCS": "9W2AYP | V85PZ",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Selasa<br>10/12/2024<br>21:00 MYT",
