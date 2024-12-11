@@ -3400,7 +3400,7 @@
 			"Hari": "Selasa<br>10/12/2024<br>21:00 MYT",
 			"Acara": "Hari Hak Asasi Manusia",
 			"NCS": "V85AFF | 9M6AUA",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Rabu<br>11/12/2024<br>21:00 MYT",
