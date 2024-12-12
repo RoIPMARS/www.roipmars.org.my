@@ -3399,14 +3399,14 @@
 		{
 			"Hari": "Selasa<br>10/12/2024<br>21:00 MYT",
 			"Acara": "Hari Hak Asasi Manusia",
-			"NCS": "V85AFF | 9M6AUA",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1012242100'>29</button>"
 		},
 		{
 			"Hari": "Rabu<br>11/12/2024<br>21:00 MYT",
 			"Acara": "International Mountain Day",
 			"NCS": "9W6RHN | 9M6RDY",
-			"Laporan": "&shy;"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1112242100'>33</button>"
 		},
 		{
 			"Hari": "Sabtu<br>14/12/2024<br>21:00 MYT",
