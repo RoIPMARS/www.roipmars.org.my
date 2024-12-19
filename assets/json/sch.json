@@ -3423,8 +3423,8 @@
 		{
 			"Hari": "Rabu<br>18/12/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "9M6AUA | 9W6RHN",
-			"Laporan": "&shy;"
+			"NCS": "9W6RHN",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='1812242100'>27</button>"
 		},
 		{
 			"Hari": "Sabtu<br>21/12/2024<br>21:00 MYT",
