@@ -126,7 +126,7 @@ $(document).ready(function () {
 		deferRender: true,
 		lengthChange: false,
 		ordering: false,
-		pageLength: 10,
+		pageLength: 5,
 		paging: true,
 		pagingTag: 'button',
 		pagingType: 'numbers',

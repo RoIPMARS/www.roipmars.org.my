@@ -90,18 +90,18 @@
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m2sfl.png' alt='9M2SFL'>
 								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9M2SFL<br><span class='fw-bold'>SAIFUL</span></p>
 							</div>
-							<div class='position-relative mx-5 px-5'>
+							<!-- <div class='position-relative mx-5 px-5'>
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9w2orl.png' alt='9W2ORL'>
 								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9W2ORL<br><span class='fw-bold'>RAHIM</span></p>
-							</div>
+							</div> -->
 							<div class='position-relative mx-5 px-5'>
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m6jay.png' alt='9M6JAY'>
 								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9M6JAY<br><span class='fw-bold'>JOHN JR.</span></p>
 							</div>
-							<div class='position-relative mx-5 px-5'>
+							<!-- <div class='position-relative mx-5 px-5'>
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/010.png' alt='9M6AUA'>
 								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9M6AUA<br><span class='fw-bold'>JEOFREY</span></p>
-							</div>
+							</div> -->
 							<div class='position-relative mx-5 px-5'>
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/017.png' alt='9M6RDY'>
 								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9M6RDY<br><span class='fw-bold'>RUDY</span></p>
@@ -222,20 +222,20 @@
 					<h2 class='text-center'>Statistik Program</h2>
 					<p class='text-center'>&quot;Penyertaan &amp; Sokongan Anda adalah Kebanggaan Kita Semua&quot;</p>
 				</div>
-				<div class='col-lg-6 figure my-1'><canvas id='byTime' loading='lazy' alt='NetGraphTime'></canvas></div>
-				<div class='col-lg-6 figure my-1'><canvas id='byDate' loading='lazy' alt='NetGraphDaily'></canvas></div>
-				<div class='col-lg-6 figure my-1'><canvas id='byDay' loading='lazy' alt='NetGraphDay'></canvas></div>
-				<div class='col-lg-6 figure my-1'><canvas id='byWeekDay' loading='lazy' alt='NetGraphWeekDay'></canvas></div>
-				<div class='col-lg-6 figure my-1'><canvas id='byWeek' loading='lazy' alt='NetGraphWeekly'></canvas></div>
-				<div class='col-lg-6 figure my-1'><canvas id='byMonth' loading='lazy' alt='NetGraphMonthly'></canvas></div>
-				<div class='col-lg-6 figure my-1'><canvas id='byQuarter' loading='lazy' alt='NetGraphQuarterly'></canvas></div>
-				<div class='col-lg-6 figure my-1'><canvas id='byMode' loading='lazy' alt='NetGraphMode'></canvas></div>
-				<div class='col-lg-6 figure my-1'><canvas id='byCSLocaleDays' loading='lazy' alt='NetGraphCallerDays'></canvas></div>
-				<div class='col-lg-6 figure my-1'><canvas id='byCSLocaleWeek' loading='lazy' alt='NetGraphCallerWeek'></canvas></div>
-				<div class='col-lg-6 figure my-1'><canvas id='byCSLocaleMonth' loading='lazy' alt='NetGraphCallerMonth'></canvas></div>
-				<div class='col-lg-6 figure my-1'><canvas id='byCSLocaleQuarter' loading='lazy' alt='NetGraphCallerQuarter'></canvas></div>
-				<div class='col-lg-9 figure my-1 align-items-center'><canvas id='byCountry' loading='lazy' alt='NetGraphMap'></canvas></div>
-				<div class='col-lg-3 align-self-top'>
+				<div class='col-lg-6 figure my-2'><canvas id='byTime' loading='lazy' alt='NetGraphTime'></canvas></div>
+				<div class='col-lg-6 figure my-2'><canvas id='byDate' loading='lazy' alt='NetGraphDaily'></canvas></div>
+				<div class='col-lg-6 figure my-2'><canvas id='byDay' loading='lazy' alt='NetGraphDay'></canvas></div>
+				<div class='col-lg-6 figure my-2'><canvas id='byWeekDay' loading='lazy' alt='NetGraphWeekDay'></canvas></div>
+				<div class='col-lg-6 figure my-2'><canvas id='byWeek' loading='lazy' alt='NetGraphWeekly'></canvas></div>
+				<div class='col-lg-6 figure my-2'><canvas id='byMonth' loading='lazy' alt='NetGraphMonthly'></canvas></div>
+				<div class='col-lg-6 figure my-2'><canvas id='byQuarter' loading='lazy' alt='NetGraphQuarterly'></canvas></div>
+				<div class='col-lg-6 figure my-2'><canvas id='byMode' loading='lazy' alt='NetGraphMode'></canvas></div>
+				<div class='col-lg-6 figure my-2'><canvas id='byCSLocaleDays' loading='lazy' alt='NetGraphCallerDays'></canvas></div>
+				<div class='col-lg-6 figure my-2'><canvas id='byCSLocaleWeek' loading='lazy' alt='NetGraphCallerWeek'></canvas></div>
+				<div class='col-lg-6 figure my-2'><canvas id='byCSLocaleMonth' loading='lazy' alt='NetGraphCallerMonth'></canvas></div>
+				<div class='col-lg-6 figure my-2'><canvas id='byCSLocaleQuarter' loading='lazy' alt='NetGraphCallerQuarter'></canvas></div>
+				<div class='col-lg-9 figure my-2 align-items-center'><canvas id='byCountry' loading='lazy' alt='NetGraphMap'></canvas></div>
+				<div class='col-lg-3 align-self-center'>
 					<table class='table table-sm table-striped text-center align-middle' id='uniq-ham-origin'></table>
 				</div>
 			</div>
@@ -297,7 +297,7 @@
 					</div>
 				</div>
 			</div>
-			<div class='row my-1'>
+			<!-- <div class='row my-1'>
 				<div class='col-lg-6'>
 					<h3 class='text-center'>Kedudukan Kategori Jalur Rakyat</h3>
 					<h4 class='text-center'>RoIPMARS CB Net Bahasa Melayu</h4>
@@ -326,7 +326,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<hr>
 			<div class='row my-1'>
 				<div class='col-12'>
