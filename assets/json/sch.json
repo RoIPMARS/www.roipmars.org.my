@@ -3453,20 +3453,20 @@
 		{
 			"Hari": "Isnin<br>30/12/2024<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Awal Minggu",
-			"NCS": "V85AFF | 9W2ORL",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='3012242100'>28</button>"
 		},
 		{
 			"Hari": "Selasa<br>31/12/2024<br>23:15 MYT",
 			"Acara": "Ambang Tahun Baru 2025",
-			"NCS": "9M2SFL | V85AFF",
-			"Laporan": "&shy;"
+			"NCS": "9W6RHN | V85AFF",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='3112242315'>13</button>"
 		},
 		{
 			"Hari": "Rabu<br>01/01/2025<br>21:00 MYT",
 			"Acara": "New Year 2025",
-			"NCS": "9M6JAY | V85PZ",
-			"Laporan": "&shy;"
+			"NCS": "9M6JAY | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='0101252100'>8</button>"
 		},
 		{
 			"Hari": "Sabtu<br>04/01/2025<br>21:00 MYT",
