@@ -3472,7 +3472,7 @@
 			"Hari": "Sabtu<br>04/01/2025<br>21:00 MYT",
 			"Acara": "Hari Braille",
 			"NCS": "9W2ORL | 9M6AUA",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Isnin<br>06/01/2025<br>21:00 MYT",
