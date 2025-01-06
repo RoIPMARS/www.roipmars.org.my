@@ -1171,9 +1171,9 @@ $(document).ready(function () {
 						callCtc = ''
 						callMail = ''
 					}
-					let WaCtc = prompt(`fill your contact number (INCLUDING country code WITHOUT plus sign; example: 601234567890) if you want to receive by WhatsApp;\nchoose "cancel" to download`, callCtc)
+					let WaCtc = prompt(`fill your WhatsApp number (INCLUDING country code WITHOUT plus sign; example: 601234567890) if you want to receive by WhatsApp`, callCtc)
 					if (WaCtc == null || WaCtc == '') {
-						let MailCtc = prompt(`fill your email if you want to receive by eMail; choose "cancel" to download`, callMail)
+						let MailCtc = prompt(`fill your email if you want to receive by eMail`, callMail)
 						if (MailCtc == null || MailCtc == '') {
 							toastSuccess.innerHTML = `<div class='toast-body'>eCert ${fileName} saved.\ncheck your 'downloads' folder.</div>`
 							msgSuccess.show()
@@ -1292,7 +1292,7 @@ $(document).ready(function () {
 								return data.response.canReceiveMessage
 							})
 						if (checkNumber == false) {
-							toastDanger.innerHTML = `<div class='toast-body'>invalid number ${WaCtc}. please retry with other valid WhatsApp number.</div>`
+							toastDanger.innerHTML = `<div class='toast-body'>invalid number ${WaCtc}. retry with valid WhatsApp number (INCLUDING country code WITHOUT plus sign; example: 601234567890).</div>`
 							msgDanger.show()
 						} else {
 							let isUserinCommunity = await fetch(`${waAPI.BaseURL}/group-members-ids/120363237967506395`, {
