@@ -701,7 +701,7 @@ $(document).ready(function () {
 						title: `${reportTitle}`,
 						messageBottom: [
 							{
-								text: 'RF->Radio Transceiver | EL->EchoLink | TS->TeamSpeak | MBL->Mumble | FRN->Free Radio Network\nPNT->Peanut for HAM | DC->Discord | TG->Telegram | TT->Team Talk | WA->WhatsApp | ZL->Zello',
+								text: 'RF->Radio Transceiver | EL->EchoLink | TS->TeamSpeak | ZL->Zello\nEnd of Support: MBL->Mumble | FRN->Free Radio Network | PNT->Peanut for HAM | DC->Discord | TG->Telegram | TT->Team Talk | WA->WhatsApp',
 								alignment: 'center',
 								fontSize: 8,
 							},
