@@ -2,7 +2,7 @@ $(document).ready(function () {
 	let tsServer = document.getElementById('collapserms3')
 	tsServer.addEventListener('show.bs.collapse', (event) => {
 		let target = event.target
-		target.lastElementChild.lastElementChild.innerHTML = `<hr><h4 class='m-0'>Senarai pelayan TeamSpeak lain;</h4><table class='table table-sm table-striped align-middle text-nowrap caption-top' id='tsServerList'><caption class='text-center'></caption></table>`
+		target.lastElementChild.lastElementChild.innerHTML = `<hr><h4 class='m-0'>Senarai pelayan TeamSpeak lain;</h4><table class='table table-sm table-striped align-middle text-nowrap caption-bottom' id='tsServerList'><caption></caption></table>`
 		$('#tsServerList').DataTable({
 			ajax: {
 				url: '/assets/json/server-tracking.json',
@@ -11,7 +11,7 @@ $(document).ready(function () {
 			columns: [
 				{ title: 'Nama', name: 'server-name', data: 'nickname' },
 				{ title: '', name: 'server-note', data: 'note' },
-				{ title: 'Versi', name: 'client-version', data: 'clientVer' },
+				{ title: 'Keserasian<br>Versi', name: 'client-version', data: 'clientVer' },
 				{ title: 'Alamat', name: 'server-address', data: 'address' },
 			],
 			columnDefs: [
@@ -30,7 +30,7 @@ $(document).ready(function () {
 					targets: 3,
 				},
 			],
-			caption: `<i class='bi-exclamation-triangle-fill text-danger-emphasis'></i> &mdash; Pelayan telah disenarai hitam oleh TeamSpeak Systems, Inc.<br><i class='bi-exclamation-diamond-fill text-warning-emphasis'></i> &mdash; Pemilik sah IKRAP RAPI &lpar;JZ&rpar; sahaja.`,
+			caption: `Kemaskini: ${lastMod('/assets/json/server-tracking.json')}<br><i class='bi-exclamation-triangle-fill text-danger-emphasis'></i> &mdash; Pelayan telah disenarai hitam oleh TeamSpeak Systems, Inc.<br><i class='bi-exclamation-diamond-fill text-warning-emphasis'></i> &mdash; Pemilik sah IKRAP RAPI &lpar;JZ&rpar; sahaja.`,
 			processing: true,
 			searching: false,
 			info: false,
