@@ -30,7 +30,7 @@ const apiSite = `https://api.mhrtech.my`
 					var lists = ''
 				}
 				if (meta) {
-					var metas = `<br><div class='col-12'>EchoLink Metadata: <span class='text-success-emphasis'>${meta}</span></div>`
+					var metas = `<br><div class='col-12'>EchoLink: <span class='text-success-emphasis'>${meta}</span></div>`
 				} else {
 					var metas = ''
 				}
@@ -39,7 +39,7 @@ const apiSite = `https://api.mhrtech.my`
 			$.getJSON(hamLiveOwnHook, function (data) {
 				let status = data.status
 				if (status) {
-					dochamLiveAud.innerHTML = `<div class='col-12 mt-2'><audio class='rounded-3 w-75 mx-auto' controls preload='metadata'><source src='https://mhrtech.my:5000/htmlaudioplayerfeed' type='audio/mp3'></source><source src='https://mhrtech.my:5000/feed.m3u' type='audio/mpeg'></source>Pelayar anda tidak menyokong tag audio.</audio></div><span>Siaran mungkin tertunda sehingga 10 minit bergantung kepada kecekapan jaringan. Sebagai alternatif, anda boleh mendengar di: <a href='https://mhrtech.my:5000' target='_blank'>hamlive.mhrtech.my</a>; periksa kelajuan jaringan: <a href='https://speed.roipmars.org.my' target='_blank'>speed.roipmars.org.my</a>; </span>`
+					dochamLiveAud.innerHTML = `<div class='col-12 mt-2'><audio class='rounded-3 w-75 mx-auto' controls preload='none'><source src='https://mhrtech.my:5000/htmlaudioplayerfeed' type='audio/mp3'></source><source src='https://mhrtech.my:5000/feed.m3u' type='audio/mpeg'></source>Pelayar anda tidak menyokong tag audio.</audio></div><span>Siaran mungkin tertunda sehingga 10 minit bergantung kepada kecekapan jaringan. Sebagai alternatif, anda boleh mendengar di: <a href='https://mhrtech.my:5000' target='_blank'>hamlive.mhrtech.my</a>; periksa kelajuan jaringan: <a href='https://speed.roipmars.org.my' target='_blank'>speed.roipmars.org.my</a>; </span>`
 				} else {
 					dochamLiveAud.innerHTML = ''
 				}
@@ -66,7 +66,7 @@ const apiSite = `https://api.mhrtech.my`
 			$.getJSON(cbLiveOwnHook, function (data) {
 				let status = data.status
 				if (status) {
-					doccbLiveAud.innerHTML = `<div class='col-12 mt-2'><audio class='rounded-3 w-75 mx-auto' controls preload='metadata'><source src='https://mhrtech.my:5001/htmlaudioplayerfeed' type='audio/mp3'></source><source src='https://mhrtech.my:5001/feed.m3u' type='audio/mpeg'></source>Pelayar anda tidak menyokong tag audio.</audio></div><span>Siaran mungkin tertunda sehingga 10 minit bergantung kepada kecekapan jaringan. Sebagai alternatif, anda boleh mendengar di: <a href='https://mhrtech.my:5001' target='_blank'>cblive.mhrtech.my</a>; periksa kelajuan jaringan: <a href='https://speed.roipmars.org.my' target='_blank'>speed.roipmars.org.my</a>; </span>`
+					doccbLiveAud.innerHTML = `<div class='col-12 mt-2'><audio class='rounded-3 w-75 mx-auto' controls preload='none'><source src='https://mhrtech.my:5001/htmlaudioplayerfeed' type='audio/mp3'></source><source src='https://mhrtech.my:5001/feed.m3u' type='audio/mpeg'></source>Pelayar anda tidak menyokong tag audio.</audio></div><span>Siaran mungkin tertunda sehingga 10 minit bergantung kepada kecekapan jaringan. Sebagai alternatif, anda boleh mendengar di: <a href='https://mhrtech.my:5001' target='_blank'>cblive.mhrtech.my</a>; periksa kelajuan jaringan: <a href='https://speed.roipmars.org.my' target='_blank'>speed.roipmars.org.my</a>; </span>`
 				} else {
 					doccbLiveAud.innerHTML = ''
 				}
