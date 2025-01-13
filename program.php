@@ -283,7 +283,7 @@
 						</div>
 					</div>
 				</div>
-				<div class='col-lg-4'>
+				<!-- <div class='col-lg-4'>
 					<h4 class='text-center'>RoIPMARS HAM Net Bahasa Indonesia</h4>
 					<div class='row'>
 						<div class='col-lg-12'>
@@ -295,7 +295,7 @@
 							<table class='table table-sm table-striped text-center align-middle' id='id-stn-rank'></table>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 			<!-- <div class='row my-1'>
 				<div class='col-lg-6'>
