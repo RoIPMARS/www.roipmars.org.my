@@ -35,6 +35,8 @@ Chart.defaults.plugins.subtitle.padding = 0
 Chart.defaults.plugins.subtitle.position = 'top'
 Chart.defaults.plugins.tooltip.usePointStyle = true
 Chart.defaults.plugins.tooltip.mode = 'index'
+Chart.defaults.plugins.tooltip.itemSort = (a, b) => b.raw - a.raw
+Chart.defaults.plugins.tooltip.filter = (item) => item.raw > 0
 Chart.defaults.plugins.datalabels = {
 	clamp: true,
 	clip: true,

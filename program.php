@@ -257,7 +257,7 @@
 						</div>
 					</div>
 				</div>
-				<div class='col-lg-4'>
+				<div class='col-lg-6'>
 					<h4 class='text-center'>RoIPMARS HAM Net Bahasa Inggeris</h4>
 					<div class='row'>
 						<div class='col-lg-12'>
@@ -270,7 +270,7 @@
 						</div>
 					</div>
 				</div>
-				<div class='col-lg-4'>
+				<div class='col-lg-6'>
 					<h4 class='text-center'>RoIPMARS HAM Net Bahasa Melayu</h4>
 					<div class='row'>
 						<div class='col-lg-12'>
