@@ -12,7 +12,7 @@
   <footer class='footer pt-1 page-footer font-small bg-body-tertiary text-center'>
     <div class='container'>
       <div class='row mt-2'>
-        <div class='col-xl-8 mx-auto my-1 text-xl-start'>
+        <div class='col-xl-7 mx-auto my-1 text-xl-start'>
           <h5 class='text-uppercase mb-2 fw-bold'>Sumbangan</h5>
           <p class='mb-2'>Sumbangan anda membantu Penyelidikan &amp; Pembangunan serta Perkhidmatan kami tersedia untuk anda sepanjang masa di mana sahaja.</p>
           <table class='table table-sm table-bordered text-center align-middle my-0'>
@@ -32,8 +32,9 @@
             </tbody>
           </table>
           <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
+          <img class='w-50 mx-auto d-block' src='https://status.mhrtech.my/api/status-page/roipmars/badge?style=flat-square&label=RoIPMARS%20Network%20Services' loading='lazy' alt='roipmars-server overall status'>
         </div>
-        <div class='col-xl-4 mx-auto my-1'>
+        <div class='col-xl-5 mx-auto my-1'>
           <h5 class='text-uppercase mb-2 fw-bold text-xl-end'>Hubungi Kami</h5>
           <div class='d-grid gap-1 d-xl-flex justify-content-xl-end mb-2'>
             <a type='button' class='btn btn-primary rounded-5 me-xl-2' href='contact'><i class='bi-envelope-at'></i> member@roipmars.org.my</a>
