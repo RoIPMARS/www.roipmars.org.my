@@ -3520,7 +3520,7 @@
 			"Hari": "Rabu<br>22/01/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
 			"NCS": "9W6RHN | V85PZ",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Sabtu<br>25/01/2025<br>21:00 MYT",
