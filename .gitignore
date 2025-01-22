@@ -1,4 +1,5 @@
 .php_tmp
+.vs
 .vscode
 *.code-workspace
 /teamspeak/
