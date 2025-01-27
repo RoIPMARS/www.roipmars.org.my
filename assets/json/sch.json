@@ -3532,7 +3532,7 @@
 			"Hari": "Isnin<br>27/01/2025<br>21:00 MYT",
 			"Acara": "Israk Mikraj",
 			"NCS": "9W2AYP | V85PZ",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Rabu<br>29/01/2025<br>21:00 MYT",
