@@ -29,8 +29,8 @@
 						<tbody>
 							<tr class='table-primary'>
 								<td>Isnin</td>
-								<td>1300z &vert; 2100myt</td>
-								<td>RoIPMARS Net Awal Minggu <sup>*akan dibubarkan mulai Feb 2025</sup></td>
+								<td>&mdash;</td>
+								<td>&mdash;</sup></td>
 							</tr>
 							<tr class='opacity-25'>
 								<td>Selasa</td>
@@ -55,7 +55,7 @@
 							<tr class='table-primary'>
 								<td>Sabtu</td>
 								<td>1300z &vert; 2100myt</td>
-								<td>RoIPMARS Net Malam Minggu</td>
+								<td>RoIPMARS Net Hujung Minggu</td>
 							</tr>
 							<tr class='opacity-25'>
 								<td>Ahad</td>
@@ -84,7 +84,7 @@
 						<div class='marquee-content scroll gap-5'>
 							<div class='position-relative mx-5 px-5'>
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png' alt='9W2AYP'>
-								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9W2AYP<br><span class='fw-bold'>SABRI</span><br><span class='fw-light'>Ketua Wilayah Malaysia</span></p>
+								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>9W2AYP<br><span class='fw-bold'>SABRI</span><br><span class='fw-light'>Pegawai Wilayah Malaysia</span></p>
 							</div>
 							<!-- <div class='position-relative mx-5 px-5'>
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/9m2sfl.png' alt='9M2SFL'>
@@ -112,15 +112,15 @@
 							</div>
 							<!-- <div class='position-relative mx-5 px-5'>
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/032.png' alt='V85AFF'>
-								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>V85AFF<br><span class='fw-bold'>MAHATHIR</span><br><span class='fw-light'>Ketua Wilayah Brunei</span></p>
+								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>V85AFF<br><span class='fw-bold'>MAHATHIR</span><br><span class='fw-light'>Pegawai Wilayah Brunei</span></p>
 							</div> -->
-							<div class='position-relative mx-5 px-5'>
+							<!-- <div class='position-relative mx-5 px-5'>
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/037.png' alt='V85PZ'>
 								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>V85PZ<br><span class='fw-bold'>PENGIRAN AZIZ</span></p>
-							</div>
+							</div> -->
 							<!-- <div class='position-relative mx-5 px-5'>
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yd4dta.png' alt='YD4DTA'>
-								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>YD4DTA<br><span class='fw-bold'>DITA</span><br><span class='fw-light'>Ketua Wilayah Indonesia</span></p>
+								<p class='position-absolute bottom-0 start-50 translate-middle-x bg-body rounded-3 lh-1 p-1 mb-3 fs-5'>YD4DTA<br><span class='fw-bold'>DITA</span><br><span class='fw-light'>Pegawai Wilayah Indonesia</span></p>
 							</div>
 							<div class='position-relative mx-5 px-5'>
 								<img class='marquee-image img-fluid rounded-circle w-100 mx-auto' loading='lazy' src='https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/ncs/yc4aum.png' alt='YC4AUM'>
