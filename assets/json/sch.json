@@ -3543,8 +3543,8 @@
 		{
 			"Hari": "Sabtu<br>01/02/2025<br>21:00 MYT",
 			"Acara": "Hari Wilayah Persekutuan",
-			"NCS": "9W6RHN",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2502012100'>6</button>"
 		},
 		{
 			"Hari": "Rabu<br>05/02/2025<br>21:00 MYT",
