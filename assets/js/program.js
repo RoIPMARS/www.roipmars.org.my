@@ -1039,10 +1039,10 @@ $(document).ready(function () {
 					toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> gathering contact informations...</div>`
 					msgInfo.show()
 					// eCert.addImage('/media/image/program/ecert_template_site.png', 'PNG', 0, 0, 297, 210)
-					let sourceFormat = source.split('')[4] + source.split('')[5] + source.split('')[2] + source.split('')[3] + source.split('')[0] + source.split('')[1] + source.slice(-4)
-					await fetch(`/media/image/program/${sourceFormat}.jpg`).then((response) => {
+					// let sourceFormat = source.split('')[4] + source.split('')[5] + source.split('')[2] + source.split('')[3] + source.split('')[0] + source.split('')[1] + source.slice(-4)
+					await fetch(`/media/image/program/${source}.jpg`).then((response) => {
 						if (response.ok) {
-							eCert.addImage(`/media/image/program/${sourceFormat}.jpg`, 'JPEG', 0, 0, 297, 210)
+							eCert.addImage(`/media/image/program/${source}.jpg`, 'JPEG', 0, 0, 297, 210)
 						} else {
 							if (activity.toLowerCase().search('sahur') > 0) {
 								eCert.addImage(`/media/image/program/sahur.jpg`, 'JPEG', 0, 0, 297, 210)
