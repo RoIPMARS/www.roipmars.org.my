@@ -54,7 +54,11 @@ $(document).ready(function () {
 				[1, 'asc'],
 				[0, 'asc'],
 			],
-			paging: false,
+			paging: true,
+			lengthChange: false,
+			pageLength: 5,
+			pagingTag: 'button',
+			pagingType: 'simple',
 			processing: true,
 		})
 	})
