@@ -1,11 +1,12 @@
 .php_tmp
+.seospider
 .vs
 .vscode
 *.code-workspace
+*.config
+*.config.js
 /teamspeak/
 ads.txt
-*.config.js
 keys.js
 mywotf4a23b06de7dd0377ea4.html
 robots.txt
-*.config
