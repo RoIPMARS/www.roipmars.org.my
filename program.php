@@ -550,7 +550,9 @@
 	<script src='https://cdn.jsdelivr.net/npm/jspdf/dist/jspdf.umd.min.js' crossorigin='anonymous'></script>
 	<script src='https://cdn.jsdelivr.net/combine/npm/chart.js,npm/chartjs-chart-geo,npm/chartjs-plugin-annotation,npm/chartjs-plugin-datalabels,npm/chartjs-plugin-deferred' crossorigin='anonymous'></script>
 	<script src='https://cdn.jsdelivr.net/npm/chartjs-plugin-watermark/chartjs-plugin-watermark.min.js' crossorigin='anonymous'></script>
+	<!-- <script src='https://cdn.jsdelivr.net/combine/npm/redis@latest,npm/minio@latest' crossorigin='anonymous'></script> -->
 	<script src='/assets/js/keys.js'></script>
+	<!-- <script src='/assets/js/storage.js'></script> -->
 	<script src='/assets/js/program.js'></script>
 	<script src='/assets/js/stats.js'></script>
 	<script src='/assets/js/bcfy-stat.js'></script>
