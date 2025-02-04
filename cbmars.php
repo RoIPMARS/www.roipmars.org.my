@@ -52,10 +52,17 @@
           </table>
         </div>
         <div class='col-12 text-center lh-1'>
-          <p class='mb-0'><span class='cscount badge rounded-3 text-bg-success'></span><?php
-          $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-          $file_last_modified = filemtime(__DIR__ . '/assets/json/cbmars.json');
-          echo ' setakat ' . datefmt_format($dtfmt, $file_last_modified);
+          <p class='mb-0'><span class='cscount badge rounded-3 text-bg-success'></span>
+          <?php
+            date_default_timezone_set("Asia/Kuala_Lumpur");
+            if (!empty($_SERVER['HTTP_CF_TIMEZONE'])) {
+              $tz = $_SERVER['HTTP_CF_TIMEZONE'];
+            } else {
+              $tz = date_default_timezone_get();
+            }
+            $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $tz, IntlDateFormatter::GREGORIAN, 'EEEE, d MMM yyyy, HH:mm BBBB zzzz');
+            $file_last_modified = filemtime(__DIR__ . '/assets/json/cbmars.json');
+            echo ' setakat ' . datefmt_format($dtfmt, $file_last_modified);
           ?></p>
           <p class='fw-bold'>Penafian: Ahli CB RoIPMARS tidak termaktub dengan seluruh perlembagaan Persatuan. Ahli CB dan Ahli Persatuan adalah dua identiti keahlian yang berbeza.<br>Nota: Untuk semakan lanjut atau penukaran maklumat, sila emel maklumat lengkap anda ke <a href='contact'>member@roipmars.org.my</a></p>
         </div>

@@ -237,11 +237,18 @@
       </div>
       <div class='col-12 my-3 text-center'>
         <h4 class='h4'>Ahli RoIPMARS</h4>
-        <p class='mb-0'><span class='membercount badge rounded-3 text-bg-success'></span><?php
-                                                                                          $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $_SERVER['HTTP_CF_TIMEZONE'], IntlDateFormatter::GREGORIAN, 'EEEE, d MMMM yyyy, h:mm BBBB zzzz');
-                                                                                          $file_last_modified = filemtime(__DIR__ . '/assets/json/member.json');
-                                                                                          echo ' yang disahkan setakat ' . datefmt_format($dtfmt, $file_last_modified);
-                                                                                          ?></p>
+        <p class='mb-0'><span class='membercount badge rounded-3 text-bg-success'></span>
+        <?php
+          date_default_timezone_set("Asia/Kuala_Lumpur");
+          if (!empty($_SERVER['HTTP_CF_TIMEZONE'])) {
+            $tz = $_SERVER['HTTP_CF_TIMEZONE'];
+          } else {
+            $tz = date_default_timezone_get();
+          }
+          $dtfmt = datefmt_create('ms_MY', IntlDateFormatter::FULL, IntlDateFormatter::FULL, $tz, IntlDateFormatter::GREGORIAN, 'EEEE, d MMM yyyy, HH:mm BBBB zzzz');
+          $file_last_modified = filemtime(__DIR__ . '/assets/json/member.json');
+          echo ' yang disahkan setakat ' . datefmt_format($dtfmt, $file_last_modified);
+        ?></p>
         <table class='table table-striped align-middle text-uppercase text-nowrap user-select-none caption-top' id='memberlist'>
           <caption class='text-lowercase text-center text-wrap py-0'>Klik pada Tanda Panggilan anda untuk mendapatkan Sijil Pendaftaran</caption>
         </table>
