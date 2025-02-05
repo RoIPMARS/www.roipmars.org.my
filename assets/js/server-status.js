@@ -33,12 +33,12 @@ modal.addEventListener('show.bs.modal', (event) => {
 			<tr>
 				<th>TeamSpeak<br>&lpar;roipmars.org.my&rpar;</th>
 				<td>
-					<img src='${statBadge}/41/status?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmarsorgmy-teamspeak-server status'>
-					<img src='${statBadge}/41/response?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmarsorgmy-teamspeak-server response time'>
-					<img src='${statBadge}/41/uptime?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmarsorgmy-teamspeak-server uptime'>
+					<img src='${statBadge}/6/status?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmarsorgmy-teamspeak-server status'>
+					<img src='${statBadge}/6/response?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmarsorgmy-teamspeak-server response time'>
+					<img src='${statBadge}/6/uptime?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmarsorgmy-teamspeak-server uptime'>
 					<br>
-					<img src='${statBadge}/41/ping?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmarsorgmy-teamspeak-server average ping'>
-					<img src='${statBadge}/41/avg-response?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmarsorgmy-teamspeak-server average response time'>
+					<img src='${statBadge}/6/ping?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmarsorgmy-teamspeak-server average ping'>
+					<img src='${statBadge}/6/avg-response?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmarsorgmy-teamspeak-server average response time'>
 				</td>
 			</tr>
 			<tr>
@@ -99,12 +99,12 @@ modal.addEventListener('show.bs.modal', (event) => {
 			<tr>
 				<th>RustDesk</th>
 				<td>
-					<img src='${statBadge}/40/status?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-rustdesk status'>
-					<img src='${statBadge}/40/response?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-rustdesk response time'>
-					<img src='${statBadge}/40/uptime?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-rustdesk uptime'>
+					<img src='${statBadge}/7/status?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-rustdesk status'>
+					<img src='${statBadge}/7/response?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-rustdesk response time'>
+					<img src='${statBadge}/7/uptime?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-rustdesk uptime'>
 					<br>
-					<img src='${statBadge}/40/ping?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-rustdesk average ping'>
-					<img src='${statBadge}/40/avg-response?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-rustdesk average response time'>
+					<img src='${statBadge}/7/ping?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-rustdesk average ping'>
+					<img src='${statBadge}/7/avg-response?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-rustdesk average response time'>
 				</td>
 			</tr>
 		</tbody>
