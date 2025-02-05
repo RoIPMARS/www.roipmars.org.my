@@ -1,10 +1,10 @@
 .php_tmp
-.seospider
 .vs
 .vscode
 *.code-workspace
 *.config
 *.config.js
+*.seospider
 /teamspeak/
 ads.txt
 keys.js
