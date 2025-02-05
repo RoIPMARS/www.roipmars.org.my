@@ -58,14 +58,20 @@ $(document).ready(function () {
 			try {
 				var certGen = await fetch(`${hookAPI.URL}/certgen?call=${memCall}&id=${memID}&source=${location.pathname.replaceAll('/', '')}`)
 				if (certGen.status == 404) {
+					toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> This certificate has not been generated recently. Requesting...</div>`
+					msgInfo.show()
 					await genCert(memID, memCall, memName, memValidDate)
 				} else {
+					toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> This certificate has been generated recently. Please wait awhile...</div>`
+					msgInfo.show()
 					const data = await certGen.blob()
 					const url = window.URL.createObjectURL(data)
 					const link = document.createElement('a')
 					link.href = url
 					link.setAttribute('download', `${memValidDate}_${memID}_${memCall}.pdf`)
 					document.body.appendChild(link)
+					toastSuccess.innerHTML = `<div class='toast-body'>viewing ${memValidDate}_${memID}_${memCall} ...</div>`
+					msgSuccess.show()
 					link.click()
 				}
 			} catch (error) {
@@ -74,7 +80,7 @@ $(document).ready(function () {
 					headers: { 'content-type': 'application/json' },
 					body: JSON.stringify({ call: memCall, id: memID, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.name + ': ' + error.message }),
 				})
-				toastDanger.innerHTML = `<div class='toast-body'>generator script error.<br>${error.name}: ${error.message}<br>reported to developer</div>`
+				toastDanger.innerHTML = `<div class='toast-body'>generator error.<br>${error.name}: ${error.message}<br>reported to developer</div>`
 				msgDanger.show()
 				console.log(error)
 			}

@@ -954,14 +954,20 @@ $(document).ready(function () {
 					try {
 						var certGen = await fetch(`${hookAPI.URL}/certgen?call=${selected.call}&id=${takwimdate.split('/').reverse().join('-')}&source=${location.pathname.replaceAll('/', '')}`)
 						if (certGen.status == 404) {
+							toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> This certificate has not been generated recently. Requesting...</div>`
+							msgInfo.show()
 							await generateCert(takwimdate, takwimact, takwimncs, selected.call, selected.mode, selected.utc)
 						} else {
+							toastInfo.innerHTML = `<div class='toast-body'><div class='spinner-border spinner-border-sm' role='status'><span class='visually-hidden'>Loading...</span></div> This certificate has been generated recently. Please wait awhile...</div>`
+							msgInfo.show()
 							const data = await certGen.blob()
 							const url = window.URL.createObjectURL(data)
 							const link = document.createElement('a')
 							link.href = url
 							link.setAttribute('download', `${takwimdate.split('/').reverse().join('-')}_${selected.call}.pdf`)
 							document.body.appendChild(link)
+							toastSuccess.innerHTML = `<div class='toast-body'>viewing ${takwimdate.split('/').reverse().join('-')}_${selected.call} ...</div>`
+							msgSuccess.show()
 							link.click()
 						}
 					} catch (error) {
@@ -970,7 +976,7 @@ $(document).ready(function () {
 							headers: { 'content-type': 'application/json' },
 							body: JSON.stringify({ call: selected.call, id: takwimdate, source: location.pathname.replaceAll('/', ''), errorcause: error.cause, errormsg: error.name + ': ' + error.message }),
 						})
-						toastDanger.innerHTML = `<div class='toast-body'>generator script error.<br>${error.name}: ${error.message}<br>reported to developer</div>`
+						toastDanger.innerHTML = `<div class='toast-body'>generator error.<br>${error.name}: ${error.message}<br>reported to developer</div>`
 						msgDanger.show()
 						console.log(error)
 					}
