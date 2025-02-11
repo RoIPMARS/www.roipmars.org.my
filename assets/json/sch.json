@@ -3562,7 +3562,7 @@
 			"Hari": "Isnin<br>10/02/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net",
 			"NCS": "9W6RHN | 9W2AYP",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2502102100'>22</button>"
 		},
 		{
 			"Hari": "Rabu<br>12/02/2025<br>21:00 MYT",
