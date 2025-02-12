@@ -3568,7 +3568,7 @@
 			"Hari": "Rabu<br>12/02/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Khamis<br>13/02/2025<br>21:00 MYT",
