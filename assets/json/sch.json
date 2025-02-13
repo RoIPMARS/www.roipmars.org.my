@@ -3573,8 +3573,8 @@
 		{
 			"Hari": "Khamis<br>13/02/2025<br>21:00 MYT",
 			"Acara": "Hari Radio Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"NCS": "9W6RHN | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2502132100'>21</button>"
 		},
 		{
 			"Hari": "Sabtu<br>15/02/2025<br>21:00 MYT",
