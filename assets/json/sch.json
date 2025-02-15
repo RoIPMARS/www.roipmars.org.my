@@ -3579,8 +3579,8 @@
 		{
 			"Hari": "Sabtu<br>15/02/2025<br>21:00 MYT",
 			"Acara": "Hari Kanser Kanak-Kanak Antarabangsa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2502152100'>23</button>"
 		},
 		{
 			"Hari": "Rabu<br>19/02/2025<br>21:00 MYT",
