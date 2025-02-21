@@ -3591,8 +3591,8 @@
 		{
 			"Hari": "Khamis<br>20/02/2025<br>21:00 MYT",
 			"Acara": "Hari Pengisytiharan Kemerdekaan Tanah Melayu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP | 9W6RHN",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2502202100'>26</button>"
 		},
 		{
 			"Hari": "Sabtu<br>22/02/2025<br>21:00 MYT",
