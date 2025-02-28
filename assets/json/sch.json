@@ -3610,85 +3610,13 @@
 			"Hari": "Khamis<br>27/02/2025<br>21:00 MYT",
 			"Acara": "Hari Beruang Kutub Sedunia",
 			"NCS": "9W6RHN | 9M6JAY",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2502272100'>9</button>"
 		},
 		{
 			"Hari": "Jumaat<br>28/02/2025<br>21:00 MYT",
 			"Acara": "Hari Penyakit Luar Biasa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Sabtu<br>01/03/2025<br>22:00 MYT",
-			"Acara": "Hari Rumput Laut Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Isnin<br>03/03/2025<br>22:00 MYT",
-			"Acara": "Hari Hidupan Liar Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Sabtu<br>08/03/2025<br>22:00 MYT",
-			"Acara": "Hari Wanita Antarabangsa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Isnin<br>10/03/2025<br>22:00 MYT",
-			"Acara": "Hari Hakim Wanita Antarabangsa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Khamis<br>13/03/2025<br>22:00 MYT",
-			"Acara": "Hari Buah Pinggang Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Isnin<br>17/03/2025<br>22:00 MYT",
-			"Acara": "Nuzul Al-Quran",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Khamis<br>20/03/2025<br>22:00 MYT",
-			"Acara": "Hari Burung Pipit Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Jumaat<br>21/03/2025<br>22:00 MYT",
-			"Acara": "Hari Hutan Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Sabtu<br>22/03/2025<br>22:00 MYT",
-			"Acara": "Hari Air Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Ahad<br>23/03/2025<br>22:00 MYT",
-			"Acara": "Hari Meteorologi Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Isnin<br>24/03/2025<br>22:00 MYT",
-			"Acara": "Hari Tibi Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
-		},
-		{
-			"Hari": "Rabu<br>26/03/2025<br>22:00 MYT",
-			"Acara": "Hari Ungu",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"NCS": "9W6RHN",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2502282100'>4</button>"
 		},
 		{
 			"Hari": "Ahad<br>30/03/2025<br>21:00 MYT",
