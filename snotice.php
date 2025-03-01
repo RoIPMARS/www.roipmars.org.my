@@ -24,7 +24,7 @@
         </thead>
         <tbody>
           <tr>
-            <td>01 Mac 2025</td>
+            <td>02 Mac 2025</td>
             <td>Penangguhan Aktiviti Mingguan sepanjang Ramadan 1446H</td>
             <td><a type='button' class='btn btn-outline-secondary d-grid' href='nts/2025/01' target='_blank'>NtsMARS 2025/01</a></td>
           </tr>
