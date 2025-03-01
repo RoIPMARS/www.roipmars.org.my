@@ -20,7 +20,8 @@
 		<div class='row'>
 			<div class='col-lg-6 d-block text-center'>
 				<h4>Net Mingguan RoIPMARS</h4>
-				<table class='table table-bordered text-center align-middle'>
+				<p>Aktiviti mingguan dihentikan sementara pada Ramadan 1446H dan akan bersambung pada Ambang Aidilfitri 1446H</p>
+				<!-- <table class='table table-bordered text-center align-middle'>
 					<thead>
 						<th>Hari</th>
 						<th>Masa</th>
@@ -63,7 +64,7 @@
 							<td>&mdash;</td>
 						</tr>
 					</tbody>
-				</table>
+				</table> -->
 			</div>
 			<div class='col-lg-6 align-self-center'>
 				<div class='row text-center'>
