@@ -45,7 +45,7 @@ $(document).ready(function () {
 					targets: 4,
 				},
 			],
-			caption: `Kemaskini: ${lastMod('/assets/json/server-tracking.json')}`,
+			caption: `Kemaskini: ${lastMod('/assets/json/ts-server-track.json')}`,
 			processing: true,
 			searching: false,
 			info: false,

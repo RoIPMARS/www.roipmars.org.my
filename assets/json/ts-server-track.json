@@ -16,7 +16,7 @@
 		{ "nickname": "LATIMOJONG", "address": "latimojong.com", "clientVer": "~3.1", "blacklist": false, "online": true },
 		{ "nickname": "LINTAS NUSANTARA", "address": "ts3linus.my.id", "clientVer": "~3.1", "blacklist": false, "online": true },
 		{ "nickname": "MERATUS BORNEO", "address": "172.93.186.245:9432", "clientVer": "~3.1", "blacklist": false, "online": true },
-		{ "nickname": "PELANGI AMATIR", "address": "101.255.4.194:9981", "clientVer": "~3.1", "blacklist": false, "online": false },
+		{ "nickname": "PELANGI AMATIR", "address": "ts3.ht-ip.id", "clientVer": "~3.1", "blacklist": false, "online": true },
 		{ "nickname": "PHINISI", "address": "phinisi.my.id", "clientVer": "~3.1", "blacklist": false, "online": false },
 		{ "nickname": "RAJAWALI", "address": "103.13.207.133:333", "clientVer": "~3.1", "blacklist": false, "online": false },
 		{ "nickname": "RINJANI", "address": "91.192.81.104:3726", "clientVer": "~3.1", "blacklist": false, "online": true },
