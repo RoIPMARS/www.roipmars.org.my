@@ -42,7 +42,7 @@
             </tr>
             <tr>
               <th scope='row' class='align-middle'>Aksesori</th>
-              <td colspan='3'><i class='bi-headset'></i> Set Kepala &lpar;untuk pengalaman yang lebih baik&rpar; atau<br><i class='bi-mic'></i> Mikrofon dan <i class='bi-speaker'></i> Pembesar Suara,<br><i class='bi-webcam-fill'></i> Kamera Web (pilihan)</td>
+              <td colspan='3'><i class='bi-headset'></i> Set Kepala &lpar;untuk pengalaman yang lebih baik&rpar; atau<br><i class='bi-mic'></i> Mikrofon dan <i class='bi-speaker'></i> Pembesar Suara</td>
             </tr>
           </tbody>
         </table>
