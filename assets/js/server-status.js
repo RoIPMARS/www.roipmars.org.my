@@ -27,7 +27,7 @@ modal.addEventListener('show.bs.modal', (event) => {
 	modalBody.innerHTML = `<img class='w-75' src='${statPage}?style=${statBadgeStyle}&label=${encodeURI('RoIPMARS Network Services')}' loading='lazy' alt='roipmars-server overall status'>
 	<table class='table teble-bordered table-sm text-center align-middle my-3 caption-top'>
 		<caption class='text-center'>
-			updated at ${timeLoad.toLocaleString()}<br>status page <a href='https://uptime.roipmars.org.my' target='_blank' rel='external'>here</a>, developed &amp; maintained by <a href='https://github.com/hafiziruslan' target='_blank'>HafiziRuslan</a>
+			updated at ${timeLoad.toLocaleString()}<br>status page <a href='https://uptime.roipmars.org.my' target='_blank' rel='external'>here</a> or <a href='https://stats.uptimerobot.com/sGCs3PL2ck' target='_blank' rel='external'>here</a>, developed &amp; maintained by <a href='https://github.com/hafiziruslan' target='_blank'>HafiziRuslan</a>
 		</caption>
 		<tbody>
 			<tr>
@@ -94,7 +94,7 @@ modal.addEventListener('show.bs.modal', (event) => {
 			}
 			getAllImg[i].src = imgwithrand
 		}
-		tableCaption.innerHTML = `updated at ${new Date().toISOString()} ; full stats page <a href='https://uptime.roipmars.org.my' target='_blank' rel='external'>here</a>`
+		tableCaption.innerHTML = `updated at ${new Date().toISOString()} ; full stats page <a href='https://uptime.roipmars.org.my' target='_blank' rel='external'>here</a> or <a href='https://stats.uptimerobot.com/sGCs3PL2ck' target='_blank' rel='external'>here</a>, developed &amp; maintained by <a href='https://github.com/hafiziruslan' target='_blank'>HafiziRuslan</a>`
 	}
 	setInterval(imgReload, 3 * 60 * 1000)
 })
