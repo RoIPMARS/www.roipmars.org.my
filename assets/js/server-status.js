@@ -73,7 +73,7 @@ modal.addEventListener('show.bs.modal', (event) => {
 				</td>
 			</tr>
 			<tr>
-				<th>RustDesk</th>
+				<th>RustDesk<br><a href='https://github.com/roipmars/rustdesk/releases/tag/nightly' target='_blank'><img src='https://img.shields.io/github/actions/workflow/status/roipmars/rustdesk/flutter-nightly.yml?branch=master&style=flat-square&logo=githubactions&logoColor=%232088FF&label=nightly%20build' class='m-1' loading='lazy' alt='GitHub Actions Workflow Status'></a></th>
 				<td>
 					<img src='${statBadge}/7/status?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-rustdesk status'>
 					<img src='${statBadge}/7/uptime?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-rustdesk uptime'>
