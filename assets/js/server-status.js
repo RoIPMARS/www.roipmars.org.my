@@ -24,7 +24,7 @@ const now = new Intl.DateTimeFormat('en-MY', {
 modal.addEventListener('show.bs.modal', (event) => {
 	const modalShow = event.relatedTarget
 	modalTitle.innerText = `RoIPMARS Network Status as of\n${now}`
-	modalBody.innerHTML = `<img class='w-75' src='${statPage}?style=${statBadgeStyle}&label=${encodeURI('RoIPMARS Network Services')}' loading='lazy' alt='roipmars-server overall status'>
+	modalBody.innerHTML = `<object class='w-75' data='${statPage}?style=${statBadgeStyle}&label=${encodeURI('RoIPMARS Network Services')}'></object>
 	<table class='table teble-bordered table-sm text-center align-middle my-3 caption-top'>
 		<caption class='text-center'>
 			updated at ${timeLoad.toLocaleString()}<br>status page <a href='https://uptime.roipmars.org.my' target='_blank' rel='external'>here</a> or <a href='https://stats.uptimerobot.com/sGCs3PL2ck' target='_blank' rel='external'>here</a>, developed &amp; maintained by <a href='https://github.com/hafiziruslan' target='_blank'>HafiziRuslan</a>
@@ -33,50 +33,50 @@ modal.addEventListener('show.bs.modal', (event) => {
 			<tr>
 				<th>TeamSpeak<br>&lpar;roipmars.org.my&rpar;</th>
 				<td>
-					<img src='${statBadge}/6/status?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmarsorgmy-teamspeak-server status'>
-					<img src='${statBadge}/6/uptime?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmarsorgmy-teamspeak-server uptime'>
+					<object data='https://img.shields.io/uptimerobot/status/m797274379-ad99474be781bbd643736b5b?logo=teamspeak&logoColor=%234B69B6&logoSize=auto&style=${statBadgeStyle}'></object>
+					<object data='https://img.shields.io/uptimerobot/ratio/m797274379-ad99474be781bbd643736b5b?logo=teamspeak&logoColor=%234B69B6&logoSize=auto&style=${statBadgeStyle}'></object>
 				</td>
 			</tr>
 			<tr>
 				<th>EchoLink<br>&lpar;9W4GPA-R&rpar;</th>
 				<td>
-					<img src='${statBadge}/29/status?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='echolink-9w4gpa status'>
-					<img src='${statBadge}/29/uptime?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='echolink-9w4gpa uptime'>
+					<object data='${statBadge}/29/status?style=${statBadgeStyle}'></object>
+					<object data='${statBadge}/29/uptime?style=${statBadgeStyle}'></object>
 				</td>
 			</tr>
 			<tr>
 				<th>HAM Stream<br>&lpar;hamlive.mhrtech.my&rpar;</th>
 				<td>
-					<img src='${statBadge}/28/status?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='mhrtechmy-ham-stream status'>
-					<img src='${statBadge}/28/uptime?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='mhrtechmy-ham-stream uptime'>
+					<object data='${statBadge}/28/status?style=${statBadgeStyle}'></object>
+					<object data='${statBadge}/28/uptime?style=${statBadgeStyle}'></object>
 				</td>
 			</tr>
 			<tr>
 				<th>CB Stream<br>&lpar;cblive.mhrtech.my&rpar;</th>
 				<td>
-					<img src='${statBadge}/27/status?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='mhrtechmy-cb-stream status'>
-					<img src='${statBadge}/27/uptime?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='mhrtechmy-cb-stream uptime'>
+					<object data='${statBadge}/27/status?style=${statBadgeStyle}'></object>
+					<object data='${statBadge}/27/uptime?style=${statBadgeStyle}'></object>
 				</td>
 			</tr>
 			<tr>
 				<th>API Backend</th>
 				<td>
-					<img src='${statBadge}/51/status?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-n8n status'>
-					<img src='${statBadge}/51/uptime?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-n8n uptime'>
+					<object data='https://img.shields.io/uptimerobot/status/m797274388-69d01ce15b251c0c9b36f44c?logo=n8n&logoColor=%23EA4B71&logoSize=auto&style=${statBadgeStyle}'></object>
+					<object data='https://img.shields.io/uptimerobot/ratio/m797274388-69d01ce15b251c0c9b36f44c?logo=n8n&logoColor=%23EA4B71&logoSize=auto&style=${statBadgeStyle}'></object>
 				</td>
 			</tr>
 			<tr>
 				<th>WhatsApp API</th>
 				<td>
-					<img src='${statBadge}/60/status?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-wppconnect status'>
-					<img src='${statBadge}/60/uptime?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-wppconnect uptime'>
+					<object data='https://img.shields.io/uptimerobot/status/m797274399-ff16ad26a5001e020ca51c19?logo=whatsapp&logoColor=%2325D366&logoSize=auto&style=${statBadgeStyle}'></object>
+					<object data='https://img.shields.io/uptimerobot/ratio/m797274399-ff16ad26a5001e020ca51c19?logo=whatsapp&logoColor=%2325D366&logoSize=auto&style=${statBadgeStyle}'></object>
 				</td>
 			</tr>
 			<tr>
-				<th>RustDesk<br><a href='https://github.com/roipmars/rustdesk/releases/tag/nightly' target='_blank'><img src='https://img.shields.io/github/actions/workflow/status/roipmars/rustdesk/flutter-nightly.yml?branch=master&style=flat-square&logo=githubactions&logoColor=%232088FF&label=nightly%20build' class='m-1' loading='lazy' alt='GitHub Actions Workflow Status'></a></th>
+				<th>RustDesk<br><object data='https://img.shields.io/github/actions/workflow/status/roipmars/rustdesk/flutter-nightly.yml?style=flat-square&logo=githubactions&logoColor=%232088FF&logoSize=auto&label=nightly%20build&link=https%3A%2F%2Fgithub.com%2Froipmars%2Frustdesk%2Freleases%2Ftag%2Fnightly'></object></th>
 				<td>
-					<img src='${statBadge}/7/status?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-rustdesk status'>
-					<img src='${statBadge}/7/uptime?style=${statBadgeStyle}' class='m-1' loading='lazy' alt='roipmars-rustdesk uptime'>
+					<object data='https://img.shields.io/uptimerobot/status/m797274376-afa50e6e53e8bbb4b6d6234c?logo=rustdesk&logoColor=%23024EFF&logoSize=auto&style=${statBadgeStyle}'></object>
+					<object data='https://img.shields.io/uptimerobot/ratio/m797274376-afa50e6e53e8bbb4b6d6234c?logo=rustdesk&logoColor=%23024EFF&logoSize=auto&style=${statBadgeStyle}'></object>
 				</td>
 			</tr>
 		</tbody>

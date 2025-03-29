@@ -32,7 +32,7 @@
             </tbody>
           </table>
           <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
-          <img class='w-50 mx-auto d-block' src='https://status.mhrtech.my/api/status-page/roipmars/badge?style=flat-square&label=RoIPMARS%20Network%20Services' loading='lazy' alt='roipmars-server overall status'>
+          <object data='https://status.mhrtech.my/api/status-page/roipmars/badge?style=flat-square&label=RoIPMARS%20Network%20Services'></object>
         </div>
         <div class='col-xl-5 mx-auto my-1'>
           <h5 class='text-uppercase mb-2 fw-bold text-xl-end'>Hubungi Kami</h5>
