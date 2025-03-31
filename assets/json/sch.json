@@ -3628,7 +3628,7 @@
 			"Hari": "Isnin<br>31/03/2025<br>21:00 MYT",
 			"Acara": "Salam Aidilfitri¹ 1446H",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Selasa<br>01/04/2025<br>21:00 MYT",
