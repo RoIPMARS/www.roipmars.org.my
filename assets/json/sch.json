@@ -3628,13 +3628,13 @@
 			"Hari": "Isnin<br>31/03/2025<br>21:00 MYT",
 			"Acara": "Salam Aidilfitri¹ 1446H",
 			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<i class='bi-person-slash text-danger fs-2'></i>"
 		},
 		{
 			"Hari": "Selasa<br>01/04/2025<br>21:00 MYT",
 			"Acara": "Hari Bank Dunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"NCS": "9M6JAY | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2504012100'>19</button>"
 		},
 		{
 			"Hari": "Rabu<br>02/04/2025<br>21:00 MYT",
