@@ -3646,13 +3646,13 @@
 			"Hari": "Sabtu<br>05/04/2025<br>21:00 MYT",
 			"Acara": "Hari Nurani Antarabangsa",
 			"NCS": "9W2AYP",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2504052100'>20</button>"
 		},
 		{
 			"Hari": "Isnin<br>07/04/2025<br>21:00 MYT",
 			"Acara": "Hari Kesihatan Antarabangsa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"NCS": "9M6JAY",
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Rabu<br>09/04/2025<br>21:00 MYT",
