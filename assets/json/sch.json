@@ -3664,7 +3664,7 @@
 			"Hari": "Sabtu<br>12/04/2025<br>21:00 MYT",
 			"Acara": "Hari Penerbangan Manusia ke Angkasa Antarabangsa",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Isnin<br>14/04/2025<br>21:00 MYT",
