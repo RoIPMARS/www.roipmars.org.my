@@ -3670,7 +3670,7 @@
 			"Hari": "Isnin<br>14/04/2025<br>21:00 MYT",
 			"Acara": "Hari Penyakit Chagas Sedunia",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Rabu<br>16/04/2025<br>21:00 MYT",
