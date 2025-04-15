@@ -3658,7 +3658,7 @@
 			"Hari": "Rabu<br>09/04/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
 			"NCS": "9W6RHN | 9M6JAY",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2504092100'>8</button>"
 		},
 		{
 			"Hari": "Sabtu<br>12/04/2025<br>21:00 MYT",
@@ -3669,8 +3669,8 @@
 		{
 			"Hari": "Isnin<br>14/04/2025<br>21:00 MYT",
 			"Acara": "Hari Penyakit Chagas Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2504142100'>11</button>"
 		},
 		{
 			"Hari": "Rabu<br>16/04/2025<br>21:00 MYT",
