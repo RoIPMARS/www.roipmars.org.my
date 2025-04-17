@@ -3663,7 +3663,7 @@
 		{
 			"Hari": "Sabtu<br>12/04/2025<br>21:00 MYT",
 			"Acara": "Hari Penerbangan Manusia ke Angkasa",
-			"NCS": "&shy;",
+			"NCS": "9W2AYP | 9M6JAY",
 			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
@@ -3675,14 +3675,14 @@
 		{
 			"Hari": "Rabu<br>16/04/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W6RHN | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2504162100'>14</button>"
 		},
 		{
 			"Hari": "Khamis<br>17/04/2025<br>21:00 MYT",
 			"Acara": "Hari Hemofilia Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2504172100'>14</button>"
 		},
 		{
 			"Hari": "Jumaat<br>18/04/2025<br>21:00 MYT",
