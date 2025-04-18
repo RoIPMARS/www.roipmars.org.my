@@ -3688,7 +3688,7 @@
 			"Hari": "Jumaat<br>18/04/2025<br>21:00 MYT",
 			"Acara": "Hari Radio Amatur Sedunia",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-person-slash text-danger fs-2'></i>"
 		},
 		{
 			"Hari": "Isnin<br>21/04/2025<br>21:00 MYT",
