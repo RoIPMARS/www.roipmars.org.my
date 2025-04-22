@@ -3664,7 +3664,7 @@
 			"Hari": "Sabtu<br>12/04/2025<br>21:00 MYT",
 			"Acara": "Hari Penerbangan Manusia ke Angkasa",
 			"NCS": "9W2AYP | 9M6JAY",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<i class='bi-envelope-slash text-danger fs-3'></i>"
 		},
 		{
 			"Hari": "Isnin<br>14/04/2025<br>21:00 MYT",
@@ -3687,14 +3687,14 @@
 		{
 			"Hari": "Jumaat<br>18/04/2025<br>21:00 MYT",
 			"Acara": "Hari Radio Amatur Sedunia",
-			"NCS": "&shy;",
+			"NCS": "9W2AYP",
 			"Laporan": "<i class='bi-person-slash text-danger fs-2'></i>"
 		},
 		{
 			"Hari": "Isnin<br>21/04/2025<br>21:00 MYT",
 			"Acara": "Hari Kreativiti & Inovasi Sedunia",
 			"NCS": "9W2AYP",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2504212100'>12</button>"
 		},
 		{
 			"Hari": "Rabu<br>23/04/2025<br>21:00 MYT",
