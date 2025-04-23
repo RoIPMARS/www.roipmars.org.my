@@ -1,7 +1,6 @@
 {
 	"tsServers": [
     { "nickname": "RoIPMARS Network", "address": "roipmars.org.my", "clientVer": "^3.2", "blacklist": false, "online": true },
-    { "nickname": "Sabah RoIP Community", "address": "sabah.roipmars.org.my", "clientVer": "^3.2", "blacklist": false, "online": false },
     { "nickname": "Sabah DX", "address": "sabahdx.net", "clientVer": "^3.2", "blacklist": false, "online": true },
     { "nickname": "ANDALAS", "address": "103.189.235.112:2112", "clientVer": "~3.1", "blacklist": false, "online": true },
     { "nickname": "ARIZONA", "address": "128.199.196.14:882", "clientVer": "~3.1", "blacklist": false, "online": true },
