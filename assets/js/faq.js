@@ -56,7 +56,7 @@ $(document).ready(function () {
       ],
       paging: true,
       lengthChange: false,
-      pageLength: 5,
+      pageLength: 10,
       pagingTag: 'button',
       pagingType: 'simple',
       processing: true,
