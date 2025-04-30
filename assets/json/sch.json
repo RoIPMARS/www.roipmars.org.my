@@ -3711,20 +3711,20 @@
 		{
 			"Hari": "Sabtu<br>26/04/2025<br>21:00 MYT",
 			"Acara": "Hari Juruterbang Antarabangsa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2504262100'>23</button>"
 		},
 		{
 			"Hari": "Isnin<br>28/04/2025<br>21:00 MYT",
 			"Acara": "Hari Keselamatan & Kesihatan di Tempat Kerja",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"NCS": "9W6RHN | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2504282100'>10</button>"
 		},
 		{
 			"Hari": "Rabu<br>30/04/2025<br>21:00 MYT",
 			"Acara": "International Jazz Day",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"NCS": "9M6JAY",
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Khamis<br>01/05/2025<br>21:00 MYT",
