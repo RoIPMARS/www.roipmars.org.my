@@ -3730,7 +3730,7 @@
 			"Hari": "Khamis<br>01/05/2025<br>21:00 MYT",
 			"Acara": "Hari Pekerja",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Sabtu<br>03/05/2025<br>21:00 MYT",
