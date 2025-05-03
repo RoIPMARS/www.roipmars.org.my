@@ -3736,7 +3736,7 @@
 			"Hari": "Sabtu<br>03/05/2025<br>21:00 MYT",
 			"Acara": "Hari Kebebasan Akhbar Sedunia",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Isnin<br>05/05/2025<br>21:00 MYT",
