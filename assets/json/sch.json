@@ -3700,7 +3700,7 @@
 			"Hari": "Rabu<br>23/04/2025<br>21:00 MYT",
 			"Acara": "English Language Day",
 			"NCS": "9M6JAY | 9W2AYP",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Khamis<br>24/04/2025<br>21:00 MYT",
@@ -3748,7 +3748,7 @@
 			"Hari": "Rabu<br>07/05/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Sabtu<br>10/05/2025<br>21:00 MYT",
