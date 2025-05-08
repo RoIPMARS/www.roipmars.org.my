@@ -3700,7 +3700,7 @@
 			"Hari": "Rabu<br>23/04/2025<br>21:00 MYT",
 			"Acara": "English Language Day",
 			"NCS": "9M6JAY | 9W2AYP",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-envelope-slash text-danger fs-3'></i>"
 		},
 		{
 			"Hari": "Khamis<br>24/04/2025<br>21:00 MYT",
@@ -3723,32 +3723,32 @@
 		{
 			"Hari": "Rabu<br>30/04/2025<br>21:00 MYT",
 			"Acara": "International Jazz Day",
-			"NCS": "9M6JAY",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9M6JAY | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2504302100'>8</button>"
 		},
 		{
 			"Hari": "Khamis<br>01/05/2025<br>21:00 MYT",
 			"Acara": "Hari Pekerja",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2AYP | 9W6RHN",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2505012100'>11</button>"
 		},
 		{
 			"Hari": "Sabtu<br>03/05/2025<br>21:00 MYT",
 			"Acara": "Hari Kebebasan Akhbar Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2505032100'>4</button>"
 		},
 		{
 			"Hari": "Isnin<br>05/05/2025<br>21:00 MYT",
 			"Acara": "Hari Bidan Antarabangsa",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2505052100'>16</button>"
 		},
 		{
 			"Hari": "Rabu<br>07/05/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W6RHN | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2505072100'>11</button>"
 		},
 		{
 			"Hari": "Sabtu<br>10/05/2025<br>21:00 MYT",
