@@ -3765,8 +3765,8 @@
 		{
 			"Hari": "Rabu<br>14/05/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W6RHN | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2505142100'>9</button>"
 		},
 		{
 			"Hari": "Sabtu<br>17/05/2025<br>21:00 MYT",
