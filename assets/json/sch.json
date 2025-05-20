@@ -3771,8 +3771,8 @@
 		{
 			"Hari": "Sabtu<br>17/05/2025<br>21:00 MYT",
 			"Acara": "Hari Telekomunikasi & Maklumat Masyarakat Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2505172100'>8</button>"
 		},
 		{
 			"Hari": "Rabu<br>21/05/2025<br>21:00 MYT",
