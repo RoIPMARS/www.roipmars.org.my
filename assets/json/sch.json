@@ -3802,7 +3802,7 @@
 			"Hari": "Ahad<br>01/06/2025<br>21:00 MYT",
 			"Acara": "Ulang Tahun Rasmi RoIPMARS ke-5",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Isnin<br>02/06/2025<br>21:00 MYT",
