@@ -3808,7 +3808,7 @@
 			"Hari": "Isnin<br>02/06/2025<br>21:00 MYT",
 			"Acara": "Sambutan Hari Keputeraan Seri Paduka Baginda Yang di-Pertuan Agong",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Rabu<br>04/06/2025<br>21:00 MYT",
