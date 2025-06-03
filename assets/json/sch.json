@@ -3795,20 +3795,20 @@
 		{
 			"Hari": "Sabtu<br>31/05/2025<br>21:00 MYT",
 			"Acara": "Pesta Kaamatan",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W6RHN | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2505312100'>13</button>"
 		},
 		{
 			"Hari": "Ahad<br>01/06/2025<br>21:00 MYT",
 			"Acara": "Ulang Tahun Rasmi RoIPMARS ke-5",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2OGK | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2506012100'>13</button>"
 		},
 		{
 			"Hari": "Isnin<br>02/06/2025<br>21:00 MYT",
 			"Acara": "Sambutan Hari Keputeraan Seri Paduka Baginda Yang di-Pertuan Agong",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2506022100'>13</button>"
 		},
 		{
 			"Hari": "Rabu<br>04/06/2025<br>21:00 MYT",
@@ -3817,7 +3817,7 @@
 			"Laporan": "&shy;"
 		},
 		{
-			"Hari": "Khamis<br>05/06/2025<br>21:00 MYT",
+			"Hari": "Jumaat<br>06/06/2025<br>21:00 MYT",
 			"Acara": "Ambang Aidiladha¹ 1446H",
 			"NCS": "&shy;",
 			"Laporan": "&shy;"
