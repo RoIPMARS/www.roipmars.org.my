@@ -1,6 +1,20 @@
 {
 	"activeMembers": [
 		{
+			"MemberNo": "D011",
+			"Expiry": "31 Dis 2029",
+			"CallSign": "9W2NDI",
+			"Name": "NASARUDDIN BIN ARIF",
+			"Locale": "TAIPING, PERAK"
+		},
+		{
+			"MemberNo": "A008",
+			"Expiry": "31 Dis 2029",
+			"CallSign": "9W2OGK",
+			"Name": "KAMARUDZAMAN BIN ABDUL RAHIM",
+			"Locale": "MANJUNG, PERAK"
+		},
+		{
 			"MemberNo": "B032",
 			"Expiry": "31 Dis 2028",
 			"CallSign": "V85AFF",
@@ -13,6 +27,20 @@
 			"CallSign": "9W2EZK",
 			"Name": "MOHD IFFIQ ZIKRY BIN JAMAL",
 			"Locale": "KUANG, SELANGOR"
+		},
+		{
+			"MemberNo": "A029",
+			"Expiry": "31 Dis 2025",
+			"CallSign": "9W2JCP",
+			"Name": "MOHAMAD ROSLI BIN AWANG",
+			"Locale": "SKUDAI, JOHOR BAHRU"
+		},
+		{
+			"MemberNo": "A027",
+			"Expiry": "31 Dis 2025",
+			"CallSign": "9M2EZU",
+			"Name": "MOHD IZZUDIN BIN ABD RAHIM",
+			"Locale": "KEPONG, KUALA LUMPUR"
 		},
 		{
 			"MemberNo": "A012",
@@ -78,20 +106,6 @@
 			"Locale": "KOTA BAHRU, KELANTAN"
 		},
 		{
-			"MemberNo": "A029",
-			"Expiry": "31 Dis 2024",
-			"CallSign": "9W2JCP",
-			"Name": "MOHAMAD ROSLI BIN AWANG",
-			"Locale": "SKUDAI, JOHOR BAHRU"
-		},
-		{
-			"MemberNo": "A027",
-			"Expiry": "31 Dis 2024",
-			"CallSign": "9M2EZU",
-			"Name": "MOHD IZZUDIN BIN ABD RAHIM",
-			"Locale": "KEPONG, KUALA LUMPUR"
-		},
-		{
 			"MemberNo": "A025",
 			"Expiry": "31 Dis 2024",
 			"CallSign": "9W2AYP",
@@ -125,13 +139,6 @@
 			"CallSign": "9M6AUA",
 			"Name": "JEOFREY BIN AVITUS @ VITUS",
 			"Locale": "KOTA KINABALU, SABAH"
-		},
-		{
-			"MemberNo": "A008",
-			"Expiry": "31 Dis 2024",
-			"CallSign": "9W2OGK",
-			"Name": "KAMARUDZAMAN BIN ABDUL RAHIM",
-			"Locale": "MANJUNG, PERAK"
 		},
 		{
 			"MemberNo": "A006",
@@ -188,20 +195,6 @@
 			"CallSign": "9M2RAN",
 			"Name": "NOR IMRAN BIN AZIZ",
 			"Locale": "KEPALA BATAS, KEDAH"
-		},
-		{
-			"MemberNo": "A016",
-			"Expiry": "31 Dis 2022",
-			"CallSign": "9W8ZZK",
-			"Name": "MOHAMAD ZAHEER BIN ZAKARIA",
-			"Locale": "KUCHING, SARAWAK"
-		},
-		{
-			"MemberNo": "A011",
-			"Expiry": "31 Dis 2022",
-			"CallSign": "9W2NDI",
-			"Name": "NASARUDDIN BIN ARIF",
-			"Locale": "TAIPING, PERAK"
 		}
 	],
 	"activeMembersMap": [
@@ -213,15 +206,6 @@
 			"LatLong": [3.230987, 101.423511],
 			"GridSquare": "OJ03RF",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/001.png?tr=n-wm_rms_w10"
-		},
-		{
-			"MemberNo": "A003",
-			"CallSign": "9M2RAN",
-			"Name": "NOR IMRAN BIN AZIZ",
-			"Gender": "LELAKI",
-			"LatLong": [6.216034, 100.395538],
-			"GridSquare": "OJ06EF",
-			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/003.png?tr=n-wm_rms_w10"
 		},
 		{
 			"MemberNo": "A004",
@@ -287,6 +271,15 @@
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/010.png?tr=n-wm_rms_w10"
 		},
 		{
+			"MemberNo": "D011",
+			"CallSign": "9W2NDI",
+			"Name": "NASARUDDIN BIN ARIF",
+			"Gender": "LELAKI",
+			"LatLong": [4.599938, 100.682603],
+			"GridSquare": "OJ04IO",
+			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/011.png?tr=n-wm_rms_w10"
+		},
+		{
 			"MemberNo": "A012",
 			"CallSign": "9W2RNH",
 			"Name": "ROSNAH BINTI ABD RAPAR",
@@ -341,15 +334,6 @@
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/025.png?tr=n-wm_rms_w10"
 		},
 		{
-			"MemberNo": "A026",
-			"CallSign": "9W2VMB",
-			"Name": "ASRULHISYAM BIN HAJI ASURA",
-			"Gender": "LELAKI",
-			"LatLong": [2.557167, 102.123333],
-			"GridSquare": "OJ12BN",
-			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/026.png?tr=n-wm_rms_w10"
-		},
-		{
 			"MemberNo": "A027",
 			"CallSign": "9M2EZU",
 			"Name": "MOHD IZZUDIN BIN ABD RAHIM",
@@ -359,15 +343,6 @@
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/027.png?tr=n-wm_rms_w10"
 		},
 		{
-			"MemberNo": "A028",
-			"CallSign": "9W2NEW",
-			"Name": "NORHISHAM BIN BAHAROM",
-			"Gender": "LELAKI",
-			"LatLong": [1.541136, 103.734621],
-			"GridSquare": "OJ11UM",
-			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/028.png?tr=n-wm_rms_w10"
-		},
-		{
 			"MemberNo": "A029",
 			"CallSign": "9W2JCP",
 			"Name": "MOHAMAD ROSLI BIN AWANG",
@@ -375,15 +350,6 @@
 			"LatLong": [1.561548, 103.620784],
 			"GridSquare": "OJ11TN",
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/029.png?tr=n-wm_rms_w10"
-		},
-		{
-			"MemberNo": "A030",
-			"CallSign": "9W2HLM",
-			"Name": "ABDUL HALIM BIN HJ HASHIM",
-			"Gender": "LELAKI",
-			"LatLong": [5.176567, 100.474308],
-			"GridSquare": "OJ05FE",
-			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/030.png?tr=n-wm_rms_w10"
 		},
 		{
 			"MemberNo": "A031",
@@ -422,24 +388,6 @@
 			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/034.png?tr=n-wm_rms_w10"
 		},
 		{
-			"MemberNo": "A035",
-			"CallSign": "113MSRAO",
-			"Name": "GOWTAMROA A/L MANICKAROW",
-			"Gender": "LELAKI",
-			"LatLong": [5.663925, 100.507457],
-			"GridSquare": "OJ05GP",
-			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/035.png?tr=n-wm_rms_w10"
-		},
-		{
-			"MemberNo": "A036",
-			"CallSign": "9W2NSP",
-			"Name": "ROBBI NESPU BIN MOHAMAD",
-			"Gender": "LELAKI",
-			"LatLong": [1.653044, 103.261128],
-			"GridSquare": "OJ11PP",
-			"ImgSrc": "https://ik.imagekit.io/mhrtech/roipmars-org-my/media/image/member/036.png?tr=n-wm_rms_w10"
-		},
-		{
 			"MemberNo": "B037",
 			"CallSign": "V85PZ",
 			"Name": "PG ABD AZIZ BIN PG MOHAMMED",
@@ -450,6 +398,13 @@
 		}
 	],
 	"deactivatedMembers": [
+		{
+			"MemberNo": "X016",
+			"Expiry": "31 Dis 2022",
+			"CallSign": "9W8ZZK",
+			"Name": "MOHAMAD ZAHEER BIN ZAKARIA",
+			"Locale": "KUCHING, SARAWAK"
+		},
 		{
 			"MemberNo": "X024",
 			"Expiry": "2 Jul 2021",
