@@ -3814,7 +3814,7 @@
 			"Hari": "Rabu<br>04/06/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Jumaat<br>06/06/2025<br>21:00 MYT",
