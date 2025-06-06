@@ -3819,8 +3819,8 @@
 		{
 			"Hari": "Jumaat<br>06/06/2025<br>21:00 MYT",
 			"Acara": "Ambang Aidiladha¹ 1446H",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2506062100'>18</button>"
 		},
 		{
 			"Hari": "Sabtu<br>07/06/2025<br>21:00 MYT",
