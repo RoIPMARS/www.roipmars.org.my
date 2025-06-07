@@ -3825,8 +3825,8 @@
 		{
 			"Hari": "Sabtu<br>07/06/2025<br>21:00 MYT",
 			"Acara": "Hari Keselamatan Makanan Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"NCS": "9M6JAY | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2506072100'>14</button>"
 		},
 		{
 			"Hari": "Rabu<br>11/06/2025<br>21:00 MYT",
