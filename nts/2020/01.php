@@ -6,7 +6,7 @@
   </head>
 
   <body>
-    <?php include '/ntsheader.php' ?>
+    <?php include __DIR__.'/../../ntsheader.php' ?>
     <div class='container my-2'>
       <h1 class='text-center'>Notice Server Maintenance</h1>
       <table class='table table-sm table-borderless fs-5 text-center d-flex justify-content-end'>
