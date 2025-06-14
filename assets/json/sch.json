@@ -3838,7 +3838,7 @@
 			"Hari": "Sabtu<br>14/06/2025<br>21:00 MYT",
 			"Acara": "Hari Penderma Darah Sedunia",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Isnin<br>16/06/2025<br>21:00 MYT",
