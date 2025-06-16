@@ -3837,14 +3837,14 @@
 		{
 			"Hari": "Sabtu<br>14/06/2025<br>21:00 MYT",
 			"Acara": "Hari Penderma Darah Sedunia",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2506142100'>17</button>"
 		},
 		{
 			"Hari": "Isnin<br>16/06/2025<br>21:00 MYT",
 			"Acara": "Hari Kiriman Wang Keluarga Antarabangsa",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2506162100'>14</button>"
 		},
 		{
 			"Hari": "Rabu<br>18/06/2025<br>21:00 MYT",
