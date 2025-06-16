@@ -2,6 +2,7 @@
 <html data-bs-theme='auto'>
 
 <head>
+  <script async src='https://static.mywot.com/website_owners_badges/websiteOwnersBadge.js'></script>
 </head>
 
 <body>
@@ -33,6 +34,13 @@
           </table>
           <p class='my-0 text-center'>&mdash; DARI ANDA KEMBALI KEPADA ANDA &mdash;</p>
           <object data='https://status.mhrtech.my/api/status-page/roipmars/badge?style=flat-square&label=RoIPMARS%20Network%20Services'></object>
+          <a id='wot-badge0' class='mx-auto wot-badge_dark' href='https://www.mywot.com/scorecard/roipmars.org.my?wot_badge=0_black' target='_blank'>
+            <div class='wot-logo'></div>
+            <div class='wot-shield'></div>
+            <p class='wot-secured'>Verified Website</p>
+            <div class='wot-vertical'></div>
+            <p class='wot-report'>See Report</p>
+          </a>
         </div>
         <div class='col-xl-5 mx-auto my-1'>
           <h5 class='text-uppercase mb-2 fw-bold text-xl-end'>Hubungi Kami</h5>

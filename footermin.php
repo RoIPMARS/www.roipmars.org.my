@@ -1005,7 +1005,7 @@
     <div class='container-fluid'>
       <div class='row p-0 d-flex align-items-center'>
         <div class='col-md-12 mb-3 text-center font-monospace text-body-tertiary lh-1'>
-          <p class='m-0'>dikuasakan oleh php<?php echo PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION ?> &#124; &copy;2014&ndash;<script>
+          <p class='m-0'>dikuasakan oleh php<?php echo PHP_VERSION ?> &#124; &copy;2014&ndash;<script>
               document.write(new Date().getFullYear())
             </script> RoIPMARS&trade; &#124; PERSATUAN PEMINAT RADIO KOMUNIKASI &lpar;RoIP&rpar;</p>
         </div>
