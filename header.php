@@ -24,14 +24,14 @@
               <li class='nav-item dropdown my-auto'>
                 <button class='btn dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Aktiviti</button>
                 <ul class='dropdown-menu dropdown-menu-end text-center text-nowrap bg-body-secondary'>
+                  <li class='nav-item'><a class='nav-link' href='/program' id='program'>Program</a></li>
                   <li class='nav-item'><a class='nav-link' href='/activity' id='activity'>Galeri</a></li>
                   <li class='nav-item'><a class='nav-link' href='/rnd' id='rnd'>Kajian</a></li>
                   <li class='nav-item'><a class='nav-link' href='/howto' id='howto'>Tutorial</a></li>
                   <li class='nav-item'><a class='nav-link' href='/faq' id='faq'>Soalan Lazim</a></li>
                   <li class='nav-item'><a class='nav-link' href='/snotice' id='snotice'>Notis</a></li>
-                  <li class='nav-item'><a class='nav-link' href='/program' id='program'>Program</a></li>
-                  <li class='nav-item'><a class='nav-link' href='/applogin' target='_blank' id='applogin'>Log Masuk Aplikasi</a></li>
-                  <li class='nav-item'><a class='nav-link' href='/livefeed' target='_blank' id='livefeed'>Suapan Lansung</a></li>
+                  <li class='nav-item'><a class='nav-link' href='/applogin' target='_blank' id='applogin'>Aplikasi</a></li>
+                  <!-- <li class='nav-item'><a class='nav-link' href='/livefeed' target='_blank' id='livefeed'>Suapan Lansung</a></li> -->
                 </ul>
               </li>
               <li class='nav-item dropdown my-auto'>
@@ -45,14 +45,14 @@
               <li class='nav-item'><a class='nav-link' href='/contact' id='contact'>Hubungi Kami</a></li>
               <li class='nav-item dropdown my-auto'>
                 <button class='btn dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Pautan Luar</button>
-                <ul class='dropdown-menu dropdown-menu-end text-center text-nowrap bg-body-secondary'>
+                <ul class='dropdown-menu dropdown-menu-end text-start text-nowrap bg-body-secondary'>
                   <li><a class='dropdown-item text-success-emphasis' href='https://books.zohosecure.com/portal/roipmarsnetwork' target='_blank'><i class='bi-receipt'></i> Portal Keahlian</a></li>
                   <li><a class='dropdown-item text-success-emphasis' href='https://billing.stripe.com/p/login/6oE3d5ejyccoaDCeUU' target='_blank'><i class='bi-stripe'></i> Portal Pembayaran</a></li>
                   <li><hr></li>
-                  <li><a class='dropdown-item text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi-basket'></i> Kedai</a></li>
+                  <!-- <li><a class='dropdown-item text-primary-emphasis' href='https://kedai.roipmars.org.my' target='_blank'><i class='bi-basket'></i> Kedai</a></li> -->
                   <li><a class='dropdown-item text-info-emphasis' href='https://dl.roipmars.org.my' target='_blank'><i class='bi-cloud-download'></i> Muat Turun</a></li>
                   <li><a class='dropdown-item text-secondary-emphasis' href='https://archived.mhrtech.my' target='_blank'><i class='bi-archive'></i> Arkib Fail</a></li>
-                  <li><a class='dropdown-item text-secondary-emphasis' href='https://speed.mhrtech.my' target='_blank'><i class='bi-speedometer2'></i> Ujian Kecekapan Internet</a></li>
+                  <!-- <li><a class='dropdown-item text-secondary-emphasis' href='https://speed.mhrtech.my' target='_blank'><i class='bi-speedometer2'></i> Ujian Kecekapan Internet</a></li> -->
                 </ul>
               </li>
             </ul>
