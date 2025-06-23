@@ -3855,14 +3855,14 @@
 		{
 			"Hari": "Sabtu<br>21/06/2025<br>21:00 MYT",
 			"Acara": "Hari Yoga Antarabangsa",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2AYP | 9W6RHN",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2506212100'>16</button>"
 		},
 		{
 			"Hari": "Isnin<br>23/06/2025<br>21:00 MYT",
 			"Acara": "Hari Janda Antarabangsa",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Rabu<br>25/06/2025<br>21:00 MYT",
