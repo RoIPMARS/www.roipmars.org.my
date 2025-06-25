@@ -3868,7 +3868,7 @@
 			"Hari": "Rabu<br>25/06/2025<br>21:00 MYT",
 			"Acara": "Day of the Seafarer",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Jumaat<br>27/06/2025<br>21:00 MYT",
