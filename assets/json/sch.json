@@ -3874,7 +3874,7 @@
 			"Hari": "Jumaat<br>27/06/2025<br>21:00 MYT",
 			"Acara": "Awal Muharram 1447H",
 			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Isnin<br>30/06/2025<br>21:00 MYT",
