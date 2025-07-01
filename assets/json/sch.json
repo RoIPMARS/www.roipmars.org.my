@@ -3873,8 +3873,8 @@
 		{
 			"Hari": "Jumaat<br>27/06/2025<br>21:00 MYT",
 			"Acara": "Awal Muharram 1447H",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2506272100'>19</button>"
 		},
 		{
 			"Hari": "Isnin<br>30/06/2025<br>21:00 MYT",
