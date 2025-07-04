@@ -3885,8 +3885,8 @@
 		{
 			"Hari": "Rabu<br>02/07/2025<br>21:00 MYT",
 			"Acara": "World UFO Day",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W6RHN | 9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2507022100'>16</button>"
 		},
 		{
 			"Hari": "Sabtu<br>05/07/2025<br>21:00 MYT",
