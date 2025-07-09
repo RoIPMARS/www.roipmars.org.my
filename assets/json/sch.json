@@ -3868,7 +3868,7 @@
 			"Hari": "Rabu<br>25/06/2025<br>21:00 MYT",
 			"Acara": "Day of the Seafarer",
 			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Jumaat<br>27/06/2025<br>21:00 MYT",
@@ -3891,14 +3891,14 @@
 		{
 			"Hari": "Sabtu<br>05/07/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Hujung Minggu",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2507052100'>19</button>"
 		},
 		{
 			"Hari": "Rabu<br>09/07/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Learning English Net",
-			"NCS": "&shy;",
-			"Laporan": "&shy;"
+			"NCS": "9M6JAY",
+			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
 		},
 		{
 			"Hari": "Sabtu<br>12/07/2025<br>21:00 MYT",
