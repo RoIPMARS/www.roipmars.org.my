@@ -3880,7 +3880,7 @@
 			"Hari": "Isnin<br>30/06/2025<br>21:00 MYT",
 			"Acara": "Hari Asteroid Antarabangsa",
 			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"Laporan": "&shy;"
 		},
 		{
 			"Hari": "Rabu<br>02/07/2025<br>21:00 MYT",
@@ -3903,8 +3903,8 @@
 		{
 			"Hari": "Sabtu<br>12/07/2025<br>21:00 MYT",
 			"Acara": "RoIPMARS Net Hujung Minggu",
-			"NCS": "&shy;",
-			"Laporan": "<i class='bi-send-slash text-danger fs-4'></i>"
+			"NCS": "9W2AYP",
+			"Laporan": "<button type='button' class='btn btn-lg btn-outline-success' data-bs-toggle='modal' data-bs-target='#netrep' data-bs-source='2507122100'>17</button>"
 		},
 		{
 			"Hari": "Selasa<br>15/07/2025<br>21:00 MYT",
