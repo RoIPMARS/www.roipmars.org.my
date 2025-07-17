@@ -68,130 +68,138 @@ const wmOptions = {
 
 $.getJSON('/assets/json/s-time.json', function (timeData) {
 	new Chart(byTime, {
-		data: {
-			datasets: [
-				{ data: timeData.hHAMMS, label: 'HAM-MS' },
-				{ data: timeData.hHAMEN, label: 'HAM-EN' },
-				// { data: timeData.hHAMID, label: 'HAM-ID' },
-				// { data: timeData.hCBMS, label: 'CB' },
-				// { data: timeData.hVOIMS, label: 'VOI' },
-			],
-			labels: timeData.TIME,
-		},
-		options: {
-			borderJoinStyle: 'round',
-			borderWidth: 1,
-			pointBorderWidth: 1,
-			pointStyle: 'rectRounded',
-			plugins: {
-				subtitle: { text: lastMod('/assets/json/s-time.json') },
-				title: { text: 'Jam (UTC)' },
-			},
-			scales: {
-				x: { grid: { display: false } },
-				y: { grid: { display: false }, type: 'logarithmic' },
-			},
-			showLine: true,
-			tension: 0.5,
-			watermark: wmOptions,
-		},
-		type: 'line',
-	})
+    data: {
+      datasets: [
+        { data: timeData.hHAMMS, label: 'HAM-MS' },
+        { data: timeData.hHAMEN, label: 'HAM-EN' },
+        // { data: timeData.hHAMID, label: 'HAM-ID' },
+        // { data: timeData.hCBMS, label: 'CB' },
+        // { data: timeData.hVOIMS, label: 'VOI' },
+      ],
+      labels: timeData.TIME,
+    },
+    options: {
+      borderJoinStyle: 'round',
+      borderWidth: 1,
+      pointBorderWidth: 1,
+      pointStyle: 'rectRounded',
+      plugins: {
+        subtitle: { text: lastMod('/assets/json/s-time.json') },
+        title: { text: 'Jam (UTC)' },
+      },
+      scales: {
+        x: { grid: { display: false } },
+        y: {
+          grid: { display: false },
+          min: Math.min(...[].concat(timeData.hHAMMS, timeData.hHAMEN).toString().match(/\d+/gi).map(Number)) - 1,
+          type: 'logarithmic',
+        },
+      },
+      showLine: true,
+      tension: 0.5,
+      watermark: wmOptions,
+    },
+    type: 'line',
+  })
 })
 
 $.getJSON('/assets/json/s-days.json', function (daysData) {
 	new Chart(byDate, {
-		data: {
-			datasets: [
-				{ data: daysData.dsHAMMS, label: 'HAM-MS' },
-				{ data: daysData.dsHAMEN, label: 'HAM-EN' },
-				// { data: daysData.dsHAMID, label: 'HAM-ID' },
-				// { data: daysData.dsCB, label: 'CB' },
-				// { data: daysData.dsVOI, label: 'VOI' },
-			],
-			labels: daysData.Days,
-		},
-		options: {
-			borderJoinStyle: 'round',
-			borderWidth: 1,
-			pointBorderWidth: 1,
-			pointStyle: 'crossRot',
-			plugins: {
-				annotation: {
-					annotations: {
-						avgHAMMSval: {
-							borderColor: 'rgba(54, 162, 235, 0.5)',
-							borderDash: [15, 3, 3, 3],
-							borderWidth: 1,
-							type: 'line',
-							yMax: daysData.avg_dsHAMMS.toFixed(),
-							yMin: daysData.avg_dsHAMMS.toFixed(),
-						},
-						avgHAMMSlab: {
-							backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
-							color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
-							content: 'MS: ' + daysData.avg_dsHAMMS.toFixed(),
-							font: { size: 9 },
-							padding: 1.5,
-							position: 'start',
-							type: 'label',
-							xValue: 0,
-							yValue: daysData.avg_dsHAMMS.toFixed(),
-						},
-						avgHAMENval: {
-							borderColor: 'rgba(255, 99, 132, 0.5)',
-							borderDash: [15, 3, 3, 3],
-							borderWidth: 1,
-							type: 'line',
-							yMax: daysData.avg_dsHAMEN.toFixed(),
-							yMin: daysData.avg_dsHAMEN.toFixed(),
-						},
-						avgHAMENlab: {
-							backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
-							color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
-							content: 'EN: ' + daysData.avg_dsHAMEN.toFixed(),
-							font: { size: 9 },
-							padding: 1.5,
-							position: 'start',
-							type: 'label',
-							xValue: 0,
-							yValue: daysData.avg_dsHAMEN.toFixed(),
-						},
-						// avgHAMIDval: {
-						// 	borderColor: 'rgba(255, 159, 64, 0.5)',
-						// 	borderDash: [15, 3, 3, 3],
-						// 	borderWidth: 1,
-						// 	type: 'line',
-						// 	yMax: daysData.avg_dsHAMID.toFixed(),
-						// 	yMin: daysData.avg_dsHAMID.toFixed(),
-						// },
-						// avgHAMIDlab: {
-						// 	backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
-						// 	color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
-						// 	content: 'ID: ' + daysData.avg_dsHAMID.toFixed(),
-						// 	font: { size: 9 },
-						// 	padding: 1.5,
-						// 	position: 'start',
-						// 	type: 'label',
-						// 	xValue: 0,
-						// 	yValue: daysData.avg_dsHAMID.toFixed(),
-						// },
-					},
+    data: {
+      datasets: [
+        { data: daysData.dsHAMMS, label: 'HAM-MS' },
+        { data: daysData.dsHAMEN, label: 'HAM-EN' },
+        // { data: daysData.dsHAMID, label: 'HAM-ID' },
+        // { data: daysData.dsCB, label: 'CB' },
+        // { data: daysData.dsVOI, label: 'VOI' },
+      ],
+      labels: daysData.Days,
+    },
+    options: {
+      borderJoinStyle: 'round',
+      borderWidth: 1,
+      pointBorderWidth: 1,
+      pointStyle: 'crossRot',
+      plugins: {
+        annotation: {
+          annotations: {
+            avgHAMMSval: {
+              borderColor: 'rgba(54, 162, 235, 0.5)',
+              borderDash: [15, 3, 3, 3],
+              borderWidth: 1,
+              type: 'line',
+              yMax: daysData.avg_dsHAMMS.toFixed(),
+              yMin: daysData.avg_dsHAMMS.toFixed(),
+            },
+            avgHAMMSlab: {
+              backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+              color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+              content: 'MS: ' + daysData.avg_dsHAMMS.toFixed(),
+              font: { size: 9 },
+              padding: 1.5,
+              position: 'start',
+              type: 'label',
+              xValue: 0,
+              yValue: daysData.avg_dsHAMMS.toFixed(),
+            },
+            avgHAMENval: {
+              borderColor: 'rgba(255, 99, 132, 0.5)',
+              borderDash: [15, 3, 3, 3],
+              borderWidth: 1,
+              type: 'line',
+              yMax: daysData.avg_dsHAMEN.toFixed(),
+              yMin: daysData.avg_dsHAMEN.toFixed(),
+            },
+            avgHAMENlab: {
+              backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+              color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+              content: 'EN: ' + daysData.avg_dsHAMEN.toFixed(),
+              font: { size: 9 },
+              padding: 1.5,
+              position: 'start',
+              type: 'label',
+              xValue: 0,
+              yValue: daysData.avg_dsHAMEN.toFixed(),
+            },
+            // avgHAMIDval: {
+            // 	borderColor: 'rgba(255, 159, 64, 0.5)',
+            // 	borderDash: [15, 3, 3, 3],
+            // 	borderWidth: 1,
+            // 	type: 'line',
+            // 	yMax: daysData.avg_dsHAMID.toFixed(),
+            // 	yMin: daysData.avg_dsHAMID.toFixed(),
+            // },
+            // avgHAMIDlab: {
+            // 	backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+            // 	color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+            // 	content: 'ID: ' + daysData.avg_dsHAMID.toFixed(),
+            // 	font: { size: 9 },
+            // 	padding: 1.5,
+            // 	position: 'start',
+            // 	type: 'label',
+            // 	xValue: 0,
+            // 	yValue: daysData.avg_dsHAMID.toFixed(),
+            // },
+          },
+        },
+        subtitle: { text: lastMod('/assets/json/s-days.json') },
+        title: { text: 'Harian' },
+      },
+      showLine: true,
+      spanGaps: true,
+      scales: {
+        x: { grid: { display: false } },
+				y: {
+					grid: { display: false },
+					min: Math.min(...[].concat(daysData.dsHAMMS, daysData.dsHAMEN).toString().match(/\d+/gi).map(Number)) - 1,
+					type: 'logarithmic'
 				},
-				subtitle: { text: lastMod('/assets/json/s-days.json') },
-				title: { text: 'Harian' },
-			},
-			showLine: true,
-			spanGaps: true,
-			scales: {
-				x: { grid: { display: false } },
-				y: { grid: { display: false }, type: 'logarithmic' },
-			},
-			tension: 0.5,
-			watermark: wmOptions,
-		},
-		type: 'line',
-	})
+      },
+      tension: 0.5,
+      watermark: wmOptions,
+    },
+    type: 'line',
+  })
 })
 
 $.getJSON('/assets/json/s-day.json', function (dayData) {
@@ -256,96 +264,100 @@ $.getJSON('/assets/json/s-weekday.json', function (weekDayData) {
 
 $.getJSON('/assets/json/s-week.json', function (weekData) {
 	new Chart(byWeek, {
-		data: {
-			datasets: [
-				{ data: weekData.wHAMMS, label: 'HAM-MS' },
-				{ data: weekData.wHAMEN, label: 'HAM-EN' },
-				// { data: weekData.wHAMID, label: 'HAM-ID' },
-				// { data: weekData.wCB, label: 'CB' },
-				// { data: weekData.wVOI, label: 'VOI' },
-			],
-			labels: weekData.Week,
-		},
-		options: {
-			borderJoinStyle: 'round',
-			borderWidth: 1,
-			plugins: {
-				annotation: {
-					annotations: {
-						avgHAMMSval: {
-							borderColor: 'rgba(54, 162, 235, 0.5)',
-							borderDash: [15, 3, 3, 3],
-							borderWidth: 1,
-							type: 'line',
-							yMax: weekData.avg_wHAMMS.toFixed(),
-							yMin: weekData.avg_wHAMMS.toFixed(),
-						},
-						avgHAMMSlab: {
-							backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
-							color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
-							content: 'MS: ' + weekData.avg_wHAMMS.toFixed(),
-							font: { size: 9 },
-							padding: 1.5,
-							position: 'start',
-							type: 'label',
-							xValue: 0,
-							yValue: weekData.avg_wHAMMS.toFixed(),
-						},
-						avgHAMENval: {
-							borderColor: 'rgba(255, 99, 132, 0.5)',
-							borderDash: [15, 3, 3, 3],
-							borderWidth: 1,
-							type: 'line',
-							yMax: weekData.avg_wHAMEN.toFixed(),
-							yMin: weekData.avg_wHAMEN.toFixed(),
-						},
-						avgHAMENlab: {
-							backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
-							color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
-							content: 'EN: ' + weekData.avg_wHAMEN.toFixed(),
-							font: { size: 9 },
-							padding: 1.5,
-							position: 'start',
-							type: 'label',
-							xValue: 0,
-							yValue: weekData.avg_wHAMEN.toFixed(),
-						},
-						// avgHAMIDval: {
-						// 	borderColor: 'rgba(255, 159, 64, 0.5)',
-						// 	borderDash: [15, 3, 3, 3],
-						// 	borderWidth: 1,
-						// 	type: 'line',
-						// 	yMax: weekData.avg_wHAMID.toFixed(),
-						// 	yMin: weekData.avg_wHAMID.toFixed(),
-						// },
-						// avgHAMIDlab: {
-						// 	backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
-						// 	color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
-						// 	content: 'ID: ' + weekData.avg_wHAMID.toFixed(),
-						// 	font: { size: 9 },
-						// 	padding: 1.5,
-						// 	position: 'start',
-						// 	type: 'label',
-						// 	xValue: 0,
-						// 	yValue: weekData.avg_wHAMID.toFixed(),
-						// },
-					},
-				},
-				subtitle: { text: lastMod('/assets/json/s-week.json') },
-				title: { text: 'Minggu' },
-			},
-			pointBorderWidth: 1,
-			pointStyle: 'cross',
-			scales: {
-				x: { grid: { display: false } },
-				y: { grid: { display: false }, type: 'logarithmic' },
-			},
-			showLine: true,
-			tension: 0.5,
-			watermark: wmOptions,
-		},
-		type: 'line',
-	})
+    data: {
+      datasets: [
+        { data: weekData.wHAMMS, label: 'HAM-MS' },
+        { data: weekData.wHAMEN, label: 'HAM-EN' },
+        // { data: weekData.wHAMID, label: 'HAM-ID' },
+        // { data: weekData.wCB, label: 'CB' },
+        // { data: weekData.wVOI, label: 'VOI' },
+      ],
+      labels: weekData.Week,
+    },
+    options: {
+      borderJoinStyle: 'round',
+      borderWidth: 1,
+      plugins: {
+        annotation: {
+          annotations: {
+            avgHAMMSval: {
+              borderColor: 'rgba(54, 162, 235, 0.5)',
+              borderDash: [15, 3, 3, 3],
+              borderWidth: 1,
+              type: 'line',
+              yMax: weekData.avg_wHAMMS.toFixed(),
+              yMin: weekData.avg_wHAMMS.toFixed(),
+            },
+            avgHAMMSlab: {
+              backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+              color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+              content: 'MS: ' + weekData.avg_wHAMMS.toFixed(),
+              font: { size: 9 },
+              padding: 1.5,
+              position: 'start',
+              type: 'label',
+              xValue: 0,
+              yValue: weekData.avg_wHAMMS.toFixed(),
+            },
+            avgHAMENval: {
+              borderColor: 'rgba(255, 99, 132, 0.5)',
+              borderDash: [15, 3, 3, 3],
+              borderWidth: 1,
+              type: 'line',
+              yMax: weekData.avg_wHAMEN.toFixed(),
+              yMin: weekData.avg_wHAMEN.toFixed(),
+            },
+            avgHAMENlab: {
+              backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+              color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+              content: 'EN: ' + weekData.avg_wHAMEN.toFixed(),
+              font: { size: 9 },
+              padding: 1.5,
+              position: 'start',
+              type: 'label',
+              xValue: 0,
+              yValue: weekData.avg_wHAMEN.toFixed(),
+            },
+            // avgHAMIDval: {
+            // 	borderColor: 'rgba(255, 159, 64, 0.5)',
+            // 	borderDash: [15, 3, 3, 3],
+            // 	borderWidth: 1,
+            // 	type: 'line',
+            // 	yMax: weekData.avg_wHAMID.toFixed(),
+            // 	yMin: weekData.avg_wHAMID.toFixed(),
+            // },
+            // avgHAMIDlab: {
+            // 	backgroundColor: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-body-bg'),
+            // 	color: window.getComputedStyle(document.querySelector('body')).getPropertyValue('--bs-light-text-emphasis'),
+            // 	content: 'ID: ' + weekData.avg_wHAMID.toFixed(),
+            // 	font: { size: 9 },
+            // 	padding: 1.5,
+            // 	position: 'start',
+            // 	type: 'label',
+            // 	xValue: 0,
+            // 	yValue: weekData.avg_wHAMID.toFixed(),
+            // },
+          },
+        },
+        subtitle: { text: lastMod('/assets/json/s-week.json') },
+        title: { text: 'Minggu' },
+      },
+      pointBorderWidth: 1,
+      pointStyle: 'cross',
+      scales: {
+        x: { grid: { display: false } },
+        y: {
+          grid: { display: false },
+          min: Math.min(...[].concat(weekData.wHAMMS, weekData.wHAMEN).toString().match(/\d+/gi).map(Number)) - 1,
+          type: 'logarithmic',
+        },
+      },
+      showLine: true,
+      tension: 0.5,
+      watermark: wmOptions,
+    },
+    type: 'line',
+  })
 })
 
 $.getJSON('/assets/json/s-month.json', function (monthData) {
