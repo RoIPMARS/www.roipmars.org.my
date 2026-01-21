@@ -1,62 +1,81 @@
-let input = document.getElementsByTagName('input')
-let button = document.getElementsByTagName('button')
-var qrz = input.getElementById('callsign').value.toUpperCase()
-var qra = input.getElementById('name').value.toUpperCase()
-var qth = input.getElementById('location').value.toUpperCase()
-
-var tshamLoginButton = button.getElementById('ts3hamlogin')
+var tshamLoginButton = document.getElementById('ts3hamlogin')
 tshamLoginButton.onclick = function () {
-	if (qrz == null || qra == null || qth == null) {
-		return new error('Sila isi semua ruangan')
+	var qrz = document.getElementById('callsign').value.toUpperCase()
+	var qra = document.getElementById('name').value.toUpperCase()
+	var qth = document.getElementById('location').value.toUpperCase()
+
+	if (!qrz || !qra || !qth) {
+		return new Error('Sila isi semua ruangan')
 	} else {
-		ts3hamlogin()
+		ts3hamlogin(qrz, qra, qth)
 	}
 }
-/* var mumbleLoginButton = button.getElementById('mumblelogin')
+/* var mumbleLoginButton = document.getElementById('mumblelogin')
 mumbleLoginButton.onclick = function () {
-	if (qrz == null || qra == null || qth == null) {
-		return new error('Sila isi semua ruangan')
+	var qrz = document.getElementById('callsign').value.toUpperCase()
+	var qra = document.getElementById('name').value.toUpperCase()
+	var qth = document.getElementById('location').value.toUpperCase()
+
+	if (!qrz || !qra || !qth) {
+		return new Error('Sila isi semua ruangan')
 	} else {
-		mumblelogin()
+		mumblelogin(qrz, qra, qth)
 	}
 } */
-/* var teamtalkLoginButton = button.getElementById('teamtalklogin')
+/* var teamtalkLoginButton = document.getElementById('teamtalklogin')
 teamtalkLoginButton.onclick = function () {
-	if (qrz == null || qra == null || qth == null) {
-		return new error('Sila isi semua ruangan')
+	var qrz = document.getElementById('callsign').value.toUpperCase()
+	var qra = document.getElementById('name').value.toUpperCase()
+	var qth = document.getElementById('location').value.toUpperCase()
+
+	if (!qrz || !qra || !qth) {
+		return new Error('Sila isi semua ruangan')
 	} else {
-		teamtalklogin()
+		teamtalklogin(qrz, qra, qth)
 	}
 } */
-var tscbLoginButton = button.getElementById('ts3cblogin')
+var tscbLoginButton = document.getElementById('ts3cblogin')
 tscbLoginButton.onclick = function () {
-	if (qrz == null || qra == null || qth == null) {
-		return new error('Sila isi semua ruangan')
+	var qrz = document.getElementById('callsign').value.toUpperCase()
+	var qra = document.getElementById('name').value.toUpperCase()
+	var qth = document.getElementById('location').value.toUpperCase()
+
+	if (!qrz || !qra || !qth) {
+		return new Error('Sila isi semua ruangan')
 	} else {
-		ts3cblogin()
+		ts3cblogin(qrz, qra, qth)
 	}
 }
-var tskopdarLoginButton = button.getElementById('ts3kopdarlogin')
+var tskopdarLoginButton = document.getElementById('ts3kopdarlogin')
 tskopdarLoginButton.onclick = function () {
-	if (qrz == null || qra == null || qth == null) {
-		return new error('Sila isi semua ruangan')
+	var qrz = document.getElementById('callsign').value.toUpperCase()
+	var qra = document.getElementById('name').value.toUpperCase()
+	var qth = document.getElementById('location').value.toUpperCase()
+
+	if (!qrz || !qra || !qth) {
+		return new Error('Sila isi semua ruangan')
 	} else {
-		ts3kopdarlogin()
+		ts3kopdarlogin(qrz, qra, qth)
 	}
 }
 
-function ts3hamlogin() {
-	location.href = 'ts3server://roipmars.org.my?nickname=' + qrz + '%20' + qra + '%20' + qth + '&cid=31&addbookmark=RoIPMARS%20HAM'
+function ts3hamlogin(qrz, qra, qth) {
+	var nickname = qrz + ' ' + qra + ' ' + qth
+	location.href = 'ts3server://roipmars.org.my?nickname=' + encodeURIComponent(nickname) + '&cid=31&addbookmark=RoIPMARS%20HAM'
 }
-function ts3cblogin() {
-	location.href = 'ts3server://roipmars.org.my?nickname=' + qrz + '%20' + qra + '%20' + qth + '&cid=61&addbookmark=RoIPMARS%20CB'
+function ts3cblogin(qrz, qra, qth) {
+	var nickname = qrz + ' ' + qra + ' ' + qth
+	location.href = 'ts3server://roipmars.org.my?nickname=' + encodeURIComponent(nickname) + '&cid=61&addbookmark=RoIPMARS%20CB'
 }
-function ts3kopdarlogin() {
-	location.href = 'ts3server://kopdarmobile.id?nickname=' + qrz + '%20' + qra + '%20' + qth + '&cid=390&addbookmark=KOPDARMOBILE'
+function ts3kopdarlogin(qrz, qra, qth) {
+	var nickname = qrz + ' ' + qra + ' ' + qth
+	location.href = 'ts3server://kopdarmobile.id?nickname=' + encodeURIComponent(nickname) + '&cid=390&addbookmark=KOPDARMOBILE'
 }
-/* function mumblelogin() {
-	location.href = 'mumble://' + qrz + '%20' + qra + '%20' + qth + '@roipmars.org.my/root?title=RoIPMARS.org.MY&url=roipmars.org.my'
+/* function mumblelogin(qrz, qra, qth) {
+	var nickname = qrz + ' ' + qra + ' ' + qth
+	location.href = 'mumble://' + encodeURIComponent(nickname) + '@roipmars.org.my/root?title=RoIPMARS.org.MY&url=roipmars.org.my'
 } */
-/* function teamtalklogin() {
-	location.href = 'tt://roipmars.org.my?encrypted=0&username=guest&password=guest&channel=%2FLobby%2F&nickname=' + qrz + '%20' + qra + '%20' + qth
+/* function teamtalklogin(qrz, qra, qth) {
+	var nickname = qrz + ' ' + qra + ' ' + qth
+	location.href = 'tt://roipmars.org.my?encrypted=0&username=guest&password=guest&channel=%2FLobby%2F&nickname=' + encodeURIComponent(nickname)
 } */
